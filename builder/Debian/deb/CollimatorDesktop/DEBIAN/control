@@ -1,0 +1,7 @@
+Package: CollimatorDesktop
+Architecture: all
+Maintainer: NikoConn
+Priority: optional
+Version: 1.0
+Description: Program for easy telescope collimation 
+Depends: zlib1g, libopencv-dev, libqt5widgets5, libqt5gui5, libqt5sql5, libqt5core5a, libc6, libstdc++6, libgcc-s1, libindi-dev, libcfitsio-dev

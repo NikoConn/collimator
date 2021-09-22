@@ -1,0 +1,8 @@
+<map id="INDIClient::deviceDetected" name="INDIClient::deviceDetected">
+<area shape="rect" id="node1" title=" " alt="" coords="1049,46,1248,73"/>
+<area shape="rect" id="node2" href="$classConnectionSettingsDialog.html#a2ef39b6dfd00e2b15060e6ca0e6c3f64" title=" " alt="" coords="803,5,1001,47"/>
+<area shape="rect" id="node3" href="$classCollimatorImage.html#ac9ff295f084594daf7225cba62598061" title="connectTelescope Connects to the given RemoteTelescope and starts getting images" alt="" coords="807,71,997,112"/>
+<area shape="rect" id="node4" href="$classTelescopeView.html#a2e406aa1987071f56f8cf38f1871a131" title=" " alt="" coords="515,78,755,105"/>
+<area shape="rect" id="node5" href="$classTelescopeView.html#a854b6d56174b0899a62fa91bde5bec6d" title=" " alt="" coords="275,41,467,83"/>
+<area shape="rect" id="node6" href="$classTelescopeView.html#ac6aa65ca912c125e35ebccb39f59a9f5" title=" " alt="" coords="5,78,227,105"/>
+</map>

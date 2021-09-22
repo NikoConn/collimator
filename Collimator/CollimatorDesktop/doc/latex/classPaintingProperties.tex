@@ -1,0 +1,1081 @@
+\hypertarget{classPaintingProperties}{}\doxysection{Painting\+Properties Class Reference}
+\label{classPaintingProperties}\index{PaintingProperties@{PaintingProperties}}
+
+
+The \mbox{\hyperlink{classPaintingProperties}{Painting\+Properties}} class defines the properties for painting automatic and manual drawings of a collimation result.  
+
+
+
+
+{\ttfamily \#include $<$paintingproperties.\+h$>$}
+
+
+
+Collaboration diagram for Painting\+Properties\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{classPaintingProperties__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+struct \mbox{\hyperlink{structPaintingProperties_1_1Mirroring}{Mirroring}}
+\item 
+struct \mbox{\hyperlink{structPaintingProperties_1_1Scope}{Scope}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classPaintingProperties_a9a4137b37a4a76669ad74212c300b3d8}{Painting\+Properties}} ()
+\item 
+void \mbox{\hyperlink{classPaintingProperties_a95066bd60102c6c6e6ec4901376d5f03}{set\+Id}} (int \mbox{\hyperlink{classPaintingProperties_a3675f3e2562f8cd922fcb7e8da12da74}{id}})
+\item 
+void \mbox{\hyperlink{classPaintingProperties_a40b5782d273b15bc3dfb0c0646a3a03c}{set\+Screws\+Radius}} (int \mbox{\hyperlink{classPaintingProperties_a8e469f0253e2154bb3dc6617c6598ca3}{screws\+Radius}})
+\item 
+void \mbox{\hyperlink{classPaintingProperties_a3a3c02bd58ac6a3abc6cc57324e29372}{set\+Zoom}} (float \mbox{\hyperlink{classPaintingProperties_a0046aa2e40294958aae970d0525c5a53}{zoom}})
+\item 
+void \mbox{\hyperlink{classPaintingProperties_acefa91af4cb9da9aceaccc9bf1ad4f71}{set\+Automatic}} (bool \mbox{\hyperlink{classPaintingProperties_a5deb321994c0d5a4caba8e27dd2e976a}{automatic}})
+\item 
+void \mbox{\hyperlink{classPaintingProperties_acb3f4c8c057afd59ecb89bad088e6da6}{set\+View\+Bounding\+Box}} (bool bounding\+Box)
+\item 
+void \mbox{\hyperlink{classPaintingProperties_a9a6c360dafe5d36a3fe082ef74fd2e6a}{set\+View\+Screws}} (bool \mbox{\hyperlink{classPaintingProperties_ad6297b32ac45bdacce9fa7b703a1f121}{view\+Screws}})
+\item 
+void \mbox{\hyperlink{classPaintingProperties_a9ee554301d4c01f10c891cf66c28490b}{set\+View\+Calculated\+Center}} (bool \mbox{\hyperlink{classPaintingProperties_a66c099a1572eba592b7891575e5b15f2}{view\+Calculated\+Center}})
+\item 
+void \mbox{\hyperlink{classPaintingProperties_a7208ac3cb689bb63247de0194fdf283c}{set\+Image\+Results}} (\mbox{\hyperlink{classImageResults}{Image\+Results}} $\ast$image\+Results)
+\item 
+void \mbox{\hyperlink{classPaintingProperties_ad9cdbca52ab3a808ebf8ca39a4a5f5cb}{set\+Scope}} (\mbox{\hyperlink{structPaintingProperties_1_1Scope}{Scope}} \mbox{\hyperlink{classPaintingProperties_a82911de6bab632dd12b56b6368bae303}{scope}})
+\item 
+void \mbox{\hyperlink{classPaintingProperties_a1234e163fe2a2cf5acb8b6807c9317c1}{set\+Image\+Mirroring}} (\mbox{\hyperlink{structPaintingProperties_1_1Mirroring}{Mirroring}} \mbox{\hyperlink{classPaintingProperties_a557daffbefde9617f42a118a3f3acf8a}{image\+Mirroring}})
+\item 
+void \mbox{\hyperlink{classPaintingProperties_ad4b69ae803386f10d5041ff6b46a6bbd}{set\+Screws\+Mirroring}} (\mbox{\hyperlink{structPaintingProperties_1_1Mirroring}{Mirroring}} \mbox{\hyperlink{classPaintingProperties_a99615a8e73b1d26325017f9d90f0d507}{screws\+Mirroring}})
+\item 
+void \mbox{\hyperlink{classPaintingProperties_a5b4b1b35c4edc5961d9ab4d44eac8f38}{set\+Tigth\+Mirroring}} (bool \mbox{\hyperlink{classPaintingProperties_a170a391450735511220f40a91290e70f}{tight\+Mirroring}})
+\item 
+int \mbox{\hyperlink{classPaintingProperties_a3675f3e2562f8cd922fcb7e8da12da74}{id}} ()
+\item 
+int \mbox{\hyperlink{classPaintingProperties_a8e469f0253e2154bb3dc6617c6598ca3}{screws\+Radius}} ()
+\item 
+float \mbox{\hyperlink{classPaintingProperties_a0046aa2e40294958aae970d0525c5a53}{zoom}} ()
+\item 
+bool \mbox{\hyperlink{classPaintingProperties_a5deb321994c0d5a4caba8e27dd2e976a}{automatic}} ()
+\item 
+bool \mbox{\hyperlink{classPaintingProperties_a92fee1df086c79bb12d5f58596e80af8}{view\+Bounding\+Box}} ()
+\item 
+bool \mbox{\hyperlink{classPaintingProperties_ad6297b32ac45bdacce9fa7b703a1f121}{view\+Screws}} ()
+\item 
+bool \mbox{\hyperlink{classPaintingProperties_a66c099a1572eba592b7891575e5b15f2}{view\+Calculated\+Center}} ()
+\item 
+bool \mbox{\hyperlink{classPaintingProperties_a170a391450735511220f40a91290e70f}{tight\+Mirroring}} ()
+\item 
+\mbox{\hyperlink{structPaintingProperties_1_1Scope}{Scope}} \mbox{\hyperlink{classPaintingProperties_a82911de6bab632dd12b56b6368bae303}{scope}} ()
+\item 
+\mbox{\hyperlink{structPaintingProperties_1_1Mirroring}{Mirroring}} \mbox{\hyperlink{classPaintingProperties_a557daffbefde9617f42a118a3f3acf8a}{image\+Mirroring}} ()
+\item 
+\mbox{\hyperlink{structPaintingProperties_1_1Mirroring}{Mirroring}} \mbox{\hyperlink{classPaintingProperties_a99615a8e73b1d26325017f9d90f0d507}{screws\+Mirroring}} ()
+\item 
+void \mbox{\hyperlink{classPaintingProperties_a447564c0bf75092a5d02d1768a98aec6}{paint}} (QImage $\ast$image, \mbox{\hyperlink{classTelescope}{Telescope}} telescope)
+\begin{DoxyCompactList}\small\item\em paint Paints into image own properties of the telescope \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classPaintingProperties_aea0b405b476360f18593794176930506}{paint\+Screws\+Help}} (\mbox{\hyperlink{classTelescope}{Telescope}} telescope, QPoint center, QPainter $\ast$painter)
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{structPaintingProperties_1_1Scope}{Scope}} \mbox{\hyperlink{classPaintingProperties_a7c835e63733b13fda332b893f109f9a2}{m\+\_\+scope}}
+\item 
+\mbox{\hyperlink{structPaintingProperties_1_1Mirroring}{Mirroring}} \mbox{\hyperlink{classPaintingProperties_a610164413674bc68bda9cf9ecdc88bc8}{m\+\_\+image\+Mirroring}}
+\item 
+\mbox{\hyperlink{structPaintingProperties_1_1Mirroring}{Mirroring}} \mbox{\hyperlink{classPaintingProperties_a3a63ce44a2ddb4d8339b65915c93a5ee}{m\+\_\+screws\+Mirroring}}
+\item 
+int \mbox{\hyperlink{classPaintingProperties_ade3a80a35121550d645eb326d291f02b}{m\+\_\+id}}
+\item 
+int \mbox{\hyperlink{classPaintingProperties_aecd201ee089dd3723b2b3c452af0c194}{m\+\_\+screws\+Radius}}
+\item 
+float \mbox{\hyperlink{classPaintingProperties_a4b7c7bd1bf9e3931653c0c52bfe7ae03}{m\+\_\+zoom}}
+\item 
+bool \mbox{\hyperlink{classPaintingProperties_a759ff5a5c124ae181528f8e913ce6ecf}{m\+\_\+automatic}}
+\item 
+bool \mbox{\hyperlink{classPaintingProperties_a9310e34d5f6c44f30a11283a270587af}{m\+\_\+view\+Bounding\+Box}}
+\item 
+bool \mbox{\hyperlink{classPaintingProperties_a5a5e29742e1a4e0b13248fdfefdd3030}{m\+\_\+view\+Calculated\+Center}}
+\item 
+bool \mbox{\hyperlink{classPaintingProperties_aaa721c5c709ad4ae026c055b9ee016b4}{m\+\_\+view\+Screws}}
+\item 
+bool \mbox{\hyperlink{classPaintingProperties_adf32b8aec23ac3775c89754a380e9afb}{m\+\_\+tight\+Mirroring}}
+\item 
+\mbox{\hyperlink{classImageResults}{Image\+Results}} $\ast$ \mbox{\hyperlink{classPaintingProperties_a41681e41a0e1d367f9ab860047f63305}{m\+\_\+image\+Results}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+The \mbox{\hyperlink{classPaintingProperties}{Painting\+Properties}} class defines the properties for painting automatic and manual drawings of a collimation result. 
+
+Definition at line 11 of file paintingproperties.\+h.
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classPaintingProperties_a9a4137b37a4a76669ad74212c300b3d8}\label{classPaintingProperties_a9a4137b37a4a76669ad74212c300b3d8}} 
+\index{PaintingProperties@{PaintingProperties}!PaintingProperties@{PaintingProperties}}
+\index{PaintingProperties@{PaintingProperties}!PaintingProperties@{PaintingProperties}}
+\doxysubsubsection{\texorpdfstring{PaintingProperties()}{PaintingProperties()}}
+{\footnotesize\ttfamily Painting\+Properties\+::\+Painting\+Properties (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 7 of file paintingproperties.\+cpp.
+
+
+
+References Painting\+Properties\+::\+Mirroring\+::horizontally, m\+\_\+automatic, m\+\_\+image\+Mirroring, m\+\_\+scope, m\+\_\+screws\+Mirroring, m\+\_\+screws\+Radius, m\+\_\+tight\+Mirroring, m\+\_\+view\+Bounding\+Box, m\+\_\+view\+Calculated\+Center, m\+\_\+view\+Screws, m\+\_\+zoom, Painting\+Properties\+::\+Scope\+::radius, and Painting\+Properties\+::\+Mirroring\+::vertically.
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classPaintingProperties_a5deb321994c0d5a4caba8e27dd2e976a}\label{classPaintingProperties_a5deb321994c0d5a4caba8e27dd2e976a}} 
+\index{PaintingProperties@{PaintingProperties}!automatic@{automatic}}
+\index{automatic@{automatic}!PaintingProperties@{PaintingProperties}}
+\doxysubsubsection{\texorpdfstring{automatic()}{automatic()}}
+{\footnotesize\ttfamily bool Painting\+Properties\+::automatic (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 116 of file paintingproperties.\+cpp.
+
+
+
+References m\+\_\+automatic.
+
+
+
+Referenced by Painting\+Properties\+DAO\+::bind\+Values(), Collimator\+Image\+::mouse\+Press\+Event(), Collimator\+Image\+::mouse\+Release\+Event(), Collimator\+Image\+::refresh\+Image(), set\+Automatic(), and Telescope\+View\+::set\+Telescope().
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classPaintingProperties_a5deb321994c0d5a4caba8e27dd2e976a_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classPaintingProperties_a3675f3e2562f8cd922fcb7e8da12da74}\label{classPaintingProperties_a3675f3e2562f8cd922fcb7e8da12da74}} 
+\index{PaintingProperties@{PaintingProperties}!id@{id}}
+\index{id@{id}!PaintingProperties@{PaintingProperties}}
+\doxysubsubsection{\texorpdfstring{id()}{id()}}
+{\footnotesize\ttfamily int Painting\+Properties\+::id (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 100 of file paintingproperties.\+cpp.
+
+
+
+References m\+\_\+id.
+
+
+
+Referenced by Painting\+Properties\+DAO\+::save(), set\+Id(), and Painting\+Properties\+DAO\+::update().
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classPaintingProperties_a3675f3e2562f8cd922fcb7e8da12da74_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classPaintingProperties_a557daffbefde9617f42a118a3f3acf8a}\label{classPaintingProperties_a557daffbefde9617f42a118a3f3acf8a}} 
+\index{PaintingProperties@{PaintingProperties}!imageMirroring@{imageMirroring}}
+\index{imageMirroring@{imageMirroring}!PaintingProperties@{PaintingProperties}}
+\doxysubsubsection{\texorpdfstring{imageMirroring()}{imageMirroring()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{structPaintingProperties_1_1Mirroring}{Painting\+Properties\+::\+Mirroring}} Painting\+Properties\+::image\+Mirroring (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 146 of file paintingproperties.\+cpp.
+
+
+
+References m\+\_\+image\+Mirroring.
+
+
+
+Referenced by Painting\+Properties\+DAO\+::bind\+Values(), Collimator\+Image\+::refresh\+Image(), set\+Image\+Mirroring(), and Telescope\+View\+::set\+Telescope().
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classPaintingProperties_a557daffbefde9617f42a118a3f3acf8a_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classPaintingProperties_a447564c0bf75092a5d02d1768a98aec6}\label{classPaintingProperties_a447564c0bf75092a5d02d1768a98aec6}} 
+\index{PaintingProperties@{PaintingProperties}!paint@{paint}}
+\index{paint@{paint}!PaintingProperties@{PaintingProperties}}
+\doxysubsubsection{\texorpdfstring{paint()}{paint()}}
+{\footnotesize\ttfamily void Painting\+Properties\+::paint (\begin{DoxyParamCaption}\item[{QImage $\ast$}]{image,  }\item[{\mbox{\hyperlink{classTelescope}{Telescope}}}]{telescope }\end{DoxyParamCaption})}
+
+
+
+paint Paints into image own properties of the telescope 
+
+
+\begin{DoxyParams}{Parameters}
+{\em image} & Image where to draw \\
+\hline
+{\em telescope} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 237 of file paintingproperties.\+cpp.
+
+
+
+References Image\+Results\+::bounding\+Box(), Image\+Results\+::center(), Painting\+Properties\+::\+Scope\+::center, Image\+Results\+::\+Rect\+::heigth, m\+\_\+automatic, m\+\_\+image\+Results, m\+\_\+scope, m\+\_\+screws\+Radius, m\+\_\+view\+Bounding\+Box, m\+\_\+view\+Calculated\+Center, m\+\_\+view\+Screws, paint\+Screws\+Help(), Painting\+Properties\+::\+Scope\+::radius, Telescope\+::screws(), Image\+Results\+::\+Rect\+::width, Image\+Results\+::\+Point\+::x, Image\+Results\+::\+Rect\+::x, Image\+Results\+::\+Point\+::y, and Image\+Results\+::\+Rect\+::y.
+
+
+
+Referenced by Collimator\+Image\+::refresh\+Image().
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classPaintingProperties_a447564c0bf75092a5d02d1768a98aec6_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classPaintingProperties_a447564c0bf75092a5d02d1768a98aec6_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classPaintingProperties_aea0b405b476360f18593794176930506}\label{classPaintingProperties_aea0b405b476360f18593794176930506}} 
+\index{PaintingProperties@{PaintingProperties}!paintScrewsHelp@{paintScrewsHelp}}
+\index{paintScrewsHelp@{paintScrewsHelp}!PaintingProperties@{PaintingProperties}}
+\doxysubsubsection{\texorpdfstring{paintScrewsHelp()}{paintScrewsHelp()}}
+{\footnotesize\ttfamily void Painting\+Properties\+::paint\+Screws\+Help (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classTelescope}{Telescope}}}]{telescope,  }\item[{QPoint}]{center,  }\item[{QPainter $\ast$}]{painter }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 179 of file paintingproperties.\+cpp.
+
+
+
+References Collimation\+Action\+::action(), Screw\+::degrees(), Image\+Results\+::get\+Action(), Screw\+::get\+Screw\+Position(), Collimation\+Action\+::\+Loosen, m\+\_\+image\+Results, m\+\_\+screws\+Radius, rotate\+Point(), Collimation\+Action\+::screw(), Collimation\+Action\+::\+Tighten, and tight\+Mirroring().
+
+
+
+Referenced by paint().
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classPaintingProperties_aea0b405b476360f18593794176930506_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classPaintingProperties_aea0b405b476360f18593794176930506_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classPaintingProperties_a82911de6bab632dd12b56b6368bae303}\label{classPaintingProperties_a82911de6bab632dd12b56b6368bae303}} 
+\index{PaintingProperties@{PaintingProperties}!scope@{scope}}
+\index{scope@{scope}!PaintingProperties@{PaintingProperties}}
+\doxysubsubsection{\texorpdfstring{scope()}{scope()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{structPaintingProperties_1_1Scope}{Painting\+Properties\+::\+Scope}} Painting\+Properties\+::scope (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 140 of file paintingproperties.\+cpp.
+
+
+
+References m\+\_\+scope.
+
+
+
+Referenced by Painting\+Properties\+DAO\+::bind\+Values(), Collimator\+Image\+::mouse\+Press\+Event(), Collimator\+Image\+::mouse\+Release\+Event(), and set\+Scope().
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classPaintingProperties_a82911de6bab632dd12b56b6368bae303_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classPaintingProperties_a99615a8e73b1d26325017f9d90f0d507}\label{classPaintingProperties_a99615a8e73b1d26325017f9d90f0d507}} 
+\index{PaintingProperties@{PaintingProperties}!screwsMirroring@{screwsMirroring}}
+\index{screwsMirroring@{screwsMirroring}!PaintingProperties@{PaintingProperties}}
+\doxysubsubsection{\texorpdfstring{screwsMirroring()}{screwsMirroring()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{structPaintingProperties_1_1Mirroring}{Painting\+Properties\+::\+Mirroring}} Painting\+Properties\+::screws\+Mirroring (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 158 of file paintingproperties.\+cpp.
+
+
+
+References m\+\_\+screws\+Mirroring.
+
+
+
+Referenced by Painting\+Properties\+DAO\+::bind\+Values(), calculate\+Screws\+Degrees(), set\+Screws\+Mirroring(), and Telescope\+View\+::set\+Telescope().
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classPaintingProperties_a99615a8e73b1d26325017f9d90f0d507_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classPaintingProperties_a8e469f0253e2154bb3dc6617c6598ca3}\label{classPaintingProperties_a8e469f0253e2154bb3dc6617c6598ca3}} 
+\index{PaintingProperties@{PaintingProperties}!screwsRadius@{screwsRadius}}
+\index{screwsRadius@{screwsRadius}!PaintingProperties@{PaintingProperties}}
+\doxysubsubsection{\texorpdfstring{screwsRadius()}{screwsRadius()}}
+{\footnotesize\ttfamily int Painting\+Properties\+::screws\+Radius (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 105 of file paintingproperties.\+cpp.
+
+
+
+References m\+\_\+screws\+Radius.
+
+
+
+Referenced by Painting\+Properties\+DAO\+::bind\+Values(), Telescope\+View\+::screws\+Settings(), and set\+Screws\+Radius().
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classPaintingProperties_a8e469f0253e2154bb3dc6617c6598ca3_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classPaintingProperties_acefa91af4cb9da9aceaccc9bf1ad4f71}\label{classPaintingProperties_acefa91af4cb9da9aceaccc9bf1ad4f71}} 
+\index{PaintingProperties@{PaintingProperties}!setAutomatic@{setAutomatic}}
+\index{setAutomatic@{setAutomatic}!PaintingProperties@{PaintingProperties}}
+\doxysubsubsection{\texorpdfstring{setAutomatic()}{setAutomatic()}}
+{\footnotesize\ttfamily void Painting\+Properties\+::set\+Automatic (\begin{DoxyParamCaption}\item[{bool}]{automatic }\end{DoxyParamCaption})}
+
+
+
+Definition at line 46 of file paintingproperties.\+cpp.
+
+
+
+References automatic(), and m\+\_\+automatic.
+
+
+
+Referenced by Painting\+Properties\+DAO\+::create\+Object(), Telescope\+DAO\+::create\+Object(), and Telescope\+View\+::set\+Automatic().
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=326pt]{classPaintingProperties_acefa91af4cb9da9aceaccc9bf1ad4f71_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classPaintingProperties_acefa91af4cb9da9aceaccc9bf1ad4f71_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classPaintingProperties_a95066bd60102c6c6e6ec4901376d5f03}\label{classPaintingProperties_a95066bd60102c6c6e6ec4901376d5f03}} 
+\index{PaintingProperties@{PaintingProperties}!setId@{setId}}
+\index{setId@{setId}!PaintingProperties@{PaintingProperties}}
+\doxysubsubsection{\texorpdfstring{setId()}{setId()}}
+{\footnotesize\ttfamily void Painting\+Properties\+::set\+Id (\begin{DoxyParamCaption}\item[{int}]{id }\end{DoxyParamCaption})}
+
+
+
+Definition at line 28 of file paintingproperties.\+cpp.
+
+
+
+References id(), and m\+\_\+id.
+
+
+
+Referenced by Painting\+Properties\+DAO\+::create\+Object(), Telescope\+DAO\+::create\+Object(), and Telescope\+DAO\+::save().
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=341pt]{classPaintingProperties_a95066bd60102c6c6e6ec4901376d5f03_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classPaintingProperties_a95066bd60102c6c6e6ec4901376d5f03_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classPaintingProperties_a1234e163fe2a2cf5acb8b6807c9317c1}\label{classPaintingProperties_a1234e163fe2a2cf5acb8b6807c9317c1}} 
+\index{PaintingProperties@{PaintingProperties}!setImageMirroring@{setImageMirroring}}
+\index{setImageMirroring@{setImageMirroring}!PaintingProperties@{PaintingProperties}}
+\doxysubsubsection{\texorpdfstring{setImageMirroring()}{setImageMirroring()}}
+{\footnotesize\ttfamily void Painting\+Properties\+::set\+Image\+Mirroring (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structPaintingProperties_1_1Mirroring}{Mirroring}}}]{image\+Mirroring }\end{DoxyParamCaption})}
+
+
+
+Definition at line 82 of file paintingproperties.\+cpp.
+
+
+
+References image\+Mirroring(), and m\+\_\+image\+Mirroring.
+
+
+
+Referenced by Telescope\+View\+::change\+Properties(), Painting\+Properties\+DAO\+::create\+Object(), and Telescope\+DAO\+::create\+Object().
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=334pt]{classPaintingProperties_a1234e163fe2a2cf5acb8b6807c9317c1_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classPaintingProperties_a1234e163fe2a2cf5acb8b6807c9317c1_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classPaintingProperties_a7208ac3cb689bb63247de0194fdf283c}\label{classPaintingProperties_a7208ac3cb689bb63247de0194fdf283c}} 
+\index{PaintingProperties@{PaintingProperties}!setImageResults@{setImageResults}}
+\index{setImageResults@{setImageResults}!PaintingProperties@{PaintingProperties}}
+\doxysubsubsection{\texorpdfstring{setImageResults()}{setImageResults()}}
+{\footnotesize\ttfamily void Painting\+Properties\+::set\+Image\+Results (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classImageResults}{Image\+Results}} $\ast$}]{image\+Results }\end{DoxyParamCaption})}
+
+
+
+Definition at line 70 of file paintingproperties.\+cpp.
+
+
+
+References m\+\_\+image\+Results.
+
+
+
+Referenced by Collimator\+Image\+::refresh\+Image().
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classPaintingProperties_a7208ac3cb689bb63247de0194fdf283c_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classPaintingProperties_ad9cdbca52ab3a808ebf8ca39a4a5f5cb}\label{classPaintingProperties_ad9cdbca52ab3a808ebf8ca39a4a5f5cb}} 
+\index{PaintingProperties@{PaintingProperties}!setScope@{setScope}}
+\index{setScope@{setScope}!PaintingProperties@{PaintingProperties}}
+\doxysubsubsection{\texorpdfstring{setScope()}{setScope()}}
+{\footnotesize\ttfamily void Painting\+Properties\+::set\+Scope (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structPaintingProperties_1_1Scope}{Scope}}}]{scope }\end{DoxyParamCaption})}
+
+
+
+Definition at line 76 of file paintingproperties.\+cpp.
+
+
+
+References m\+\_\+scope, and scope().
+
+
+
+Referenced by Painting\+Properties\+DAO\+::create\+Object(), Telescope\+DAO\+::create\+Object(), Collimator\+Image\+::mouse\+Press\+Event(), and Collimator\+Image\+::mouse\+Release\+Event().
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=326pt]{classPaintingProperties_ad9cdbca52ab3a808ebf8ca39a4a5f5cb_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classPaintingProperties_ad9cdbca52ab3a808ebf8ca39a4a5f5cb_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classPaintingProperties_ad4b69ae803386f10d5041ff6b46a6bbd}\label{classPaintingProperties_ad4b69ae803386f10d5041ff6b46a6bbd}} 
+\index{PaintingProperties@{PaintingProperties}!setScrewsMirroring@{setScrewsMirroring}}
+\index{setScrewsMirroring@{setScrewsMirroring}!PaintingProperties@{PaintingProperties}}
+\doxysubsubsection{\texorpdfstring{setScrewsMirroring()}{setScrewsMirroring()}}
+{\footnotesize\ttfamily void Painting\+Properties\+::set\+Screws\+Mirroring (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structPaintingProperties_1_1Mirroring}{Mirroring}}}]{screws\+Mirroring }\end{DoxyParamCaption})}
+
+
+
+Definition at line 88 of file paintingproperties.\+cpp.
+
+
+
+References m\+\_\+screws\+Mirroring, and screws\+Mirroring().
+
+
+
+Referenced by Telescope\+View\+::change\+Properties(), Painting\+Properties\+DAO\+::create\+Object(), and Telescope\+DAO\+::create\+Object().
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=337pt]{classPaintingProperties_ad4b69ae803386f10d5041ff6b46a6bbd_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classPaintingProperties_ad4b69ae803386f10d5041ff6b46a6bbd_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classPaintingProperties_a40b5782d273b15bc3dfb0c0646a3a03c}\label{classPaintingProperties_a40b5782d273b15bc3dfb0c0646a3a03c}} 
+\index{PaintingProperties@{PaintingProperties}!setScrewsRadius@{setScrewsRadius}}
+\index{setScrewsRadius@{setScrewsRadius}!PaintingProperties@{PaintingProperties}}
+\doxysubsubsection{\texorpdfstring{setScrewsRadius()}{setScrewsRadius()}}
+{\footnotesize\ttfamily void Painting\+Properties\+::set\+Screws\+Radius (\begin{DoxyParamCaption}\item[{int}]{screws\+Radius }\end{DoxyParamCaption})}
+
+
+
+Definition at line 34 of file paintingproperties.\+cpp.
+
+
+
+References m\+\_\+screws\+Radius, and screws\+Radius().
+
+
+
+Referenced by Painting\+Properties\+DAO\+::create\+Object(), Telescope\+DAO\+::create\+Object(), and Telescope\+View\+::screws\+Settings().
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=326pt]{classPaintingProperties_a40b5782d273b15bc3dfb0c0646a3a03c_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classPaintingProperties_a40b5782d273b15bc3dfb0c0646a3a03c_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classPaintingProperties_a5b4b1b35c4edc5961d9ab4d44eac8f38}\label{classPaintingProperties_a5b4b1b35c4edc5961d9ab4d44eac8f38}} 
+\index{PaintingProperties@{PaintingProperties}!setTigthMirroring@{setTigthMirroring}}
+\index{setTigthMirroring@{setTigthMirroring}!PaintingProperties@{PaintingProperties}}
+\doxysubsubsection{\texorpdfstring{setTigthMirroring()}{setTigthMirroring()}}
+{\footnotesize\ttfamily void Painting\+Properties\+::set\+Tigth\+Mirroring (\begin{DoxyParamCaption}\item[{bool}]{tight\+Mirroring }\end{DoxyParamCaption})}
+
+
+
+Definition at line 94 of file paintingproperties.\+cpp.
+
+
+
+References m\+\_\+tight\+Mirroring, and tight\+Mirroring().
+
+
+
+Referenced by Telescope\+View\+::change\+Properties(), Painting\+Properties\+DAO\+::create\+Object(), and Telescope\+DAO\+::create\+Object().
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=328pt]{classPaintingProperties_a5b4b1b35c4edc5961d9ab4d44eac8f38_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classPaintingProperties_a5b4b1b35c4edc5961d9ab4d44eac8f38_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classPaintingProperties_acb3f4c8c057afd59ecb89bad088e6da6}\label{classPaintingProperties_acb3f4c8c057afd59ecb89bad088e6da6}} 
+\index{PaintingProperties@{PaintingProperties}!setViewBoundingBox@{setViewBoundingBox}}
+\index{setViewBoundingBox@{setViewBoundingBox}!PaintingProperties@{PaintingProperties}}
+\doxysubsubsection{\texorpdfstring{setViewBoundingBox()}{setViewBoundingBox()}}
+{\footnotesize\ttfamily void Painting\+Properties\+::set\+View\+Bounding\+Box (\begin{DoxyParamCaption}\item[{bool}]{bounding\+Box }\end{DoxyParamCaption})}
+
+
+
+Definition at line 52 of file paintingproperties.\+cpp.
+
+
+
+References m\+\_\+view\+Bounding\+Box, and view\+Bounding\+Box().
+
+
+
+Referenced by Telescope\+View\+::change\+Properties(), Painting\+Properties\+DAO\+::create\+Object(), and Telescope\+DAO\+::create\+Object().
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classPaintingProperties_acb3f4c8c057afd59ecb89bad088e6da6_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classPaintingProperties_acb3f4c8c057afd59ecb89bad088e6da6_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classPaintingProperties_a9ee554301d4c01f10c891cf66c28490b}\label{classPaintingProperties_a9ee554301d4c01f10c891cf66c28490b}} 
+\index{PaintingProperties@{PaintingProperties}!setViewCalculatedCenter@{setViewCalculatedCenter}}
+\index{setViewCalculatedCenter@{setViewCalculatedCenter}!PaintingProperties@{PaintingProperties}}
+\doxysubsubsection{\texorpdfstring{setViewCalculatedCenter()}{setViewCalculatedCenter()}}
+{\footnotesize\ttfamily void Painting\+Properties\+::set\+View\+Calculated\+Center (\begin{DoxyParamCaption}\item[{bool}]{view\+Calculated\+Center }\end{DoxyParamCaption})}
+
+
+
+Definition at line 64 of file paintingproperties.\+cpp.
+
+
+
+References m\+\_\+view\+Calculated\+Center, and view\+Calculated\+Center().
+
+
+
+Referenced by Telescope\+View\+::change\+Properties(), Painting\+Properties\+DAO\+::create\+Object(), and Telescope\+DAO\+::create\+Object().
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classPaintingProperties_a9ee554301d4c01f10c891cf66c28490b_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classPaintingProperties_a9ee554301d4c01f10c891cf66c28490b_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classPaintingProperties_a9a6c360dafe5d36a3fe082ef74fd2e6a}\label{classPaintingProperties_a9a6c360dafe5d36a3fe082ef74fd2e6a}} 
+\index{PaintingProperties@{PaintingProperties}!setViewScrews@{setViewScrews}}
+\index{setViewScrews@{setViewScrews}!PaintingProperties@{PaintingProperties}}
+\doxysubsubsection{\texorpdfstring{setViewScrews()}{setViewScrews()}}
+{\footnotesize\ttfamily void Painting\+Properties\+::set\+View\+Screws (\begin{DoxyParamCaption}\item[{bool}]{view\+Screws }\end{DoxyParamCaption})}
+
+
+
+Definition at line 58 of file paintingproperties.\+cpp.
+
+
+
+References m\+\_\+view\+Screws, and view\+Screws().
+
+
+
+Referenced by Telescope\+View\+::change\+Properties(), Painting\+Properties\+DAO\+::create\+Object(), and Telescope\+DAO\+::create\+Object().
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=326pt]{classPaintingProperties_a9a6c360dafe5d36a3fe082ef74fd2e6a_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classPaintingProperties_a9a6c360dafe5d36a3fe082ef74fd2e6a_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classPaintingProperties_a3a3c02bd58ac6a3abc6cc57324e29372}\label{classPaintingProperties_a3a3c02bd58ac6a3abc6cc57324e29372}} 
+\index{PaintingProperties@{PaintingProperties}!setZoom@{setZoom}}
+\index{setZoom@{setZoom}!PaintingProperties@{PaintingProperties}}
+\doxysubsubsection{\texorpdfstring{setZoom()}{setZoom()}}
+{\footnotesize\ttfamily void Painting\+Properties\+::set\+Zoom (\begin{DoxyParamCaption}\item[{float}]{zoom }\end{DoxyParamCaption})}
+
+
+
+Definition at line 40 of file paintingproperties.\+cpp.
+
+
+
+References m\+\_\+zoom, and zoom().
+
+
+
+Referenced by Painting\+Properties\+DAO\+::create\+Object(), Telescope\+DAO\+::create\+Object(), and Collimator\+Image\+::zoom().
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=326pt]{classPaintingProperties_a3a3c02bd58ac6a3abc6cc57324e29372_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classPaintingProperties_a3a3c02bd58ac6a3abc6cc57324e29372_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classPaintingProperties_a170a391450735511220f40a91290e70f}\label{classPaintingProperties_a170a391450735511220f40a91290e70f}} 
+\index{PaintingProperties@{PaintingProperties}!tightMirroring@{tightMirroring}}
+\index{tightMirroring@{tightMirroring}!PaintingProperties@{PaintingProperties}}
+\doxysubsubsection{\texorpdfstring{tightMirroring()}{tightMirroring()}}
+{\footnotesize\ttfamily bool Painting\+Properties\+::tight\+Mirroring (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 152 of file paintingproperties.\+cpp.
+
+
+
+References m\+\_\+tight\+Mirroring.
+
+
+
+Referenced by Painting\+Properties\+DAO\+::bind\+Values(), paint\+Screws\+Help(), Telescope\+View\+::set\+Telescope(), and set\+Tigth\+Mirroring().
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classPaintingProperties_a170a391450735511220f40a91290e70f_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classPaintingProperties_a92fee1df086c79bb12d5f58596e80af8}\label{classPaintingProperties_a92fee1df086c79bb12d5f58596e80af8}} 
+\index{PaintingProperties@{PaintingProperties}!viewBoundingBox@{viewBoundingBox}}
+\index{viewBoundingBox@{viewBoundingBox}!PaintingProperties@{PaintingProperties}}
+\doxysubsubsection{\texorpdfstring{viewBoundingBox()}{viewBoundingBox()}}
+{\footnotesize\ttfamily bool Painting\+Properties\+::view\+Bounding\+Box (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 122 of file paintingproperties.\+cpp.
+
+
+
+References m\+\_\+view\+Bounding\+Box.
+
+
+
+Referenced by Painting\+Properties\+DAO\+::bind\+Values(), Telescope\+View\+::set\+Telescope(), and set\+View\+Bounding\+Box().
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classPaintingProperties_a92fee1df086c79bb12d5f58596e80af8_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classPaintingProperties_a66c099a1572eba592b7891575e5b15f2}\label{classPaintingProperties_a66c099a1572eba592b7891575e5b15f2}} 
+\index{PaintingProperties@{PaintingProperties}!viewCalculatedCenter@{viewCalculatedCenter}}
+\index{viewCalculatedCenter@{viewCalculatedCenter}!PaintingProperties@{PaintingProperties}}
+\doxysubsubsection{\texorpdfstring{viewCalculatedCenter()}{viewCalculatedCenter()}}
+{\footnotesize\ttfamily bool Painting\+Properties\+::view\+Calculated\+Center (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 134 of file paintingproperties.\+cpp.
+
+
+
+References m\+\_\+view\+Calculated\+Center.
+
+
+
+Referenced by Painting\+Properties\+DAO\+::bind\+Values(), Telescope\+View\+::set\+Telescope(), and set\+View\+Calculated\+Center().
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classPaintingProperties_a66c099a1572eba592b7891575e5b15f2_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classPaintingProperties_ad6297b32ac45bdacce9fa7b703a1f121}\label{classPaintingProperties_ad6297b32ac45bdacce9fa7b703a1f121}} 
+\index{PaintingProperties@{PaintingProperties}!viewScrews@{viewScrews}}
+\index{viewScrews@{viewScrews}!PaintingProperties@{PaintingProperties}}
+\doxysubsubsection{\texorpdfstring{viewScrews()}{viewScrews()}}
+{\footnotesize\ttfamily bool Painting\+Properties\+::view\+Screws (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 128 of file paintingproperties.\+cpp.
+
+
+
+References m\+\_\+view\+Screws.
+
+
+
+Referenced by Painting\+Properties\+DAO\+::bind\+Values(), Telescope\+View\+::set\+Telescope(), and set\+View\+Screws().
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classPaintingProperties_ad6297b32ac45bdacce9fa7b703a1f121_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classPaintingProperties_a0046aa2e40294958aae970d0525c5a53}\label{classPaintingProperties_a0046aa2e40294958aae970d0525c5a53}} 
+\index{PaintingProperties@{PaintingProperties}!zoom@{zoom}}
+\index{zoom@{zoom}!PaintingProperties@{PaintingProperties}}
+\doxysubsubsection{\texorpdfstring{zoom()}{zoom()}}
+{\footnotesize\ttfamily float Painting\+Properties\+::zoom (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 110 of file paintingproperties.\+cpp.
+
+
+
+References m\+\_\+zoom.
+
+
+
+Referenced by Painting\+Properties\+DAO\+::bind\+Values(), Collimator\+Image\+::mouse\+Press\+Event(), Collimator\+Image\+::mouse\+Release\+Event(), Collimator\+Image\+::refresh\+Image(), set\+Zoom(), and Collimator\+Image\+::zoom().
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classPaintingProperties_a0046aa2e40294958aae970d0525c5a53_icgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classPaintingProperties_a759ff5a5c124ae181528f8e913ce6ecf}\label{classPaintingProperties_a759ff5a5c124ae181528f8e913ce6ecf}} 
+\index{PaintingProperties@{PaintingProperties}!m\_automatic@{m\_automatic}}
+\index{m\_automatic@{m\_automatic}!PaintingProperties@{PaintingProperties}}
+\doxysubsubsection{\texorpdfstring{m\_automatic}{m\_automatic}}
+{\footnotesize\ttfamily bool Painting\+Properties\+::m\+\_\+automatic\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 64 of file paintingproperties.\+h.
+
+
+
+Referenced by automatic(), paint(), Painting\+Properties(), and set\+Automatic().
+
+\mbox{\Hypertarget{classPaintingProperties_ade3a80a35121550d645eb326d291f02b}\label{classPaintingProperties_ade3a80a35121550d645eb326d291f02b}} 
+\index{PaintingProperties@{PaintingProperties}!m\_id@{m\_id}}
+\index{m\_id@{m\_id}!PaintingProperties@{PaintingProperties}}
+\doxysubsubsection{\texorpdfstring{m\_id}{m\_id}}
+{\footnotesize\ttfamily int Painting\+Properties\+::m\+\_\+id\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 61 of file paintingproperties.\+h.
+
+
+
+Referenced by id(), and set\+Id().
+
+\mbox{\Hypertarget{classPaintingProperties_a610164413674bc68bda9cf9ecdc88bc8}\label{classPaintingProperties_a610164413674bc68bda9cf9ecdc88bc8}} 
+\index{PaintingProperties@{PaintingProperties}!m\_imageMirroring@{m\_imageMirroring}}
+\index{m\_imageMirroring@{m\_imageMirroring}!PaintingProperties@{PaintingProperties}}
+\doxysubsubsection{\texorpdfstring{m\_imageMirroring}{m\_imageMirroring}}
+{\footnotesize\ttfamily \mbox{\hyperlink{structPaintingProperties_1_1Mirroring}{Mirroring}} Painting\+Properties\+::m\+\_\+image\+Mirroring\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 58 of file paintingproperties.\+h.
+
+
+
+Referenced by image\+Mirroring(), Painting\+Properties(), and set\+Image\+Mirroring().
+
+\mbox{\Hypertarget{classPaintingProperties_a41681e41a0e1d367f9ab860047f63305}\label{classPaintingProperties_a41681e41a0e1d367f9ab860047f63305}} 
+\index{PaintingProperties@{PaintingProperties}!m\_imageResults@{m\_imageResults}}
+\index{m\_imageResults@{m\_imageResults}!PaintingProperties@{PaintingProperties}}
+\doxysubsubsection{\texorpdfstring{m\_imageResults}{m\_imageResults}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classImageResults}{Image\+Results}}$\ast$ Painting\+Properties\+::m\+\_\+image\+Results\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 69 of file paintingproperties.\+h.
+
+
+
+Referenced by paint(), paint\+Screws\+Help(), and set\+Image\+Results().
+
+\mbox{\Hypertarget{classPaintingProperties_a7c835e63733b13fda332b893f109f9a2}\label{classPaintingProperties_a7c835e63733b13fda332b893f109f9a2}} 
+\index{PaintingProperties@{PaintingProperties}!m\_scope@{m\_scope}}
+\index{m\_scope@{m\_scope}!PaintingProperties@{PaintingProperties}}
+\doxysubsubsection{\texorpdfstring{m\_scope}{m\_scope}}
+{\footnotesize\ttfamily \mbox{\hyperlink{structPaintingProperties_1_1Scope}{Scope}} Painting\+Properties\+::m\+\_\+scope\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 57 of file paintingproperties.\+h.
+
+
+
+Referenced by paint(), Painting\+Properties(), scope(), and set\+Scope().
+
+\mbox{\Hypertarget{classPaintingProperties_a3a63ce44a2ddb4d8339b65915c93a5ee}\label{classPaintingProperties_a3a63ce44a2ddb4d8339b65915c93a5ee}} 
+\index{PaintingProperties@{PaintingProperties}!m\_screwsMirroring@{m\_screwsMirroring}}
+\index{m\_screwsMirroring@{m\_screwsMirroring}!PaintingProperties@{PaintingProperties}}
+\doxysubsubsection{\texorpdfstring{m\_screwsMirroring}{m\_screwsMirroring}}
+{\footnotesize\ttfamily \mbox{\hyperlink{structPaintingProperties_1_1Mirroring}{Mirroring}} Painting\+Properties\+::m\+\_\+screws\+Mirroring\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 59 of file paintingproperties.\+h.
+
+
+
+Referenced by Painting\+Properties(), screws\+Mirroring(), and set\+Screws\+Mirroring().
+
+\mbox{\Hypertarget{classPaintingProperties_aecd201ee089dd3723b2b3c452af0c194}\label{classPaintingProperties_aecd201ee089dd3723b2b3c452af0c194}} 
+\index{PaintingProperties@{PaintingProperties}!m\_screwsRadius@{m\_screwsRadius}}
+\index{m\_screwsRadius@{m\_screwsRadius}!PaintingProperties@{PaintingProperties}}
+\doxysubsubsection{\texorpdfstring{m\_screwsRadius}{m\_screwsRadius}}
+{\footnotesize\ttfamily int Painting\+Properties\+::m\+\_\+screws\+Radius\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 62 of file paintingproperties.\+h.
+
+
+
+Referenced by paint(), Painting\+Properties(), paint\+Screws\+Help(), screws\+Radius(), and set\+Screws\+Radius().
+
+\mbox{\Hypertarget{classPaintingProperties_adf32b8aec23ac3775c89754a380e9afb}\label{classPaintingProperties_adf32b8aec23ac3775c89754a380e9afb}} 
+\index{PaintingProperties@{PaintingProperties}!m\_tightMirroring@{m\_tightMirroring}}
+\index{m\_tightMirroring@{m\_tightMirroring}!PaintingProperties@{PaintingProperties}}
+\doxysubsubsection{\texorpdfstring{m\_tightMirroring}{m\_tightMirroring}}
+{\footnotesize\ttfamily bool Painting\+Properties\+::m\+\_\+tight\+Mirroring\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 68 of file paintingproperties.\+h.
+
+
+
+Referenced by Painting\+Properties(), set\+Tigth\+Mirroring(), and tight\+Mirroring().
+
+\mbox{\Hypertarget{classPaintingProperties_a9310e34d5f6c44f30a11283a270587af}\label{classPaintingProperties_a9310e34d5f6c44f30a11283a270587af}} 
+\index{PaintingProperties@{PaintingProperties}!m\_viewBoundingBox@{m\_viewBoundingBox}}
+\index{m\_viewBoundingBox@{m\_viewBoundingBox}!PaintingProperties@{PaintingProperties}}
+\doxysubsubsection{\texorpdfstring{m\_viewBoundingBox}{m\_viewBoundingBox}}
+{\footnotesize\ttfamily bool Painting\+Properties\+::m\+\_\+view\+Bounding\+Box\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 65 of file paintingproperties.\+h.
+
+
+
+Referenced by paint(), Painting\+Properties(), set\+View\+Bounding\+Box(), and view\+Bounding\+Box().
+
+\mbox{\Hypertarget{classPaintingProperties_a5a5e29742e1a4e0b13248fdfefdd3030}\label{classPaintingProperties_a5a5e29742e1a4e0b13248fdfefdd3030}} 
+\index{PaintingProperties@{PaintingProperties}!m\_viewCalculatedCenter@{m\_viewCalculatedCenter}}
+\index{m\_viewCalculatedCenter@{m\_viewCalculatedCenter}!PaintingProperties@{PaintingProperties}}
+\doxysubsubsection{\texorpdfstring{m\_viewCalculatedCenter}{m\_viewCalculatedCenter}}
+{\footnotesize\ttfamily bool Painting\+Properties\+::m\+\_\+view\+Calculated\+Center\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 66 of file paintingproperties.\+h.
+
+
+
+Referenced by paint(), Painting\+Properties(), set\+View\+Calculated\+Center(), and view\+Calculated\+Center().
+
+\mbox{\Hypertarget{classPaintingProperties_aaa721c5c709ad4ae026c055b9ee016b4}\label{classPaintingProperties_aaa721c5c709ad4ae026c055b9ee016b4}} 
+\index{PaintingProperties@{PaintingProperties}!m\_viewScrews@{m\_viewScrews}}
+\index{m\_viewScrews@{m\_viewScrews}!PaintingProperties@{PaintingProperties}}
+\doxysubsubsection{\texorpdfstring{m\_viewScrews}{m\_viewScrews}}
+{\footnotesize\ttfamily bool Painting\+Properties\+::m\+\_\+view\+Screws\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 67 of file paintingproperties.\+h.
+
+
+
+Referenced by paint(), Painting\+Properties(), set\+View\+Screws(), and view\+Screws().
+
+\mbox{\Hypertarget{classPaintingProperties_a4b7c7bd1bf9e3931653c0c52bfe7ae03}\label{classPaintingProperties_a4b7c7bd1bf9e3931653c0c52bfe7ae03}} 
+\index{PaintingProperties@{PaintingProperties}!m\_zoom@{m\_zoom}}
+\index{m\_zoom@{m\_zoom}!PaintingProperties@{PaintingProperties}}
+\doxysubsubsection{\texorpdfstring{m\_zoom}{m\_zoom}}
+{\footnotesize\ttfamily float Painting\+Properties\+::m\+\_\+zoom\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 63 of file paintingproperties.\+h.
+
+
+
+Referenced by Painting\+Properties(), set\+Zoom(), and zoom().
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+logic/\mbox{\hyperlink{paintingproperties_8h}{paintingproperties.\+h}}\item 
+logic/\mbox{\hyperlink{paintingproperties_8cpp}{paintingproperties.\+cpp}}\end{DoxyCompactItemize}

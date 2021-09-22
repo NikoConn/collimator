@@ -1,0 +1,6 @@
+<map id="CollimatorImage::setConnected" name="CollimatorImage::setConnected">
+<area shape="rect" id="node1" title="setConnected Changes connection property. If false will stop receiving images" alt="" coords="757,13,985,39"/>
+<area shape="rect" id="node2" href="$classTelescopeView.html#a78b9126c7c633ae90bcc176f0e4df4b5" title=" " alt="" coords="515,5,709,47"/>
+<area shape="rect" id="node3" href="$classTelescopeView.html#a854b6d56174b0899a62fa91bde5bec6d" title=" " alt="" coords="275,5,467,47"/>
+<area shape="rect" id="node4" href="$classTelescopeView.html#ac6aa65ca912c125e35ebccb39f59a9f5" title=" " alt="" coords="5,13,227,39"/>
+</map>

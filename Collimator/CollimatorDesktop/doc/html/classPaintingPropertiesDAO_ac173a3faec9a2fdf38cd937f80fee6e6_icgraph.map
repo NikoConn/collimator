@@ -1,0 +1,6 @@
+<map id="PaintingPropertiesDAO::createObject" name="PaintingPropertiesDAO::createObject">
+<area shape="rect" id="node1" title="createObject Method for getting PaintingProperties object given a query" alt="" coords="444,27,613,69"/>
+<area shape="rect" id="node2" href="$classPaintingPropertiesDAO.html#a83bd9c66e1fc7eba440dd20fa4d590f1" title="get Mehod for obtaining a PaintingProperties by its id" alt="" coords="197,5,396,32"/>
+<area shape="rect" id="node4" href="$classPaintingPropertiesDAO.html#a19609e27c70c6ec6c3cf7b670f19808d" title="getAll Mehod for obtaining all PaintingProperties in the database" alt="" coords="212,57,381,98"/>
+<area shape="rect" id="node3" href="$classTelescopeDAO.html#ab8007734ed3b38cf790e3b01543bba3d" title="get Method for obtaining a Telescope by id" alt="" coords="5,5,149,32"/>
+</map>

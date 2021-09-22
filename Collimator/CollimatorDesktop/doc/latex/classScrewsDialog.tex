@@ -1,0 +1,389 @@
+\hypertarget{classScrewsDialog}{}\doxysection{Screws\+Dialog Class Reference}
+\label{classScrewsDialog}\index{ScrewsDialog@{ScrewsDialog}}
+
+
+{\ttfamily \#include $<$screwsdialog.\+h$>$}
+
+
+
+Inheritance diagram for Screws\+Dialog\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=232pt]{classScrewsDialog__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Screws\+Dialog\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=232pt]{classScrewsDialog__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classScrewsDialog_a338c15d336a332a0b92a128d765dc679}{Screws\+Dialog}} (QWidget $\ast$parent=nullptr)
+\item 
+\mbox{\hyperlink{classScrewsDialog_a098dfddce90349d81858be81d5d66440}{$\sim$\+Screws\+Dialog}} ()
+\item 
+void \mbox{\hyperlink{classScrewsDialog_a36939900fe7ad12c64e2ddc4402e4061}{set\+Screws}} (QList$<$ \mbox{\hyperlink{classScrew}{Screw}} $>$ \mbox{\hyperlink{classScrewsDialog_af39aa19884159bac85bfd3f93ca08902}{screws}})
+\begin{DoxyCompactList}\small\item\em set\+Screws Sets the Screws list from where to show the data \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classScrewsDialog_ac84e23d4ca93cfae87512b88a975a7a8}{set\+Radius}} (int \mbox{\hyperlink{classScrewsDialog_ad6af92073d0adcdc23145d10e206ead8}{radius}})
+\begin{DoxyCompactList}\small\item\em set\+Radius Sets the radius of the screws \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classScrewsDialog_ad6af92073d0adcdc23145d10e206ead8}{radius}} ()
+\begin{DoxyCompactList}\small\item\em radius Returns the current radius with values from UI input \end{DoxyCompactList}\item 
+QList$<$ \mbox{\hyperlink{classScrew}{Screw}} $>$ \mbox{\hyperlink{classScrewsDialog_af39aa19884159bac85bfd3f93ca08902}{screws}} ()
+\begin{DoxyCompactList}\small\item\em screws Returns the current list of screws from UI input \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Private Slots}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classScrewsDialog_a0536204bf71f261870c676ea7ef69d02}{add\+Screw}} ()
+\item 
+void \mbox{\hyperlink{classScrewsDialog_a02bdf57fb2d3a062563ee4f5cce7e1f8}{remove\+Screw}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classScrewsDialog_a53cb71c83df097991dbf0c778b1ceeb8}{load\+Items}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+Ui\+::\+Screws\+Dialog $\ast$ \mbox{\hyperlink{classScrewsDialog_a4aea3c9ba7415745f66108cc58709fd8}{ui}}
+\item 
+QList$<$ \mbox{\hyperlink{classScrew}{Screw}} $>$ \mbox{\hyperlink{classScrewsDialog_a25311fd2b0ec52e559fbf5de0574f915}{m\+\_\+screws}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+
+
+Definition at line 11 of file screwsdialog.\+h.
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classScrewsDialog_a338c15d336a332a0b92a128d765dc679}\label{classScrewsDialog_a338c15d336a332a0b92a128d765dc679}} 
+\index{ScrewsDialog@{ScrewsDialog}!ScrewsDialog@{ScrewsDialog}}
+\index{ScrewsDialog@{ScrewsDialog}!ScrewsDialog@{ScrewsDialog}}
+\doxysubsubsection{\texorpdfstring{ScrewsDialog()}{ScrewsDialog()}}
+{\footnotesize\ttfamily Screws\+Dialog\+::\+Screws\+Dialog (\begin{DoxyParamCaption}\item[{QWidget $\ast$}]{parent = {\ttfamily nullptr} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [explicit]}}
+
+
+
+Definition at line 6 of file screwsdialog.\+cpp.
+
+
+
+References add\+Screw(), load\+Items(), remove\+Screw(), and ui.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classScrewsDialog_a338c15d336a332a0b92a128d765dc679_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classScrewsDialog_a098dfddce90349d81858be81d5d66440}\label{classScrewsDialog_a098dfddce90349d81858be81d5d66440}} 
+\index{ScrewsDialog@{ScrewsDialog}!````~ScrewsDialog@{$\sim$ScrewsDialog}}
+\index{````~ScrewsDialog@{$\sim$ScrewsDialog}!ScrewsDialog@{ScrewsDialog}}
+\doxysubsubsection{\texorpdfstring{$\sim$ScrewsDialog()}{~ScrewsDialog()}}
+{\footnotesize\ttfamily Screws\+Dialog\+::$\sim$\+Screws\+Dialog (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 18 of file screwsdialog.\+cpp.
+
+
+
+References ui.
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classScrewsDialog_a0536204bf71f261870c676ea7ef69d02}\label{classScrewsDialog_a0536204bf71f261870c676ea7ef69d02}} 
+\index{ScrewsDialog@{ScrewsDialog}!addScrew@{addScrew}}
+\index{addScrew@{addScrew}!ScrewsDialog@{ScrewsDialog}}
+\doxysubsubsection{\texorpdfstring{addScrew}{addScrew}}
+{\footnotesize\ttfamily void Screws\+Dialog\+::add\+Screw (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+
+
+Definition at line 57 of file screwsdialog.\+cpp.
+
+
+
+References load\+Items(), m\+\_\+screws, and Screw\+::set\+Degrees().
+
+
+
+Referenced by Screws\+Dialog().
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classScrewsDialog_a0536204bf71f261870c676ea7ef69d02_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classScrewsDialog_a0536204bf71f261870c676ea7ef69d02_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classScrewsDialog_a53cb71c83df097991dbf0c778b1ceeb8}\label{classScrewsDialog_a53cb71c83df097991dbf0c778b1ceeb8}} 
+\index{ScrewsDialog@{ScrewsDialog}!loadItems@{loadItems}}
+\index{loadItems@{loadItems}!ScrewsDialog@{ScrewsDialog}}
+\doxysubsubsection{\texorpdfstring{loadItems()}{loadItems()}}
+{\footnotesize\ttfamily void Screws\+Dialog\+::load\+Items (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 49 of file screwsdialog.\+cpp.
+
+
+
+References m\+\_\+screws, and ui.
+
+
+
+Referenced by add\+Screw(), remove\+Screw(), Screws\+Dialog(), and set\+Screws().
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classScrewsDialog_a53cb71c83df097991dbf0c778b1ceeb8_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classScrewsDialog_ad6af92073d0adcdc23145d10e206ead8}\label{classScrewsDialog_ad6af92073d0adcdc23145d10e206ead8}} 
+\index{ScrewsDialog@{ScrewsDialog}!radius@{radius}}
+\index{radius@{radius}!ScrewsDialog@{ScrewsDialog}}
+\doxysubsubsection{\texorpdfstring{radius()}{radius()}}
+{\footnotesize\ttfamily int Screws\+Dialog\+::radius (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+radius Returns the current radius with values from UI input 
+
+\begin{DoxyReturn}{Returns}
+Radius from UI input 
+\end{DoxyReturn}
+
+
+Definition at line 43 of file screwsdialog.\+cpp.
+
+
+
+References ui.
+
+
+
+Referenced by Telescope\+View\+::screws\+Settings(), and set\+Radius().
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classScrewsDialog_ad6af92073d0adcdc23145d10e206ead8_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classScrewsDialog_a02bdf57fb2d3a062563ee4f5cce7e1f8}\label{classScrewsDialog_a02bdf57fb2d3a062563ee4f5cce7e1f8}} 
+\index{ScrewsDialog@{ScrewsDialog}!removeScrew@{removeScrew}}
+\index{removeScrew@{removeScrew}!ScrewsDialog@{ScrewsDialog}}
+\doxysubsubsection{\texorpdfstring{removeScrew}{removeScrew}}
+{\footnotesize\ttfamily void Screws\+Dialog\+::remove\+Screw (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+
+
+Definition at line 71 of file screwsdialog.\+cpp.
+
+
+
+References load\+Items(), m\+\_\+screws, and ui.
+
+
+
+Referenced by Screws\+Dialog().
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classScrewsDialog_a02bdf57fb2d3a062563ee4f5cce7e1f8_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classScrewsDialog_a02bdf57fb2d3a062563ee4f5cce7e1f8_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classScrewsDialog_af39aa19884159bac85bfd3f93ca08902}\label{classScrewsDialog_af39aa19884159bac85bfd3f93ca08902}} 
+\index{ScrewsDialog@{ScrewsDialog}!screws@{screws}}
+\index{screws@{screws}!ScrewsDialog@{ScrewsDialog}}
+\doxysubsubsection{\texorpdfstring{screws()}{screws()}}
+{\footnotesize\ttfamily QList$<$ \mbox{\hyperlink{classScrew}{Screw}} $>$ Screws\+Dialog\+::screws (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+screws Returns the current list of screws from UI input 
+
+\begin{DoxyReturn}{Returns}
+\mbox{\hyperlink{classScrew}{Screw}} List from UI input 
+\end{DoxyReturn}
+
+
+Definition at line 31 of file screwsdialog.\+cpp.
+
+
+
+References m\+\_\+screws.
+
+
+
+Referenced by Telescope\+View\+::screws\+Settings(), and set\+Screws().
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classScrewsDialog_af39aa19884159bac85bfd3f93ca08902_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classScrewsDialog_ac84e23d4ca93cfae87512b88a975a7a8}\label{classScrewsDialog_ac84e23d4ca93cfae87512b88a975a7a8}} 
+\index{ScrewsDialog@{ScrewsDialog}!setRadius@{setRadius}}
+\index{setRadius@{setRadius}!ScrewsDialog@{ScrewsDialog}}
+\doxysubsubsection{\texorpdfstring{setRadius()}{setRadius()}}
+{\footnotesize\ttfamily void Screws\+Dialog\+::set\+Radius (\begin{DoxyParamCaption}\item[{int}]{radius }\end{DoxyParamCaption})}
+
+
+
+set\+Radius Sets the radius of the screws 
+
+
+\begin{DoxyParams}{Parameters}
+{\em radius} & Radius of the screws \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 37 of file screwsdialog.\+cpp.
+
+
+
+References radius(), and ui.
+
+
+
+Referenced by Telescope\+View\+::screws\+Settings().
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classScrewsDialog_ac84e23d4ca93cfae87512b88a975a7a8_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classScrewsDialog_ac84e23d4ca93cfae87512b88a975a7a8_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classScrewsDialog_a36939900fe7ad12c64e2ddc4402e4061}\label{classScrewsDialog_a36939900fe7ad12c64e2ddc4402e4061}} 
+\index{ScrewsDialog@{ScrewsDialog}!setScrews@{setScrews}}
+\index{setScrews@{setScrews}!ScrewsDialog@{ScrewsDialog}}
+\doxysubsubsection{\texorpdfstring{setScrews()}{setScrews()}}
+{\footnotesize\ttfamily void Screws\+Dialog\+::set\+Screws (\begin{DoxyParamCaption}\item[{QList$<$ \mbox{\hyperlink{classScrew}{Screw}} $>$}]{screws }\end{DoxyParamCaption})}
+
+
+
+set\+Screws Sets the Screws list from where to show the data 
+
+
+\begin{DoxyParams}{Parameters}
+{\em screws} & Screws list \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 24 of file screwsdialog.\+cpp.
+
+
+
+References load\+Items(), m\+\_\+screws, and screws().
+
+
+
+Referenced by Telescope\+View\+::screws\+Settings().
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classScrewsDialog_a36939900fe7ad12c64e2ddc4402e4061_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classScrewsDialog_a36939900fe7ad12c64e2ddc4402e4061_icgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classScrewsDialog_a25311fd2b0ec52e559fbf5de0574f915}\label{classScrewsDialog_a25311fd2b0ec52e559fbf5de0574f915}} 
+\index{ScrewsDialog@{ScrewsDialog}!m\_screws@{m\_screws}}
+\index{m\_screws@{m\_screws}!ScrewsDialog@{ScrewsDialog}}
+\doxysubsubsection{\texorpdfstring{m\_screws}{m\_screws}}
+{\footnotesize\ttfamily QList$<$\mbox{\hyperlink{classScrew}{Screw}}$>$ Screws\+Dialog\+::m\+\_\+screws\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 48 of file screwsdialog.\+h.
+
+
+
+Referenced by add\+Screw(), load\+Items(), remove\+Screw(), screws(), and set\+Screws().
+
+\mbox{\Hypertarget{classScrewsDialog_a4aea3c9ba7415745f66108cc58709fd8}\label{classScrewsDialog_a4aea3c9ba7415745f66108cc58709fd8}} 
+\index{ScrewsDialog@{ScrewsDialog}!ui@{ui}}
+\index{ui@{ui}!ScrewsDialog@{ScrewsDialog}}
+\doxysubsubsection{\texorpdfstring{ui}{ui}}
+{\footnotesize\ttfamily Ui\+::\+Screws\+Dialog$\ast$ Screws\+Dialog\+::ui\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 47 of file screwsdialog.\+h.
+
+
+
+Referenced by load\+Items(), radius(), remove\+Screw(), Screws\+Dialog(), set\+Radius(), and $\sim$\+Screws\+Dialog().
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+views/\mbox{\hyperlink{screwsdialog_8h}{screwsdialog.\+h}}\item 
+views/\mbox{\hyperlink{screwsdialog_8cpp}{screwsdialog.\+cpp}}\end{DoxyCompactItemize}

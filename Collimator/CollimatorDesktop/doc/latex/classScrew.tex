@@ -1,0 +1,279 @@
+\hypertarget{classScrew}{}\doxysection{Screw Class Reference}
+\label{classScrew}\index{Screw@{Screw}}
+
+
+{\ttfamily \#include $<$screw.\+h$>$}
+
+
+
+Collaboration diagram for Screw\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=227pt]{classScrew__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classScrew_ab141829c031746a4348d02f238ca0f40}{Screw}} ()
+\item 
+\mbox{\hyperlink{classScrew_a18d9307216bdaaa3993f196dcda0ccbb}{Screw}} (float \mbox{\hyperlink{classScrew_afae664975294237b37447f51f8c134f8}{degrees}})
+\item 
+virtual int \mbox{\hyperlink{classScrew_aefe4d8b320709dfba669a3cfc7f3a56e}{id}} ()
+\item 
+virtual float \mbox{\hyperlink{classScrew_afae664975294237b37447f51f8c134f8}{degrees}} ()
+\item 
+void \mbox{\hyperlink{classScrew_a4478e7b963f449d3f9e2ed4b4492f29d}{set\+Id}} (int \mbox{\hyperlink{classScrew_aefe4d8b320709dfba669a3cfc7f3a56e}{id}})
+\item 
+void \mbox{\hyperlink{classScrew_adae6e13f5dd5772b2cd37b5b6ac71ec3}{set\+Degrees}} (float \mbox{\hyperlink{classScrew_afae664975294237b37447f51f8c134f8}{degrees}})
+\item 
+QPoint \mbox{\hyperlink{classScrew_a506a0af8f0c5a840f3d3d984d3c4e23f}{get\+Screw\+Position}} (QPoint reference, int radius)
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{classScrew_ac3fb25a2acf33d999489ec670309166c}{m\+\_\+id}}
+\item 
+float \mbox{\hyperlink{classScrew_adecd2ce342687100b10785f10042be0b}{m\+\_\+degrees}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+
+
+Definition at line 8 of file screw.\+h.
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classScrew_ab141829c031746a4348d02f238ca0f40}\label{classScrew_ab141829c031746a4348d02f238ca0f40}} 
+\index{Screw@{Screw}!Screw@{Screw}}
+\index{Screw@{Screw}!Screw@{Screw}}
+\doxysubsubsection{\texorpdfstring{Screw()}{Screw()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily Screw\+::\+Screw (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 4 of file screw.\+cpp.
+
+
+
+References m\+\_\+id.
+
+\mbox{\Hypertarget{classScrew_a18d9307216bdaaa3993f196dcda0ccbb}\label{classScrew_a18d9307216bdaaa3993f196dcda0ccbb}} 
+\index{Screw@{Screw}!Screw@{Screw}}
+\index{Screw@{Screw}!Screw@{Screw}}
+\doxysubsubsection{\texorpdfstring{Screw()}{Screw()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily Screw\+::\+Screw (\begin{DoxyParamCaption}\item[{float}]{degrees }\end{DoxyParamCaption})}
+
+
+
+Definition at line 9 of file screw.\+cpp.
+
+
+
+References degrees(), m\+\_\+id, and set\+Degrees().
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classScrew_a18d9307216bdaaa3993f196dcda0ccbb_cgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classScrew_afae664975294237b37447f51f8c134f8}\label{classScrew_afae664975294237b37447f51f8c134f8}} 
+\index{Screw@{Screw}!degrees@{degrees}}
+\index{degrees@{degrees}!Screw@{Screw}}
+\doxysubsubsection{\texorpdfstring{degrees()}{degrees()}}
+{\footnotesize\ttfamily float Screw\+::degrees (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Definition at line 28 of file screw.\+cpp.
+
+
+
+References m\+\_\+degrees.
+
+
+
+Referenced by calculate\+Screws\+Degrees(), get\+Screw\+Position(), Painting\+Properties\+::paint\+Screws\+Help(), q\+Hash(), Screw(), and set\+Degrees().
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classScrew_afae664975294237b37447f51f8c134f8_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classScrew_a506a0af8f0c5a840f3d3d984d3c4e23f}\label{classScrew_a506a0af8f0c5a840f3d3d984d3c4e23f}} 
+\index{Screw@{Screw}!getScrewPosition@{getScrewPosition}}
+\index{getScrewPosition@{getScrewPosition}!Screw@{Screw}}
+\doxysubsubsection{\texorpdfstring{getScrewPosition()}{getScrewPosition()}}
+{\footnotesize\ttfamily QPoint Screw\+::get\+Screw\+Position (\begin{DoxyParamCaption}\item[{QPoint}]{reference,  }\item[{int}]{radius }\end{DoxyParamCaption})}
+
+
+
+Definition at line 39 of file screw.\+cpp.
+
+
+
+References degrees().
+
+
+
+Referenced by Painting\+Properties\+::paint\+Screws\+Help().
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=341pt]{classScrew_a506a0af8f0c5a840f3d3d984d3c4e23f_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classScrew_a506a0af8f0c5a840f3d3d984d3c4e23f_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classScrew_aefe4d8b320709dfba669a3cfc7f3a56e}\label{classScrew_aefe4d8b320709dfba669a3cfc7f3a56e}} 
+\index{Screw@{Screw}!id@{id}}
+\index{id@{id}!Screw@{Screw}}
+\doxysubsubsection{\texorpdfstring{id()}{id()}}
+{\footnotesize\ttfamily int Screw\+::id (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Definition at line 34 of file screw.\+cpp.
+
+
+
+References m\+\_\+id.
+
+
+
+Referenced by operator==(), q\+Hash(), and set\+Id().
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classScrew_aefe4d8b320709dfba669a3cfc7f3a56e_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classScrew_adae6e13f5dd5772b2cd37b5b6ac71ec3}\label{classScrew_adae6e13f5dd5772b2cd37b5b6ac71ec3}} 
+\index{Screw@{Screw}!setDegrees@{setDegrees}}
+\index{setDegrees@{setDegrees}!Screw@{Screw}}
+\doxysubsubsection{\texorpdfstring{setDegrees()}{setDegrees()}}
+{\footnotesize\ttfamily void Screw\+::set\+Degrees (\begin{DoxyParamCaption}\item[{float}]{degrees }\end{DoxyParamCaption})}
+
+
+
+Definition at line 20 of file screw.\+cpp.
+
+
+
+References degrees(), and m\+\_\+degrees.
+
+
+
+Referenced by Screws\+Dialog\+::add\+Screw(), Telescope\+DAO\+::get(), Telescope\+DAO\+::get\+All(), and Screw().
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=313pt]{classScrew_adae6e13f5dd5772b2cd37b5b6ac71ec3_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classScrew_adae6e13f5dd5772b2cd37b5b6ac71ec3_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classScrew_a4478e7b963f449d3f9e2ed4b4492f29d}\label{classScrew_a4478e7b963f449d3f9e2ed4b4492f29d}} 
+\index{Screw@{Screw}!setId@{setId}}
+\index{setId@{setId}!Screw@{Screw}}
+\doxysubsubsection{\texorpdfstring{setId()}{setId()}}
+{\footnotesize\ttfamily void Screw\+::set\+Id (\begin{DoxyParamCaption}\item[{int}]{id }\end{DoxyParamCaption})}
+
+
+
+Definition at line 15 of file screw.\+cpp.
+
+
+
+References id(), and m\+\_\+id.
+
+
+
+Referenced by Telescope\+DAO\+::get(), and Telescope\+DAO\+::get\+All().
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=251pt]{classScrew_a4478e7b963f449d3f9e2ed4b4492f29d_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classScrew_a4478e7b963f449d3f9e2ed4b4492f29d_icgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classScrew_adecd2ce342687100b10785f10042be0b}\label{classScrew_adecd2ce342687100b10785f10042be0b}} 
+\index{Screw@{Screw}!m\_degrees@{m\_degrees}}
+\index{m\_degrees@{m\_degrees}!Screw@{Screw}}
+\doxysubsubsection{\texorpdfstring{m\_degrees}{m\_degrees}}
+{\footnotesize\ttfamily float Screw\+::m\+\_\+degrees\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 23 of file screw.\+h.
+
+
+
+Referenced by degrees(), and set\+Degrees().
+
+\mbox{\Hypertarget{classScrew_ac3fb25a2acf33d999489ec670309166c}\label{classScrew_ac3fb25a2acf33d999489ec670309166c}} 
+\index{Screw@{Screw}!m\_id@{m\_id}}
+\index{m\_id@{m\_id}!Screw@{Screw}}
+\doxysubsubsection{\texorpdfstring{m\_id}{m\_id}}
+{\footnotesize\ttfamily int Screw\+::m\+\_\+id\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 22 of file screw.\+h.
+
+
+
+Referenced by id(), Screw(), and set\+Id().
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Collimator\+Lib/model/\mbox{\hyperlink{screw_8h}{screw.\+h}}\item 
+Collimator\+Lib/model/\mbox{\hyperlink{screw_8cpp}{screw.\+cpp}}\end{DoxyCompactItemize}

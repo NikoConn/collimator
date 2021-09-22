@@ -1,0 +1,10 @@
+<map id="ProcessingProperties::setScale" name="ProcessingProperties::setScale">
+<area shape="rect" id="node1" title=" " alt="" coords="719,86,877,127"/>
+<area shape="rect" id="node2" href="$classProcessingPropertiesDAO.html#ae742a323ccbd067ac4a78a947bd31007" title="createObject Method for getting ProcessingProperties object using a row of a query" alt="" coords="474,57,661,98"/>
+<area shape="rect" id="node6" href="$classTelescopeDAO.html#abecbb49d2146e1fa622b3fcc04cbebcf" title="createObject Private method for getting Telescope object using a row of a query" alt="" coords="464,123,671,149"/>
+<area shape="rect" id="node3" href="$classProcessingPropertiesDAO.html#ae13fa8cfc65cfcc93dc04239e28e28aa" title="get Method for obtaining Processing properties by id" alt="" coords="200,5,416,32"/>
+<area shape="rect" id="node5" href="$classProcessingPropertiesDAO.html#a18281e04acd8796a1c5ddada95d86e05" title="getAll Method for obtaining all Processing Properties in the database" alt="" coords="215,57,401,98"/>
+<area shape="rect" id="node4" href="$classTelescopeDAO.html#ab8007734ed3b38cf790e3b01543bba3d" title="get Method for obtaining a Telescope by id" alt="" coords="7,5,151,32"/>
+<area shape="rect" id="node7" href="$classTelescopeDAO.html#a613c46217415709be8897c850f592118" title="getAll Method for obtaining all Telescopes in the database" alt="" coords="227,123,389,149"/>
+<area shape="rect" id="node8" href="$classTelescopeSelector.html#afb9404b10a36fda2bc19dedb754c3da6" title=" " alt="" coords="5,115,152,157"/>
+</map>

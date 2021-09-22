@@ -1,0 +1,5 @@
+<map id="TelescopeDAO::createObject" name="TelescopeDAO::createObject">
+<area shape="rect" id="node1" title="createObject Private method for getting Telescope object using a row of a query" alt="" coords="409,13,616,39"/>
+<area shape="rect" id="node2" href="$classTelescopeDAO.html#a613c46217415709be8897c850f592118" title="getAll Method for obtaining all Telescopes in the database" alt="" coords="200,13,361,39"/>
+<area shape="rect" id="node3" href="$classTelescopeSelector.html#afb9404b10a36fda2bc19dedb754c3da6" title=" " alt="" coords="5,5,152,47"/>
+</map>

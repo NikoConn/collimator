@@ -1,0 +1,47 @@
+<map id="TelescopeDAO::createObject" name="TelescopeDAO::createObject">
+<area shape="rect" id="node1" title="createObject Private method for getting Telescope object using a row of a query" alt="" coords="5,670,212,697"/>
+<area shape="rect" id="node2" href="$classPaintingProperties.html#acefa91af4cb9da9aceaccc9bf1ad4f71" title=" " alt="" coords="305,5,445,47"/>
+<area shape="rect" id="node4" href="$classRemoteTelescope.html#a4c24fa8c61d16ed953d5ec050dd92094" title=" " alt="" coords="262,71,487,98"/>
+<area shape="rect" id="node6" href="$classProcessingProperties.html#acd201e8e6ba046969e65da50cd4603f7" title=" " alt="" coords="295,123,454,164"/>
+<area shape="rect" id="node8" href="$classRemoteTelescope.html#a209b4d67e45fb5f01d9cb19aa2495cbe" title=" " alt="" coords="286,189,463,215"/>
+<area shape="rect" id="node10" href="$classTelescope.html#ada35d13e6a1e6adfed0dfa665014f801" title=" " alt="" coords="311,239,438,266"/>
+<area shape="rect" id="node12" href="$classPaintingProperties.html#a95066bd60102c6c6e6ec4901376d5f03" title=" " alt="" coords="305,291,445,332"/>
+<area shape="rect" id="node14" href="$classPaintingProperties.html#a1234e163fe2a2cf5acb8b6807c9317c1" title=" " alt="" coords="299,356,450,397"/>
+<area shape="rect" id="node16" href="$classTelescope.html#acf3f238b7deb831457b1bb3e1037c8b9" title=" " alt="" coords="298,422,451,449"/>
+<area shape="rect" id="node18" href="$classTelescopeUI.html#a27328f14e12d0dbbe34a9d80b1a88c52" title="setPaintingProperties Sets the given PaintingProperties to the telescope" alt="" coords="285,473,465,515"/>
+<area shape="rect" id="node20" href="$classTelescope.html#a658fcd83409cdd73be4c427900734cf7" title=" " alt="" coords="283,539,467,580"/>
+<area shape="rect" id="node22" href="$classProcessingProperties.html#ae7d42198f9dd8e15923c1c857a4b32df" title=" " alt="" coords="295,604,454,645"/>
+<area shape="rect" id="node24" href="$classTelescope.html#a194ab5e3e2a12110c17573db3e627826" title=" " alt="" coords="260,670,489,697"/>
+<area shape="rect" id="node26" href="$classProcessingProperties.html#a362c1c619fdc03e57d91cd82e4d5e14f" title=" " alt="" coords="295,721,454,763"/>
+<area shape="rect" id="node28" href="$classPaintingProperties.html#ad9cdbca52ab3a808ebf8ca39a4a5f5cb" title=" " alt="" coords="305,787,445,828"/>
+<area shape="rect" id="node30" href="$classPaintingProperties.html#ad4b69ae803386f10d5041ff6b46a6bbd" title=" " alt="" coords="297,852,452,893"/>
+<area shape="rect" id="node32" href="$classPaintingProperties.html#a40b5782d273b15bc3dfb0c0646a3a03c" title=" " alt="" coords="305,917,445,959"/>
+<area shape="rect" id="node34" href="$classProcessingProperties.html#a3504c640397be9d4bd4d07d0614a5371" title=" " alt="" coords="295,983,454,1024"/>
+<area shape="rect" id="node35" href="$classProcessingProperties.html#aa5ee647da3f759ffceb53caf04e6291c" title="ProcessingProperties::setThresholdValues." alt="" coords="295,1048,454,1089"/>
+<area shape="rect" id="node36" href="$classPaintingProperties.html#a5b4b1b35c4edc5961d9ab4d44eac8f38" title=" " alt="" coords="303,1113,446,1155"/>
+<area shape="rect" id="node38" href="$classPaintingProperties.html#acb3f4c8c057afd59ecb89bad088e6da6" title=" " alt="" coords="291,1179,459,1220"/>
+<area shape="rect" id="node40" href="$classPaintingProperties.html#a9ee554301d4c01f10c891cf66c28490b" title=" " alt="" coords="277,1244,472,1285"/>
+<area shape="rect" id="node42" href="$classPaintingProperties.html#a9a6c360dafe5d36a3fe082ef74fd2e6a" title=" " alt="" coords="305,1309,445,1351"/>
+<area shape="rect" id="node44" href="$classPaintingProperties.html#a3a3c02bd58ac6a3abc6cc57324e29372" title=" " alt="" coords="305,1375,445,1416"/>
+<area shape="rect" id="node3" href="$classPaintingProperties.html#a5deb321994c0d5a4caba8e27dd2e976a" title=" " alt="" coords="583,5,723,47"/>
+<area shape="rect" id="node5" href="$classRemoteTelescope.html#a0510a6e12c8caa5b2571d42813fba765" title=" " alt="" coords="550,71,755,98"/>
+<area shape="rect" id="node7" href="$classProcessingProperties.html#a54a1a50fc5b507b846d5cac959a44f26" title=" " alt="" coords="563,130,742,157"/>
+<area shape="rect" id="node9" href="$classRemoteTelescope.html#a7bc3188189d9a80ee998759c538661a2" title=" " alt="" coords="574,189,731,215"/>
+<area shape="rect" id="node11" href="$classTelescope.html#a30bb39fd8267e72c57ee1a725944b9e9" title=" " alt="" coords="599,239,706,266"/>
+<area shape="rect" id="node13" href="$classPaintingProperties.html#a3675f3e2562f8cd922fcb7e8da12da74" title=" " alt="" coords="573,298,733,325"/>
+<area shape="rect" id="node15" href="$classPaintingProperties.html#a557daffbefde9617f42a118a3f3acf8a" title=" " alt="" coords="583,356,723,397"/>
+<area shape="rect" id="node17" href="$classTelescope.html#a4716fc34f93601ce544b8be7d3a28e05" title=" " alt="" coords="587,422,718,449"/>
+<area shape="rect" id="node19" href="$classTelescopeUI.html#a2297bfa57fbeb23b9a78752983f2c391" title=" " alt="" coords="539,481,766,507"/>
+<area shape="rect" id="node21" href="$classTelescope.html#a6b17def3a3406df708dfa4b27181ec8c" title=" " alt="" coords="537,546,768,573"/>
+<area shape="rect" id="node23" href="$classProcessingProperties.html#a6b86f560e56b60546a13954451bee1d5" title=" " alt="" coords="573,604,732,645"/>
+<area shape="rect" id="node25" href="$classTelescope.html#a60d6a07a70e9a81cf6b17f6bd04e6397" title=" " alt="" coords="550,670,755,697"/>
+<area shape="rect" id="node27" href="$classProcessingProperties.html#a759c5d21c55391dddbb31429f8baaf93" title=" " alt="" coords="573,721,732,763"/>
+<area shape="rect" id="node29" href="$classPaintingProperties.html#a82911de6bab632dd12b56b6368bae303" title=" " alt="" coords="583,787,723,828"/>
+<area shape="rect" id="node31" href="$classPaintingProperties.html#a99615a8e73b1d26325017f9d90f0d507" title=" " alt="" coords="583,852,723,893"/>
+<area shape="rect" id="node33" href="$classPaintingProperties.html#a8e469f0253e2154bb3dc6617c6598ca3" title=" " alt="" coords="583,917,723,959"/>
+<area shape="rect" id="node37" href="$classPaintingProperties.html#a170a391450735511220f40a91290e70f" title=" " alt="" coords="583,1113,723,1155"/>
+<area shape="rect" id="node39" href="$classPaintingProperties.html#a92fee1df086c79bb12d5f58596e80af8" title=" " alt="" coords="579,1179,726,1220"/>
+<area shape="rect" id="node41" href="$classPaintingProperties.html#a66c099a1572eba592b7891575e5b15f2" title=" " alt="" coords="566,1244,739,1285"/>
+<area shape="rect" id="node43" href="$classPaintingProperties.html#ad6297b32ac45bdacce9fa7b703a1f121" title=" " alt="" coords="583,1309,723,1351"/>
+<area shape="rect" id="node45" href="$classPaintingProperties.html#a0046aa2e40294958aae970d0525c5a53" title=" " alt="" coords="583,1375,723,1416"/>
+</map>

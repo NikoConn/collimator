@@ -1,0 +1,751 @@
+\hypertarget{classCollimatorImage}{}\doxysection{Collimator\+Image Class Reference}
+\label{classCollimatorImage}\index{CollimatorImage@{CollimatorImage}}
+
+
+{\ttfamily \#include $<$collimatorimage.\+h$>$}
+
+
+
+Inheritance diagram for Collimator\+Image\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{classCollimatorImage__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Collimator\+Image\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{classCollimatorImage__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+struct \mbox{\hyperlink{structCollimatorImage_1_1Image}{Image}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Slots}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classCollimatorImage_aba19ab6405382cf61f91c78571d9afef}{properties\+Changed}} ()
+\begin{DoxyCompactList}\small\item\em properties\+Changed Slot to be called when telescope properties are changed to refresh image \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Signals}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classCollimatorImage_a3fbfb246cd81ac784cf189ed7daa5fa8}{connected\+Changed}} (bool)
+\begin{DoxyCompactList}\small\item\em connected\+Changed Signal emited when telescope is connected or disconnected \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classCollimatorImage_ab2310ef3e9927366f3b2ecc3adb1b8e9}{Collimator\+Image}} (QWidget $\ast$parent=0)
+\item 
+\mbox{\hyperlink{classCollimatorImage_a762f1f52d41f3e95ac0fa7a8385e929d}{$\sim$\+Collimator\+Image}} ()
+\item 
+void \mbox{\hyperlink{classCollimatorImage_ae03a1352492f56d4f04a2aaa3f07534c}{set\+Telescope}} (\mbox{\hyperlink{classTelescopeUI}{Telescope\+UI}} $\ast$\mbox{\hyperlink{classCollimatorImage_a6c53cadbae27880d5c0b6130cbf5ce8a}{telescope}})
+\begin{DoxyCompactList}\small\item\em set\+Telescope Sets the telescope which is going to be used for displaying properties and drawings \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classCollimatorImage_a541eff7bef5e49067318e6f7a4b92d47}{set\+Scroll\+Area}} (QScroll\+Area $\ast$parent\+Scroll\+Area)
+\begin{DoxyCompactList}\small\item\em set\+Scroll\+Area Sets the scroll area container for better zoom \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classCollimatorImage_a1a35e5ea5bf02ef7af08a1cc73e2c799}{set\+Debug}} (bool debug)
+\begin{DoxyCompactList}\small\item\em set\+Debug If true shows window with debug image every refresh \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classCollimatorImage_a11211f81b7f03b0b8880c71ba9d31ba2}{load\+Image}} (QString path)
+\begin{DoxyCompactList}\small\item\em load\+Image Loads image from path \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classCollimatorImage_ac9ff295f084594daf7225cba62598061}{connect\+Telescope}} (\mbox{\hyperlink{classRemoteTelescope}{Remote\+Telescope}} \mbox{\hyperlink{classCollimatorImage_abfdda1cb1f9aedbae0aa0e569dda1337}{remote\+Telescope}})
+\begin{DoxyCompactList}\small\item\em connect\+Telescope Connects to the given \mbox{\hyperlink{classRemoteTelescope}{Remote\+Telescope}} and starts getting images \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classCollimatorImage_a972357ec8342307900a7e03a497d8514}{zoom}} (float diff)
+\begin{DoxyCompactList}\small\item\em zoom Zoom on image \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classCollimatorImage_aca4ff9af3fff63bae16259b703ebd6c5}{refresh\+Image}} ()
+\begin{DoxyCompactList}\small\item\em refresh\+Image Reloads current image with its telescope properties \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classCollimatorImage_aad6ec641d81be27689fb679e2bdeadf5}{set\+Connected}} (bool connected)
+\begin{DoxyCompactList}\small\item\em set\+Connected Changes connection property. If false will stop receiving images \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Private Slots}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classCollimatorImage_abb96a83d7a99b3770a83fed69b4541c3}{telescope\+Detected}} (\mbox{\hyperlink{classRemoteTelescope}{Remote\+Telescope}})
+\item 
+void \mbox{\hyperlink{classCollimatorImage_a966c66cc4e8a452c08d6a681a406534b}{image\+Received}} (QString)
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classCollimatorImage_af01378ddd827f82818a9613b9f427ce8}{mouse\+Press\+Event}} (QMouse\+Event $\ast$ev)
+\item 
+void \mbox{\hyperlink{classCollimatorImage_abb08078a2c38ab6b0d94301f09e6296c}{mouse\+Release\+Event}} (QMouse\+Event $\ast$ev)
+\item 
+void \mbox{\hyperlink{classCollimatorImage_a14895238fe7135a259f05f37ae827771}{display\+Pixmap}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+struct \mbox{\hyperlink{structCollimatorImage_1_1Image}{Collimator\+Image\+::\+Image}} \mbox{\hyperlink{classCollimatorImage_af2ebf9803e47946a16b9640d6823332a}{image}}
+\item 
+bool \mbox{\hyperlink{classCollimatorImage_a8951f511cfb125a92d333ba752d039d8}{dragging}}
+\item 
+QScroll\+Area $\ast$ \mbox{\hyperlink{classCollimatorImage_a68e81d69a684a25a918311d9e742e049}{scroll\+Area}}
+\item 
+\mbox{\hyperlink{classTelescopeUI}{Telescope\+UI}} $\ast$ \mbox{\hyperlink{classCollimatorImage_a6c53cadbae27880d5c0b6130cbf5ce8a}{telescope}}
+\item 
+\mbox{\hyperlink{classRemoteTelescope}{Remote\+Telescope}} \mbox{\hyperlink{classCollimatorImage_abfdda1cb1f9aedbae0aa0e569dda1337}{remote\+Telescope}}
+\item 
+\mbox{\hyperlink{classINDIClient}{INDIClient}} \mbox{\hyperlink{classCollimatorImage_aad05961b9ea4ec281b4fdb8fbfc82a55}{client}}
+\item 
+bool \mbox{\hyperlink{classCollimatorImage_ac7d8f011d6f5d5cc1e408f5230bd4069}{show\+Debug}}
+\item 
+bool \mbox{\hyperlink{classCollimatorImage_a6f0ca84d342bcfc14e0bee596a18cf11}{m\+\_\+connected}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+
+
+Definition at line 14 of file collimatorimage.\+h.
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classCollimatorImage_ab2310ef3e9927366f3b2ecc3adb1b8e9}\label{classCollimatorImage_ab2310ef3e9927366f3b2ecc3adb1b8e9}} 
+\index{CollimatorImage@{CollimatorImage}!CollimatorImage@{CollimatorImage}}
+\index{CollimatorImage@{CollimatorImage}!CollimatorImage@{CollimatorImage}}
+\doxysubsubsection{\texorpdfstring{CollimatorImage()}{CollimatorImage()}}
+{\footnotesize\ttfamily Collimator\+Image\+::\+Collimator\+Image (\begin{DoxyParamCaption}\item[{QWidget $\ast$}]{parent = {\ttfamily 0} }\end{DoxyParamCaption})}
+
+
+
+Definition at line 14 of file collimatorimage.\+cpp.
+
+
+
+References dragging, m\+\_\+connected, show\+Debug, and telescope.
+
+\mbox{\Hypertarget{classCollimatorImage_a762f1f52d41f3e95ac0fa7a8385e929d}\label{classCollimatorImage_a762f1f52d41f3e95ac0fa7a8385e929d}} 
+\index{CollimatorImage@{CollimatorImage}!````~CollimatorImage@{$\sim$CollimatorImage}}
+\index{````~CollimatorImage@{$\sim$CollimatorImage}!CollimatorImage@{CollimatorImage}}
+\doxysubsubsection{\texorpdfstring{$\sim$CollimatorImage()}{~CollimatorImage()}}
+{\footnotesize\ttfamily Collimator\+Image\+::$\sim$\+Collimator\+Image (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line 19 of file collimatorimage.\+h.
+
+
+
+References client, INDIClient\+::disconnect(), and INDIClient\+::is\+Connected\+To\+Server().
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classCollimatorImage_a762f1f52d41f3e95ac0fa7a8385e929d_cgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classCollimatorImage_a3fbfb246cd81ac784cf189ed7daa5fa8}\label{classCollimatorImage_a3fbfb246cd81ac784cf189ed7daa5fa8}} 
+\index{CollimatorImage@{CollimatorImage}!connectedChanged@{connectedChanged}}
+\index{connectedChanged@{connectedChanged}!CollimatorImage@{CollimatorImage}}
+\doxysubsubsection{\texorpdfstring{connectedChanged}{connectedChanged}}
+{\footnotesize\ttfamily void Collimator\+Image\+::connected\+Changed (\begin{DoxyParamCaption}\item[{bool}]{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [signal]}}
+
+
+
+connected\+Changed Signal emited when telescope is connected or disconnected 
+
+
+
+Referenced by set\+Connected(), telescope\+Detected(), and Telescope\+View\+::\+Telescope\+View().
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classCollimatorImage_a3fbfb246cd81ac784cf189ed7daa5fa8_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classCollimatorImage_ac9ff295f084594daf7225cba62598061}\label{classCollimatorImage_ac9ff295f084594daf7225cba62598061}} 
+\index{CollimatorImage@{CollimatorImage}!connectTelescope@{connectTelescope}}
+\index{connectTelescope@{connectTelescope}!CollimatorImage@{CollimatorImage}}
+\doxysubsubsection{\texorpdfstring{connectTelescope()}{connectTelescope()}}
+{\footnotesize\ttfamily void Collimator\+Image\+::connect\+Telescope (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classRemoteTelescope}{Remote\+Telescope}}}]{remote\+Telescope }\end{DoxyParamCaption})}
+
+
+
+connect\+Telescope Connects to the given \mbox{\hyperlink{classRemoteTelescope}{Remote\+Telescope}} and starts getting images 
+
+
+\begin{DoxyParams}{Parameters}
+{\em remote\+Telescope} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 62 of file collimatorimage.\+cpp.
+
+
+
+References client, INDIClient\+::connect\+To\+Server(), INDIClient\+::device\+Detected(), remote\+Telescope, telescope, and telescope\+Detected().
+
+
+
+Referenced by Telescope\+View\+::connect\+Telescope().
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classCollimatorImage_ac9ff295f084594daf7225cba62598061_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classCollimatorImage_ac9ff295f084594daf7225cba62598061_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classCollimatorImage_a14895238fe7135a259f05f37ae827771}\label{classCollimatorImage_a14895238fe7135a259f05f37ae827771}} 
+\index{CollimatorImage@{CollimatorImage}!displayPixmap@{displayPixmap}}
+\index{displayPixmap@{displayPixmap}!CollimatorImage@{CollimatorImage}}
+\doxysubsubsection{\texorpdfstring{displayPixmap()}{displayPixmap()}}
+{\footnotesize\ttfamily void Collimator\+Image\+::display\+Pixmap (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classCollimatorImage_a966c66cc4e8a452c08d6a681a406534b}\label{classCollimatorImage_a966c66cc4e8a452c08d6a681a406534b}} 
+\index{CollimatorImage@{CollimatorImage}!imageReceived@{imageReceived}}
+\index{imageReceived@{imageReceived}!CollimatorImage@{CollimatorImage}}
+\doxysubsubsection{\texorpdfstring{imageReceived}{imageReceived}}
+{\footnotesize\ttfamily void Collimator\+Image\+::image\+Received (\begin{DoxyParamCaption}\item[{QString}]{file\+Path }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+
+
+Definition at line 213 of file collimatorimage.\+cpp.
+
+
+
+References client, INDIClient\+::get\+Image\+From\+Telescope(), load\+Image(), m\+\_\+connected, and remote\+Telescope.
+
+
+
+Referenced by telescope\+Detected().
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classCollimatorImage_a966c66cc4e8a452c08d6a681a406534b_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classCollimatorImage_a966c66cc4e8a452c08d6a681a406534b_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classCollimatorImage_a11211f81b7f03b0b8880c71ba9d31ba2}\label{classCollimatorImage_a11211f81b7f03b0b8880c71ba9d31ba2}} 
+\index{CollimatorImage@{CollimatorImage}!loadImage@{loadImage}}
+\index{loadImage@{loadImage}!CollimatorImage@{CollimatorImage}}
+\doxysubsubsection{\texorpdfstring{loadImage()}{loadImage()}}
+{\footnotesize\ttfamily void Collimator\+Image\+::load\+Image (\begin{DoxyParamCaption}\item[{QString}]{path }\end{DoxyParamCaption})}
+
+
+
+load\+Image Loads image from path 
+
+
+\begin{DoxyParams}{Parameters}
+{\em path} & Path of the image to be loaded \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 36 of file collimatorimage.\+cpp.
+
+
+
+References Collimator\+Image\+::\+Image\+::data, Collimator\+Image\+::\+Image\+::format, Collimator\+Image\+::\+Image\+::height, image, Collimator\+::load\+Fits\+Image(), refresh\+Image(), Collimator\+Image\+::\+Image\+::step, and Collimator\+Image\+::\+Image\+::width.
+
+
+
+Referenced by image\+Received(), and Telescope\+View\+::open\+Image\+From\+File().
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classCollimatorImage_a11211f81b7f03b0b8880c71ba9d31ba2_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classCollimatorImage_a11211f81b7f03b0b8880c71ba9d31ba2_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classCollimatorImage_af01378ddd827f82818a9613b9f427ce8}\label{classCollimatorImage_af01378ddd827f82818a9613b9f427ce8}} 
+\index{CollimatorImage@{CollimatorImage}!mousePressEvent@{mousePressEvent}}
+\index{mousePressEvent@{mousePressEvent}!CollimatorImage@{CollimatorImage}}
+\doxysubsubsection{\texorpdfstring{mousePressEvent()}{mousePressEvent()}}
+{\footnotesize\ttfamily void Collimator\+Image\+::mouse\+Press\+Event (\begin{DoxyParamCaption}\item[{QMouse\+Event $\ast$}]{ev }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 167 of file collimatorimage.\+cpp.
+
+
+
+References Painting\+Properties\+::automatic(), Painting\+Properties\+::\+Scope\+::center, dragging, Telescope\+UI\+::painting\+Properties(), Painting\+Properties\+::scope(), Painting\+Properties\+::set\+Scope(), telescope, and Painting\+Properties\+::zoom().
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classCollimatorImage_af01378ddd827f82818a9613b9f427ce8_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classCollimatorImage_abb08078a2c38ab6b0d94301f09e6296c}\label{classCollimatorImage_abb08078a2c38ab6b0d94301f09e6296c}} 
+\index{CollimatorImage@{CollimatorImage}!mouseReleaseEvent@{mouseReleaseEvent}}
+\index{mouseReleaseEvent@{mouseReleaseEvent}!CollimatorImage@{CollimatorImage}}
+\doxysubsubsection{\texorpdfstring{mouseReleaseEvent()}{mouseReleaseEvent()}}
+{\footnotesize\ttfamily void Collimator\+Image\+::mouse\+Release\+Event (\begin{DoxyParamCaption}\item[{QMouse\+Event $\ast$}]{ev }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 179 of file collimatorimage.\+cpp.
+
+
+
+References Painting\+Properties\+::automatic(), Painting\+Properties\+::\+Scope\+::center, dragging, Telescope\+UI\+::painting\+Properties(), Painting\+Properties\+::\+Scope\+::radius, refresh\+Image(), Painting\+Properties\+::scope(), Painting\+Properties\+::set\+Scope(), telescope, and Painting\+Properties\+::zoom().
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classCollimatorImage_abb08078a2c38ab6b0d94301f09e6296c_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classCollimatorImage_aba19ab6405382cf61f91c78571d9afef}\label{classCollimatorImage_aba19ab6405382cf61f91c78571d9afef}} 
+\index{CollimatorImage@{CollimatorImage}!propertiesChanged@{propertiesChanged}}
+\index{propertiesChanged@{propertiesChanged}!CollimatorImage@{CollimatorImage}}
+\doxysubsubsection{\texorpdfstring{propertiesChanged}{propertiesChanged}}
+{\footnotesize\ttfamily void Collimator\+Image\+::properties\+Changed (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+
+
+properties\+Changed Slot to be called when telescope properties are changed to refresh image 
+
+
+
+Definition at line 161 of file collimatorimage.\+cpp.
+
+
+
+References image, refresh\+Image(), and Collimator\+Image\+::\+Image\+::width.
+
+
+
+Referenced by Telescope\+View\+::\+Telescope\+View().
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classCollimatorImage_aba19ab6405382cf61f91c78571d9afef_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classCollimatorImage_aba19ab6405382cf61f91c78571d9afef_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classCollimatorImage_aca4ff9af3fff63bae16259b703ebd6c5}\label{classCollimatorImage_aca4ff9af3fff63bae16259b703ebd6c5}} 
+\index{CollimatorImage@{CollimatorImage}!refreshImage@{refreshImage}}
+\index{refreshImage@{refreshImage}!CollimatorImage@{CollimatorImage}}
+\doxysubsubsection{\texorpdfstring{refreshImage()}{refreshImage()}}
+{\footnotesize\ttfamily void Collimator\+Image\+::refresh\+Image (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+refresh\+Image Reloads current image with its telescope properties 
+
+
+
+Definition at line 130 of file collimatorimage.\+cpp.
+
+
+
+References Painting\+Properties\+::automatic(), calculate\+Screws\+Degrees(), Collimator\+Image\+::\+Image\+::data, Collimator\+Image\+::\+Image\+::format, Collimator\+Image\+::\+Image\+::height, Painting\+Properties\+::\+Mirroring\+::horizontally, image, Painting\+Properties\+::image\+Mirroring(), Painting\+Properties\+::paint(), Telescope\+UI\+::painting\+Properties(), Collimator\+::proccess\+Image(), Telescope\+::processing\+Properties(), Telescope\+::screws(), Painting\+Properties\+::set\+Image\+Results(), Telescope\+::set\+Screws(), show\+Debug, Collimator\+Image\+::\+Image\+::step, telescope, Painting\+Properties\+::\+Mirroring\+::vertically, Collimator\+Image\+::\+Image\+::width, and Painting\+Properties\+::zoom().
+
+
+
+Referenced by load\+Image(), mouse\+Release\+Event(), properties\+Changed(), and zoom().
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classCollimatorImage_aca4ff9af3fff63bae16259b703ebd6c5_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classCollimatorImage_aca4ff9af3fff63bae16259b703ebd6c5_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classCollimatorImage_aad6ec641d81be27689fb679e2bdeadf5}\label{classCollimatorImage_aad6ec641d81be27689fb679e2bdeadf5}} 
+\index{CollimatorImage@{CollimatorImage}!setConnected@{setConnected}}
+\index{setConnected@{setConnected}!CollimatorImage@{CollimatorImage}}
+\doxysubsubsection{\texorpdfstring{setConnected()}{setConnected()}}
+{\footnotesize\ttfamily void Collimator\+Image\+::set\+Connected (\begin{DoxyParamCaption}\item[{bool}]{connected }\end{DoxyParamCaption})}
+
+
+
+set\+Connected Changes connection property. If false will stop receiving images 
+
+
+\begin{DoxyParams}{Parameters}
+{\em connected} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 221 of file collimatorimage.\+cpp.
+
+
+
+References client, connected\+Changed(), INDIClient\+::disconnect(), and m\+\_\+connected.
+
+
+
+Referenced by Telescope\+View\+::disconnect\+Telescope().
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classCollimatorImage_aad6ec641d81be27689fb679e2bdeadf5_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classCollimatorImage_aad6ec641d81be27689fb679e2bdeadf5_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classCollimatorImage_a1a35e5ea5bf02ef7af08a1cc73e2c799}\label{classCollimatorImage_a1a35e5ea5bf02ef7af08a1cc73e2c799}} 
+\index{CollimatorImage@{CollimatorImage}!setDebug@{setDebug}}
+\index{setDebug@{setDebug}!CollimatorImage@{CollimatorImage}}
+\doxysubsubsection{\texorpdfstring{setDebug()}{setDebug()}}
+{\footnotesize\ttfamily void Collimator\+Image\+::set\+Debug (\begin{DoxyParamCaption}\item[{bool}]{debug }\end{DoxyParamCaption})}
+
+
+
+set\+Debug If true shows window with debug image every refresh 
+
+
+
+Definition at line 196 of file collimatorimage.\+cpp.
+
+
+
+References show\+Debug.
+
+
+
+Referenced by Telescope\+View\+::change\+Properties().
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classCollimatorImage_a1a35e5ea5bf02ef7af08a1cc73e2c799_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classCollimatorImage_a541eff7bef5e49067318e6f7a4b92d47}\label{classCollimatorImage_a541eff7bef5e49067318e6f7a4b92d47}} 
+\index{CollimatorImage@{CollimatorImage}!setScrollArea@{setScrollArea}}
+\index{setScrollArea@{setScrollArea}!CollimatorImage@{CollimatorImage}}
+\doxysubsubsection{\texorpdfstring{setScrollArea()}{setScrollArea()}}
+{\footnotesize\ttfamily void Collimator\+Image\+::set\+Scroll\+Area (\begin{DoxyParamCaption}\item[{QScroll\+Area $\ast$}]{parent\+Scroll\+Area }\end{DoxyParamCaption})}
+
+
+
+set\+Scroll\+Area Sets the scroll area container for better zoom 
+
+
+\begin{DoxyParams}{Parameters}
+{\em parent\+Scroll\+Area} & Parent QScroll\+Areal \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 30 of file collimatorimage.\+cpp.
+
+
+
+References scroll\+Area.
+
+
+
+Referenced by Telescope\+View\+::\+Telescope\+View().
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classCollimatorImage_a541eff7bef5e49067318e6f7a4b92d47_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classCollimatorImage_ae03a1352492f56d4f04a2aaa3f07534c}\label{classCollimatorImage_ae03a1352492f56d4f04a2aaa3f07534c}} 
+\index{CollimatorImage@{CollimatorImage}!setTelescope@{setTelescope}}
+\index{setTelescope@{setTelescope}!CollimatorImage@{CollimatorImage}}
+\doxysubsubsection{\texorpdfstring{setTelescope()}{setTelescope()}}
+{\footnotesize\ttfamily void Collimator\+Image\+::set\+Telescope (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classTelescopeUI}{Telescope\+UI}} $\ast$}]{telescope }\end{DoxyParamCaption})}
+
+
+
+set\+Telescope Sets the telescope which is going to be used for displaying properties and drawings 
+
+
+\begin{DoxyParams}{Parameters}
+{\em telescope} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 24 of file collimatorimage.\+cpp.
+
+
+
+References telescope.
+
+
+
+Referenced by Telescope\+View\+::\+Telescope\+View().
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classCollimatorImage_ae03a1352492f56d4f04a2aaa3f07534c_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classCollimatorImage_abb96a83d7a99b3770a83fed69b4541c3}\label{classCollimatorImage_abb96a83d7a99b3770a83fed69b4541c3}} 
+\index{CollimatorImage@{CollimatorImage}!telescopeDetected@{telescopeDetected}}
+\index{telescopeDetected@{telescopeDetected}!CollimatorImage@{CollimatorImage}}
+\doxysubsubsection{\texorpdfstring{telescopeDetected}{telescopeDetected}}
+{\footnotesize\ttfamily void Collimator\+Image\+::telescope\+Detected (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classRemoteTelescope}{Remote\+Telescope}}}]{detected\+Telescope }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+
+
+Definition at line 202 of file collimatorimage.\+cpp.
+
+
+
+References client, connected\+Changed(), INDIClient\+::get\+Image\+From\+Telescope(), INDIClient\+::image\+Received(), image\+Received(), m\+\_\+connected, Remote\+Telescope\+::name(), and remote\+Telescope.
+
+
+
+Referenced by connect\+Telescope().
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classCollimatorImage_abb96a83d7a99b3770a83fed69b4541c3_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classCollimatorImage_abb96a83d7a99b3770a83fed69b4541c3_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classCollimatorImage_a972357ec8342307900a7e03a497d8514}\label{classCollimatorImage_a972357ec8342307900a7e03a497d8514}} 
+\index{CollimatorImage@{CollimatorImage}!zoom@{zoom}}
+\index{zoom@{zoom}!CollimatorImage@{CollimatorImage}}
+\doxysubsubsection{\texorpdfstring{zoom()}{zoom()}}
+{\footnotesize\ttfamily void Collimator\+Image\+::zoom (\begin{DoxyParamCaption}\item[{float}]{diff }\end{DoxyParamCaption})}
+
+
+
+zoom Zoom on image 
+
+
+\begin{DoxyParams}{Parameters}
+{\em diff} & Float value of the zoom diff to do. If negative will unzoom \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 69 of file collimatorimage.\+cpp.
+
+
+
+References Telescope\+UI\+::painting\+Properties(), refresh\+Image(), scroll\+Area, Painting\+Properties\+::set\+Zoom(), telescope, and Painting\+Properties\+::zoom().
+
+
+
+Referenced by Telescope\+View\+::\+Telescope\+View().
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classCollimatorImage_a972357ec8342307900a7e03a497d8514_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classCollimatorImage_a972357ec8342307900a7e03a497d8514_icgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classCollimatorImage_aad05961b9ea4ec281b4fdb8fbfc82a55}\label{classCollimatorImage_aad05961b9ea4ec281b4fdb8fbfc82a55}} 
+\index{CollimatorImage@{CollimatorImage}!client@{client}}
+\index{client@{client}!CollimatorImage@{CollimatorImage}}
+\doxysubsubsection{\texorpdfstring{client}{client}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classINDIClient}{INDIClient}} Collimator\+Image\+::client\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 90 of file collimatorimage.\+h.
+
+
+
+Referenced by connect\+Telescope(), image\+Received(), set\+Connected(), telescope\+Detected(), and $\sim$\+Collimator\+Image().
+
+\mbox{\Hypertarget{classCollimatorImage_a8951f511cfb125a92d333ba752d039d8}\label{classCollimatorImage_a8951f511cfb125a92d333ba752d039d8}} 
+\index{CollimatorImage@{CollimatorImage}!dragging@{dragging}}
+\index{dragging@{dragging}!CollimatorImage@{CollimatorImage}}
+\doxysubsubsection{\texorpdfstring{dragging}{dragging}}
+{\footnotesize\ttfamily bool Collimator\+Image\+::dragging\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 85 of file collimatorimage.\+h.
+
+
+
+Referenced by Collimator\+Image(), mouse\+Press\+Event(), and mouse\+Release\+Event().
+
+\mbox{\Hypertarget{classCollimatorImage_af2ebf9803e47946a16b9640d6823332a}\label{classCollimatorImage_af2ebf9803e47946a16b9640d6823332a}} 
+\index{CollimatorImage@{CollimatorImage}!image@{image}}
+\index{image@{image}!CollimatorImage@{CollimatorImage}}
+\doxysubsubsection{\texorpdfstring{image}{image}}
+{\footnotesize\ttfamily struct \mbox{\hyperlink{structCollimatorImage_1_1Image}{Collimator\+Image\+::\+Image}} Collimator\+Image\+::image\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Referenced by load\+Image(), properties\+Changed(), and refresh\+Image().
+
+\mbox{\Hypertarget{classCollimatorImage_a6f0ca84d342bcfc14e0bee596a18cf11}\label{classCollimatorImage_a6f0ca84d342bcfc14e0bee596a18cf11}} 
+\index{CollimatorImage@{CollimatorImage}!m\_connected@{m\_connected}}
+\index{m\_connected@{m\_connected}!CollimatorImage@{CollimatorImage}}
+\doxysubsubsection{\texorpdfstring{m\_connected}{m\_connected}}
+{\footnotesize\ttfamily bool Collimator\+Image\+::m\+\_\+connected\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 92 of file collimatorimage.\+h.
+
+
+
+Referenced by Collimator\+Image(), image\+Received(), set\+Connected(), and telescope\+Detected().
+
+\mbox{\Hypertarget{classCollimatorImage_abfdda1cb1f9aedbae0aa0e569dda1337}\label{classCollimatorImage_abfdda1cb1f9aedbae0aa0e569dda1337}} 
+\index{CollimatorImage@{CollimatorImage}!remoteTelescope@{remoteTelescope}}
+\index{remoteTelescope@{remoteTelescope}!CollimatorImage@{CollimatorImage}}
+\doxysubsubsection{\texorpdfstring{remoteTelescope}{remoteTelescope}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classRemoteTelescope}{Remote\+Telescope}} Collimator\+Image\+::remote\+Telescope\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 89 of file collimatorimage.\+h.
+
+
+
+Referenced by connect\+Telescope(), image\+Received(), and telescope\+Detected().
+
+\mbox{\Hypertarget{classCollimatorImage_a68e81d69a684a25a918311d9e742e049}\label{classCollimatorImage_a68e81d69a684a25a918311d9e742e049}} 
+\index{CollimatorImage@{CollimatorImage}!scrollArea@{scrollArea}}
+\index{scrollArea@{scrollArea}!CollimatorImage@{CollimatorImage}}
+\doxysubsubsection{\texorpdfstring{scrollArea}{scrollArea}}
+{\footnotesize\ttfamily QScroll\+Area$\ast$ Collimator\+Image\+::scroll\+Area\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 87 of file collimatorimage.\+h.
+
+
+
+Referenced by set\+Scroll\+Area(), and zoom().
+
+\mbox{\Hypertarget{classCollimatorImage_ac7d8f011d6f5d5cc1e408f5230bd4069}\label{classCollimatorImage_ac7d8f011d6f5d5cc1e408f5230bd4069}} 
+\index{CollimatorImage@{CollimatorImage}!showDebug@{showDebug}}
+\index{showDebug@{showDebug}!CollimatorImage@{CollimatorImage}}
+\doxysubsubsection{\texorpdfstring{showDebug}{showDebug}}
+{\footnotesize\ttfamily bool Collimator\+Image\+::show\+Debug\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 91 of file collimatorimage.\+h.
+
+
+
+Referenced by Collimator\+Image(), refresh\+Image(), and set\+Debug().
+
+\mbox{\Hypertarget{classCollimatorImage_a6c53cadbae27880d5c0b6130cbf5ce8a}\label{classCollimatorImage_a6c53cadbae27880d5c0b6130cbf5ce8a}} 
+\index{CollimatorImage@{CollimatorImage}!telescope@{telescope}}
+\index{telescope@{telescope}!CollimatorImage@{CollimatorImage}}
+\doxysubsubsection{\texorpdfstring{telescope}{telescope}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classTelescopeUI}{Telescope\+UI}}$\ast$ Collimator\+Image\+::telescope\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 88 of file collimatorimage.\+h.
+
+
+
+Referenced by Collimator\+Image(), connect\+Telescope(), mouse\+Press\+Event(), mouse\+Release\+Event(), refresh\+Image(), set\+Telescope(), and zoom().
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+logic/\mbox{\hyperlink{collimatorimage_8h}{collimatorimage.\+h}}\item 
+logic/\mbox{\hyperlink{collimatorimage_8cpp}{collimatorimage.\+cpp}}\end{DoxyCompactItemize}

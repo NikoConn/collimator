@@ -1,0 +1,13 @@
+[Desktop Entry]
+Version=1.0
+Name=CollimatorDesktop
+Comment=Easy collimation of your telescope
+GenericName=Telescope Collimator
+Keywords=Collimate;Telescope;Collimation
+Exec=/bin/CollimatorDesktop
+Terminal=false
+X-MultipleArgs=false
+Type=Application
+Categories=GNOME;GTK;Stars;
+StartupNotify=true
+

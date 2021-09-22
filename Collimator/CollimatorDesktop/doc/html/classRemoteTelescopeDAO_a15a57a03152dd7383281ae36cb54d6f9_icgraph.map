@@ -1,0 +1,6 @@
+<map id="RemoteTelescopeDAO::createObject" name="RemoteTelescopeDAO::createObject">
+<area shape="rect" id="node1" title="createObject Method for getting RemoteTelescope" alt="" coords="440,27,607,69"/>
+<area shape="rect" id="node2" href="$classRemoteTelescopeDAO.html#ae9e7543afae3be685c4507bc4c9f41cd" title="get Method for obtaining Remote Telescope by id" alt="" coords="197,5,392,32"/>
+<area shape="rect" id="node4" href="$classRemoteTelescopeDAO.html#a624e152d45c81ca3c5150bf2ded85d10" title="getAll Method for obtaining all Remote Telescopes in the database" alt="" coords="211,57,378,98"/>
+<area shape="rect" id="node3" href="$classTelescopeDAO.html#ab8007734ed3b38cf790e3b01543bba3d" title="get Method for obtaining a Telescope by id" alt="" coords="5,5,149,32"/>
+</map>

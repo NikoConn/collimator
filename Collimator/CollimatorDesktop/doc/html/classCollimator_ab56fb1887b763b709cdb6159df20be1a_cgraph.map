@@ -1,0 +1,10 @@
+<map id="Collimator::proccessImage" name="Collimator::proccessImage">
+<area shape="rect" id="node1" title=" " alt="" coords="5,180,201,207"/>
+<area shape="rect" id="node2" href="$classCollimator.html#a35c3dc3ddeb79365d9053d41d28720c5" title=" " alt="" coords="249,5,432,32"/>
+<area shape="rect" id="node3" href="$classCollimator.html#af454be877a69247fb77ace674efc1c78" title="massCenter Calcula el centro de masa a partir de la escala de grises; cuando es blanco,..." alt="" coords="253,56,429,83"/>
+<area shape="rect" id="node4" href="$classProcessingProperties.html#a6b86f560e56b60546a13954451bee1d5" title=" " alt="" coords="261,107,420,149"/>
+<area shape="rect" id="node5" href="$classProcessingProperties.html#a759c5d21c55391dddbb31429f8baaf93" title=" " alt="" coords="261,173,420,214"/>
+<area shape="rect" id="node6" href="$classCollimator.html#aaa0647c476e16abb824a1b49e135f408" title="strench Contrast stretching" alt="" coords="267,239,414,265"/>
+<area shape="rect" id="node7" href="$classProcessingProperties.html#a6bd8798a349a8fc2c0f0cc0b54a1df6c" title=" " alt="" coords="261,290,420,331"/>
+<area shape="rect" id="node8" href="$classProcessingProperties.html#a350e8284c0f83001fd6fa967623d27c7" title=" " alt="" coords="261,355,420,397"/>
+</map>

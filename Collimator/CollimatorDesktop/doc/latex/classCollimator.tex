@@ -1,0 +1,292 @@
+\hypertarget{classCollimator}{}\doxysection{Collimator Class Reference}
+\label{classCollimator}\index{Collimator@{Collimator}}
+
+
+{\ttfamily \#include $<$collimator.\+h$>$}
+
+
+
+Collaboration diagram for Collimator\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{classCollimator__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classCollimator_ab2062ad05e39f20bd9ba5563a713a28e}{Collimator}} (\mbox{\hyperlink{classProcessingProperties}{Processing\+Properties}} $\ast$propiertes)
+\item 
+\mbox{\hyperlink{classImageResults}{Image\+Results}} $\ast$ \mbox{\hyperlink{classCollimator_ab56fb1887b763b709cdb6159df20be1a}{proccess\+Image}} (QImage image, bool showdebug=false)
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static Mat \mbox{\hyperlink{classCollimator_aec7674bb6fa3eefe5fc595b019b8dd0b}{load\+Fits\+Image}} (char $\ast$filename)
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+Mat \mbox{\hyperlink{classCollimator_ab5553a08750d80761ff9a49d3edf1657}{original}}
+\item 
+Mat \mbox{\hyperlink{classCollimator_af02abcb309027b1c7ac2116563b0a90b}{scaled}}
+\item 
+Mat \mbox{\hyperlink{classCollimator_ae730dfbc5d4d81481b87718f9a0f0cb1}{binary}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static void \mbox{\hyperlink{classCollimator_aaa0647c476e16abb824a1b49e135f408}{strench}} (Mat $\ast$img, int vmin, int vmax)
+\begin{DoxyCompactList}\small\item\em strench Contrast stretching \end{DoxyCompactList}\item 
+static void \mbox{\hyperlink{classCollimator_af454be877a69247fb77ace674efc1c78}{mass\+Center}} (Mat $\ast$img, float $\ast$cx, float $\ast$cy)
+\begin{DoxyCompactList}\small\item\em mass\+Center Calcula el centro de masa a partir de la escala de grises; cuando es blanco, suma el valor para mas tarde dividirlo \end{DoxyCompactList}\item 
+static Rect \mbox{\hyperlink{classCollimator_a35c3dc3ddeb79365d9053d41d28720c5}{bounding\+Box}} (Mat $\ast$img, int cx, int cy, int radius)
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classProcessingProperties}{Processing\+Properties}} $\ast$ \mbox{\hyperlink{classCollimator_ab745af0460b3444f778471da95089e15}{m\+\_\+propiertes}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+
+
+Definition at line 13 of file collimator.\+h.
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classCollimator_ab2062ad05e39f20bd9ba5563a713a28e}\label{classCollimator_ab2062ad05e39f20bd9ba5563a713a28e}} 
+\index{Collimator@{Collimator}!Collimator@{Collimator}}
+\index{Collimator@{Collimator}!Collimator@{Collimator}}
+\doxysubsubsection{\texorpdfstring{Collimator()}{Collimator()}}
+{\footnotesize\ttfamily Collimator\+::\+Collimator (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classProcessingProperties}{Processing\+Properties}} $\ast$}]{propiertes }\end{DoxyParamCaption})}
+
+
+
+Definition at line 16 of file collimator.\+cpp.
+
+
+
+References m\+\_\+propiertes.
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classCollimator_a35c3dc3ddeb79365d9053d41d28720c5}\label{classCollimator_a35c3dc3ddeb79365d9053d41d28720c5}} 
+\index{Collimator@{Collimator}!boundingBox@{boundingBox}}
+\index{boundingBox@{boundingBox}!Collimator@{Collimator}}
+\doxysubsubsection{\texorpdfstring{boundingBox()}{boundingBox()}}
+{\footnotesize\ttfamily Rect Collimator\+::bounding\+Box (\begin{DoxyParamCaption}\item[{Mat $\ast$}]{img,  }\item[{int}]{cx,  }\item[{int}]{cy,  }\item[{int}]{radius }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+
+
+Definition at line 133 of file collimator.\+cpp.
+
+
+
+Referenced by proccess\+Image().
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classCollimator_a35c3dc3ddeb79365d9053d41d28720c5_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classCollimator_aec7674bb6fa3eefe5fc595b019b8dd0b}\label{classCollimator_aec7674bb6fa3eefe5fc595b019b8dd0b}} 
+\index{Collimator@{Collimator}!loadFitsImage@{loadFitsImage}}
+\index{loadFitsImage@{loadFitsImage}!Collimator@{Collimator}}
+\doxysubsubsection{\texorpdfstring{loadFitsImage()}{loadFitsImage()}}
+{\footnotesize\ttfamily Mat Collimator\+::load\+Fits\+Image (\begin{DoxyParamCaption}\item[{char $\ast$}]{filename }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Definition at line 21 of file collimator.\+cpp.
+
+
+
+Referenced by Collimator\+Image\+::load\+Image().
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classCollimator_aec7674bb6fa3eefe5fc595b019b8dd0b_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classCollimator_af454be877a69247fb77ace674efc1c78}\label{classCollimator_af454be877a69247fb77ace674efc1c78}} 
+\index{Collimator@{Collimator}!massCenter@{massCenter}}
+\index{massCenter@{massCenter}!Collimator@{Collimator}}
+\doxysubsubsection{\texorpdfstring{massCenter()}{massCenter()}}
+{\footnotesize\ttfamily void Collimator\+::mass\+Center (\begin{DoxyParamCaption}\item[{Mat $\ast$}]{img,  }\item[{float $\ast$}]{cx,  }\item[{float $\ast$}]{cy }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+
+
+mass\+Center Calcula el centro de masa a partir de la escala de grises; cuando es blanco, suma el valor para mas tarde dividirlo 
+
+
+\begin{DoxyParams}{Parameters}
+{\em img} & \\
+\hline
+{\em cx} & \\
+\hline
+{\em cy} & \\
+\hline
+{\em radius} & radio desde x e y, si es 0 es TODA la imagen \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 99 of file collimator.\+cpp.
+
+
+
+Referenced by proccess\+Image().
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classCollimator_af454be877a69247fb77ace674efc1c78_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classCollimator_ab56fb1887b763b709cdb6159df20be1a}\label{classCollimator_ab56fb1887b763b709cdb6159df20be1a}} 
+\index{Collimator@{Collimator}!proccessImage@{proccessImage}}
+\index{proccessImage@{proccessImage}!Collimator@{Collimator}}
+\doxysubsubsection{\texorpdfstring{proccessImage()}{proccessImage()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classImageResults}{Image\+Results}} $\ast$ Collimator\+::proccess\+Image (\begin{DoxyParamCaption}\item[{QImage}]{image,  }\item[{bool}]{showdebug = {\ttfamily false} }\end{DoxyParamCaption})}
+
+
+
+Definition at line 172 of file collimator.\+cpp.
+
+
+
+References binary, bounding\+Box(), Processing\+Properties\+::\+Threshold\+Values\+::constant, m\+\_\+propiertes, mass\+Center(), Processing\+Properties\+::\+Stretching\+Values\+::max, Processing\+Properties\+::\+Stretching\+Values\+::min, original, Processing\+Properties\+::refinate\+Radius(), Processing\+Properties\+::scale(), scaled, strench(), Processing\+Properties\+::stretching\+Values(), Processing\+Properties\+::\+Threshold\+Values\+::threshold\+Size, Processing\+Properties\+::threshold\+Values(), Image\+Results\+::\+Point\+::x, and Image\+Results\+::\+Point\+::y.
+
+
+
+Referenced by Collimator\+Image\+::refresh\+Image().
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classCollimator_ab56fb1887b763b709cdb6159df20be1a_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classCollimator_ab56fb1887b763b709cdb6159df20be1a_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classCollimator_aaa0647c476e16abb824a1b49e135f408}\label{classCollimator_aaa0647c476e16abb824a1b49e135f408}} 
+\index{Collimator@{Collimator}!strench@{strench}}
+\index{strench@{strench}!Collimator@{Collimator}}
+\doxysubsubsection{\texorpdfstring{strench()}{strench()}}
+{\footnotesize\ttfamily void Collimator\+::strench (\begin{DoxyParamCaption}\item[{Mat $\ast$}]{img,  }\item[{int}]{vmin,  }\item[{int}]{vmax }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+
+
+strench Contrast stretching 
+
+
+\begin{DoxyParams}{Parameters}
+{\em img} & imagen \\
+\hline
+{\em vmin} & \\
+\hline
+{\em vmax} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 72 of file collimator.\+cpp.
+
+
+
+Referenced by proccess\+Image().
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classCollimator_aaa0647c476e16abb824a1b49e135f408_icgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classCollimator_ae730dfbc5d4d81481b87718f9a0f0cb1}\label{classCollimator_ae730dfbc5d4d81481b87718f9a0f0cb1}} 
+\index{Collimator@{Collimator}!binary@{binary}}
+\index{binary@{binary}!Collimator@{Collimator}}
+\doxysubsubsection{\texorpdfstring{binary}{binary}}
+{\footnotesize\ttfamily Mat Collimator\+::binary}
+
+
+
+Definition at line 20 of file collimator.\+h.
+
+
+
+Referenced by proccess\+Image().
+
+\mbox{\Hypertarget{classCollimator_ab745af0460b3444f778471da95089e15}\label{classCollimator_ab745af0460b3444f778471da95089e15}} 
+\index{Collimator@{Collimator}!m\_propiertes@{m\_propiertes}}
+\index{m\_propiertes@{m\_propiertes}!Collimator@{Collimator}}
+\doxysubsubsection{\texorpdfstring{m\_propiertes}{m\_propiertes}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classProcessingProperties}{Processing\+Properties}}$\ast$ Collimator\+::m\+\_\+propiertes\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 25 of file collimator.\+h.
+
+
+
+Referenced by Collimator(), and proccess\+Image().
+
+\mbox{\Hypertarget{classCollimator_ab5553a08750d80761ff9a49d3edf1657}\label{classCollimator_ab5553a08750d80761ff9a49d3edf1657}} 
+\index{Collimator@{Collimator}!original@{original}}
+\index{original@{original}!Collimator@{Collimator}}
+\doxysubsubsection{\texorpdfstring{original}{original}}
+{\footnotesize\ttfamily Mat Collimator\+::original}
+
+
+
+Definition at line 18 of file collimator.\+h.
+
+
+
+Referenced by proccess\+Image().
+
+\mbox{\Hypertarget{classCollimator_af02abcb309027b1c7ac2116563b0a90b}\label{classCollimator_af02abcb309027b1c7ac2116563b0a90b}} 
+\index{Collimator@{Collimator}!scaled@{scaled}}
+\index{scaled@{scaled}!Collimator@{Collimator}}
+\doxysubsubsection{\texorpdfstring{scaled}{scaled}}
+{\footnotesize\ttfamily Mat Collimator\+::scaled}
+
+
+
+Definition at line 19 of file collimator.\+h.
+
+
+
+Referenced by proccess\+Image().
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Collimator\+Lib/\mbox{\hyperlink{collimator_8h}{collimator.\+h}}\item 
+Collimator\+Lib/\mbox{\hyperlink{collimator_8cpp}{collimator.\+cpp}}\end{DoxyCompactItemize}

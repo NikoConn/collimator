@@ -1,0 +1,204 @@
+\hypertarget{classDatabaseConnectionSingleton}{}\doxysection{Database\+Connection\+Singleton Class Reference}
+\label{classDatabaseConnectionSingleton}\index{DatabaseConnectionSingleton@{DatabaseConnectionSingleton}}
+
+
+\mbox{\hyperlink{classDatabaseConnectionSingleton}{Database\+Connection\+Singleton}} Class for using only one instance of the database. SQLQLITE only accepts one connection at time.  
+
+
+
+
+{\ttfamily \#include $<$databaseconnectionsingleton.\+h$>$}
+
+
+
+Collaboration diagram for Database\+Connection\+Singleton\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=258pt]{classDatabaseConnectionSingleton__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+QSql\+Database \mbox{\hyperlink{classDatabaseConnectionSingleton_aa96da3fe7bc59a42dd6186f1f16d779f}{get\+Database}} ()
+\begin{DoxyCompactList}\small\item\em get\+Database \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static \mbox{\hyperlink{classDatabaseConnectionSingleton}{Database\+Connection\+Singleton}} \& \mbox{\hyperlink{classDatabaseConnectionSingleton_a59fe0d5d27fee668962065c071ef2746}{instance}} ()
+\begin{DoxyCompactList}\small\item\em instance Method that creates an instance if it is not created or returns the created instance \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classDatabaseConnectionSingleton_afb65061a2f1be72bedf215318a2f6a9f}{Database\+Connection\+Singleton}} ()
+\item 
+void \mbox{\hyperlink{classDatabaseConnectionSingleton_a7b7577b9fb8a6a9cd7a1ef09b697435b}{create\+Tables}} ()
+\begin{DoxyCompactList}\small\item\em create\+Tables Method that creates all tables needed \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+QSql\+Database \mbox{\hyperlink{classDatabaseConnectionSingleton_a61890de4796c8adaf8febed02de49490}{db}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\mbox{\hyperlink{classDatabaseConnectionSingleton}{Database\+Connection\+Singleton}} Class for using only one instance of the database. SQLQLITE only accepts one connection at time. 
+
+Definition at line 11 of file databaseconnectionsingleton.\+h.
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classDatabaseConnectionSingleton_afb65061a2f1be72bedf215318a2f6a9f}\label{classDatabaseConnectionSingleton_afb65061a2f1be72bedf215318a2f6a9f}} 
+\index{DatabaseConnectionSingleton@{DatabaseConnectionSingleton}!DatabaseConnectionSingleton@{DatabaseConnectionSingleton}}
+\index{DatabaseConnectionSingleton@{DatabaseConnectionSingleton}!DatabaseConnectionSingleton@{DatabaseConnectionSingleton}}
+\doxysubsubsection{\texorpdfstring{DatabaseConnectionSingleton()}{DatabaseConnectionSingleton()}}
+{\footnotesize\ttfamily Database\+Connection\+Singleton\+::\+Database\+Connection\+Singleton (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 3 of file databaseconnectionsingleton.\+cpp.
+
+
+
+References create\+Tables(), and db.
+
+
+
+Referenced by instance().
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classDatabaseConnectionSingleton_afb65061a2f1be72bedf215318a2f6a9f_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classDatabaseConnectionSingleton_afb65061a2f1be72bedf215318a2f6a9f_icgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classDatabaseConnectionSingleton_a7b7577b9fb8a6a9cd7a1ef09b697435b}\label{classDatabaseConnectionSingleton_a7b7577b9fb8a6a9cd7a1ef09b697435b}} 
+\index{DatabaseConnectionSingleton@{DatabaseConnectionSingleton}!createTables@{createTables}}
+\index{createTables@{createTables}!DatabaseConnectionSingleton@{DatabaseConnectionSingleton}}
+\doxysubsubsection{\texorpdfstring{createTables()}{createTables()}}
+{\footnotesize\ttfamily void Database\+Connection\+Singleton\+::create\+Tables (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+create\+Tables Method that creates all tables needed 
+
+
+
+Definition at line 30 of file databaseconnectionsingleton.\+cpp.
+
+
+
+References db.
+
+
+
+Referenced by Database\+Connection\+Singleton().
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classDatabaseConnectionSingleton_a7b7577b9fb8a6a9cd7a1ef09b697435b_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classDatabaseConnectionSingleton_aa96da3fe7bc59a42dd6186f1f16d779f}\label{classDatabaseConnectionSingleton_aa96da3fe7bc59a42dd6186f1f16d779f}} 
+\index{DatabaseConnectionSingleton@{DatabaseConnectionSingleton}!getDatabase@{getDatabase}}
+\index{getDatabase@{getDatabase}!DatabaseConnectionSingleton@{DatabaseConnectionSingleton}}
+\doxysubsubsection{\texorpdfstring{getDatabase()}{getDatabase()}}
+{\footnotesize\ttfamily QSql\+Database Database\+Connection\+Singleton\+::get\+Database (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+get\+Database 
+
+\begin{DoxyReturn}{Returns}
+Returns single instance of the database 
+\end{DoxyReturn}
+
+
+Definition at line 87 of file databaseconnectionsingleton.\+cpp.
+
+
+
+References db.
+
+
+
+Referenced by Painting\+Properties\+DAO\+::get(), Processing\+Properties\+DAO\+::get(), Remote\+Telescope\+DAO\+::get(), Telescope\+DAO\+::get(), Painting\+Properties\+DAO\+::get\+All(), Processing\+Properties\+DAO\+::get\+All(), Remote\+Telescope\+DAO\+::get\+All(), Telescope\+DAO\+::get\+All(), Processing\+Properties\+DAO\+::remove(), Remote\+Telescope\+DAO\+::remove(), Telescope\+DAO\+::remove(), Painting\+Properties\+DAO\+::save(), Processing\+Properties\+DAO\+::save(), Remote\+Telescope\+DAO\+::save(), Telescope\+DAO\+::save(), Painting\+Properties\+DAO\+::update(), Processing\+Properties\+DAO\+::update(), Remote\+Telescope\+DAO\+::update(), and Telescope\+DAO\+::update().
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classDatabaseConnectionSingleton_aa96da3fe7bc59a42dd6186f1f16d779f_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classDatabaseConnectionSingleton_a59fe0d5d27fee668962065c071ef2746}\label{classDatabaseConnectionSingleton_a59fe0d5d27fee668962065c071ef2746}} 
+\index{DatabaseConnectionSingleton@{DatabaseConnectionSingleton}!instance@{instance}}
+\index{instance@{instance}!DatabaseConnectionSingleton@{DatabaseConnectionSingleton}}
+\doxysubsubsection{\texorpdfstring{instance()}{instance()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classDatabaseConnectionSingleton}{Database\+Connection\+Singleton}} \& Database\+Connection\+Singleton\+::instance (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+instance Method that creates an instance if it is not created or returns the created instance 
+
+\begin{DoxyReturn}{Returns}
+instance of the databse connection 
+\end{DoxyReturn}
+
+
+Definition at line 21 of file databaseconnectionsingleton.\+cpp.
+
+
+
+References Database\+Connection\+Singleton().
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classDatabaseConnectionSingleton_a59fe0d5d27fee668962065c071ef2746_cgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classDatabaseConnectionSingleton_a61890de4796c8adaf8febed02de49490}\label{classDatabaseConnectionSingleton_a61890de4796c8adaf8febed02de49490}} 
+\index{DatabaseConnectionSingleton@{DatabaseConnectionSingleton}!db@{db}}
+\index{db@{db}!DatabaseConnectionSingleton@{DatabaseConnectionSingleton}}
+\doxysubsubsection{\texorpdfstring{db}{db}}
+{\footnotesize\ttfamily QSql\+Database Database\+Connection\+Singleton\+::db\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 29 of file databaseconnectionsingleton.\+h.
+
+
+
+Referenced by create\+Tables(), Database\+Connection\+Singleton(), and get\+Database().
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+persistence/\mbox{\hyperlink{databaseconnectionsingleton_8h}{databaseconnectionsingleton.\+h}}\item 
+persistence/\mbox{\hyperlink{databaseconnectionsingleton_8cpp}{databaseconnectionsingleton.\+cpp}}\end{DoxyCompactItemize}

@@ -1,0 +1,8 @@
+<map id="ConnectionSettingsDialog::setRemoteTelescope" name="ConnectionSettingsDialog::setRemoteTelescope">
+<area shape="rect" id="node1" title="setRemoteTelescope Sets the remote telescope from where to show the data" alt="" coords="5,99,196,141"/>
+<area shape="rect" id="node2" href="$classRemoteTelescope.html#a0510a6e12c8caa5b2571d42813fba765" title=" " alt="" coords="244,5,449,32"/>
+<area shape="rect" id="node3" href="$classRemoteTelescope.html#a5f71ce0b3c12d755ab1f59427eff007d" title=" " alt="" coords="260,56,433,83"/>
+<area shape="rect" id="node4" href="$classRemoteTelescope.html#ad6a8fc9dd0f73fa697c5127817c04d6e" title=" " alt="" coords="255,107,438,133"/>
+<area shape="rect" id="node5" href="$classRemoteTelescope.html#a24e00444cb2d6ed6d33e361e5eab185a" title=" " alt="" coords="261,157,432,184"/>
+<area shape="rect" id="node6" href="$classConnectionSettingsDialog.html#adf10babbb0e23da85125639acbaa18d6" title="remoteTelescope Returns the current Remote Telescope with values from UI input" alt="" coords="251,209,442,250"/>
+</map>

@@ -1,0 +1,331 @@
+\hypertarget{classConnectionSettingsDialog}{}\doxysection{Connection\+Settings\+Dialog Class Reference}
+\label{classConnectionSettingsDialog}\index{ConnectionSettingsDialog@{ConnectionSettingsDialog}}
+
+
+{\ttfamily \#include $<$connectionsettingsdialog.\+h$>$}
+
+
+
+Inheritance diagram for Connection\+Settings\+Dialog\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=288pt]{classConnectionSettingsDialog__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Connection\+Settings\+Dialog\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{classConnectionSettingsDialog__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classConnectionSettingsDialog_a2ef39b6dfd00e2b15060e6ca0e6c3f64}{Connection\+Settings\+Dialog}} (QWidget $\ast$parent=nullptr)
+\item 
+\mbox{\hyperlink{classConnectionSettingsDialog_a816a16914c85b4410e4160e4bd4a50d8}{$\sim$\+Connection\+Settings\+Dialog}} ()
+\item 
+void \mbox{\hyperlink{classConnectionSettingsDialog_a66d4b3ac7ab00f5a5cd7eed70ad55eaf}{set\+Remote\+Telescope}} (\mbox{\hyperlink{classRemoteTelescope}{Remote\+Telescope}} \mbox{\hyperlink{classConnectionSettingsDialog_adf10babbb0e23da85125639acbaa18d6}{remote\+Telescope}})
+\begin{DoxyCompactList}\small\item\em set\+Remote\+Telescope Sets the remote telescope from where to show the data \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classRemoteTelescope}{Remote\+Telescope}} \mbox{\hyperlink{classConnectionSettingsDialog_adf10babbb0e23da85125639acbaa18d6}{remote\+Telescope}} ()
+\begin{DoxyCompactList}\small\item\em remote\+Telescope Returns the current Remote \mbox{\hyperlink{classTelescope}{Telescope}} with values from UI input \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Private Slots}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classConnectionSettingsDialog_a2d233be36f1f20f34496fe0e71cdc009}{connect\+To\+Server}} ()
+\item 
+void \mbox{\hyperlink{classConnectionSettingsDialog_a5944005aa81d60e1ac5f6261fd8fe4bd}{device\+Detected}} (\mbox{\hyperlink{classRemoteTelescope}{Remote\+Telescope}})
+\item 
+void \mbox{\hyperlink{classConnectionSettingsDialog_aa75fcae2d1b7a3bf9a716372b5191d64}{ok}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+Ui\+::\+Connection\+Settings\+Dialog $\ast$ \mbox{\hyperlink{classConnectionSettingsDialog_aa893d552f5731e10dbcc0315a8746b1f}{ui}}
+\item 
+\mbox{\hyperlink{classINDIClient}{INDIClient}} \mbox{\hyperlink{classConnectionSettingsDialog_aa69eae32b7f9365177a75d08add1f0a4}{indi\+Client}}
+\item 
+\mbox{\hyperlink{classRemoteTelescope}{Remote\+Telescope}} \mbox{\hyperlink{classConnectionSettingsDialog_a2398e101e38f7f4bbfeb155275e9d8f8}{m\+\_\+remote\+Telescope}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+
+
+Definition at line 12 of file connectionsettingsdialog.\+h.
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classConnectionSettingsDialog_a2ef39b6dfd00e2b15060e6ca0e6c3f64}\label{classConnectionSettingsDialog_a2ef39b6dfd00e2b15060e6ca0e6c3f64}} 
+\index{ConnectionSettingsDialog@{ConnectionSettingsDialog}!ConnectionSettingsDialog@{ConnectionSettingsDialog}}
+\index{ConnectionSettingsDialog@{ConnectionSettingsDialog}!ConnectionSettingsDialog@{ConnectionSettingsDialog}}
+\doxysubsubsection{\texorpdfstring{ConnectionSettingsDialog()}{ConnectionSettingsDialog()}}
+{\footnotesize\ttfamily Connection\+Settings\+Dialog\+::\+Connection\+Settings\+Dialog (\begin{DoxyParamCaption}\item[{QWidget $\ast$}]{parent = {\ttfamily nullptr} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [explicit]}}
+
+
+
+Definition at line 9 of file connectionsettingsdialog.\+cpp.
+
+
+
+References connect\+To\+Server(), INDIClient\+::device\+Detected(), device\+Detected(), indi\+Client, ok(), and ui.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classConnectionSettingsDialog_a2ef39b6dfd00e2b15060e6ca0e6c3f64_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classConnectionSettingsDialog_a816a16914c85b4410e4160e4bd4a50d8}\label{classConnectionSettingsDialog_a816a16914c85b4410e4160e4bd4a50d8}} 
+\index{ConnectionSettingsDialog@{ConnectionSettingsDialog}!````~ConnectionSettingsDialog@{$\sim$ConnectionSettingsDialog}}
+\index{````~ConnectionSettingsDialog@{$\sim$ConnectionSettingsDialog}!ConnectionSettingsDialog@{ConnectionSettingsDialog}}
+\doxysubsubsection{\texorpdfstring{$\sim$ConnectionSettingsDialog()}{~ConnectionSettingsDialog()}}
+{\footnotesize\ttfamily Connection\+Settings\+Dialog\+::$\sim$\+Connection\+Settings\+Dialog (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 24 of file connectionsettingsdialog.\+cpp.
+
+
+
+References ui.
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classConnectionSettingsDialog_a2d233be36f1f20f34496fe0e71cdc009}\label{classConnectionSettingsDialog_a2d233be36f1f20f34496fe0e71cdc009}} 
+\index{ConnectionSettingsDialog@{ConnectionSettingsDialog}!connectToServer@{connectToServer}}
+\index{connectToServer@{connectToServer}!ConnectionSettingsDialog@{ConnectionSettingsDialog}}
+\doxysubsubsection{\texorpdfstring{connectToServer}{connectToServer}}
+{\footnotesize\ttfamily void Connection\+Settings\+Dialog\+::connect\+To\+Server (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+
+
+Definition at line 42 of file connectionsettingsdialog.\+cpp.
+
+
+
+References INDIClient\+::connect\+To\+Server(), INDIClient\+::disconnect(), indi\+Client, and ui.
+
+
+
+Referenced by Connection\+Settings\+Dialog().
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classConnectionSettingsDialog_a2d233be36f1f20f34496fe0e71cdc009_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classConnectionSettingsDialog_a2d233be36f1f20f34496fe0e71cdc009_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classConnectionSettingsDialog_a5944005aa81d60e1ac5f6261fd8fe4bd}\label{classConnectionSettingsDialog_a5944005aa81d60e1ac5f6261fd8fe4bd}} 
+\index{ConnectionSettingsDialog@{ConnectionSettingsDialog}!deviceDetected@{deviceDetected}}
+\index{deviceDetected@{deviceDetected}!ConnectionSettingsDialog@{ConnectionSettingsDialog}}
+\doxysubsubsection{\texorpdfstring{deviceDetected}{deviceDetected}}
+{\footnotesize\ttfamily void Connection\+Settings\+Dialog\+::device\+Detected (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classRemoteTelescope}{Remote\+Telescope}}}]{remote\+Telescope }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+
+
+Definition at line 30 of file connectionsettingsdialog.\+cpp.
+
+
+
+References Remote\+Telescope\+::name(), remote\+Telescope(), and ui.
+
+
+
+Referenced by Connection\+Settings\+Dialog().
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classConnectionSettingsDialog_a5944005aa81d60e1ac5f6261fd8fe4bd_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classConnectionSettingsDialog_a5944005aa81d60e1ac5f6261fd8fe4bd_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classConnectionSettingsDialog_aa75fcae2d1b7a3bf9a716372b5191d64}\label{classConnectionSettingsDialog_aa75fcae2d1b7a3bf9a716372b5191d64}} 
+\index{ConnectionSettingsDialog@{ConnectionSettingsDialog}!ok@{ok}}
+\index{ok@{ok}!ConnectionSettingsDialog@{ConnectionSettingsDialog}}
+\doxysubsubsection{\texorpdfstring{ok}{ok}}
+{\footnotesize\ttfamily void Connection\+Settings\+Dialog\+::ok (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+
+
+Definition at line 69 of file connectionsettingsdialog.\+cpp.
+
+
+
+References m\+\_\+remote\+Telescope, Remote\+Telescope\+::set\+Exposure(), Remote\+Telescope\+::set\+Host(), Remote\+Telescope\+::set\+Name(), Remote\+Telescope\+::set\+Port(), and ui.
+
+
+
+Referenced by Connection\+Settings\+Dialog().
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classConnectionSettingsDialog_aa75fcae2d1b7a3bf9a716372b5191d64_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classConnectionSettingsDialog_aa75fcae2d1b7a3bf9a716372b5191d64_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classConnectionSettingsDialog_adf10babbb0e23da85125639acbaa18d6}\label{classConnectionSettingsDialog_adf10babbb0e23da85125639acbaa18d6}} 
+\index{ConnectionSettingsDialog@{ConnectionSettingsDialog}!remoteTelescope@{remoteTelescope}}
+\index{remoteTelescope@{remoteTelescope}!ConnectionSettingsDialog@{ConnectionSettingsDialog}}
+\doxysubsubsection{\texorpdfstring{remoteTelescope()}{remoteTelescope()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classRemoteTelescope}{Remote\+Telescope}} Connection\+Settings\+Dialog\+::remote\+Telescope (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+remote\+Telescope Returns the current Remote \mbox{\hyperlink{classTelescope}{Telescope}} with values from UI input 
+
+\begin{DoxyReturn}{Returns}
+Remote \mbox{\hyperlink{classTelescope}{Telescope}} with values from UI input 
+\end{DoxyReturn}
+
+
+Definition at line 89 of file connectionsettingsdialog.\+cpp.
+
+
+
+References m\+\_\+remote\+Telescope.
+
+
+
+Referenced by Telescope\+View\+::connection\+Settings(), device\+Detected(), and set\+Remote\+Telescope().
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classConnectionSettingsDialog_adf10babbb0e23da85125639acbaa18d6_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classConnectionSettingsDialog_a66d4b3ac7ab00f5a5cd7eed70ad55eaf}\label{classConnectionSettingsDialog_a66d4b3ac7ab00f5a5cd7eed70ad55eaf}} 
+\index{ConnectionSettingsDialog@{ConnectionSettingsDialog}!setRemoteTelescope@{setRemoteTelescope}}
+\index{setRemoteTelescope@{setRemoteTelescope}!ConnectionSettingsDialog@{ConnectionSettingsDialog}}
+\doxysubsubsection{\texorpdfstring{setRemoteTelescope()}{setRemoteTelescope()}}
+{\footnotesize\ttfamily void Connection\+Settings\+Dialog\+::set\+Remote\+Telescope (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classRemoteTelescope}{Remote\+Telescope}}}]{remote\+Telescope }\end{DoxyParamCaption})}
+
+
+
+set\+Remote\+Telescope Sets the remote telescope from where to show the data 
+
+
+\begin{DoxyParams}{Parameters}
+{\em remote\+Telescope} & Remote telescope with data \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 95 of file connectionsettingsdialog.\+cpp.
+
+
+
+References Remote\+Telescope\+::exposure(), Remote\+Telescope\+::host(), m\+\_\+remote\+Telescope, Remote\+Telescope\+::name(), Remote\+Telescope\+::port(), remote\+Telescope(), and ui.
+
+
+
+Referenced by Telescope\+View\+::connection\+Settings().
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classConnectionSettingsDialog_a66d4b3ac7ab00f5a5cd7eed70ad55eaf_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classConnectionSettingsDialog_a66d4b3ac7ab00f5a5cd7eed70ad55eaf_icgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classConnectionSettingsDialog_aa69eae32b7f9365177a75d08add1f0a4}\label{classConnectionSettingsDialog_aa69eae32b7f9365177a75d08add1f0a4}} 
+\index{ConnectionSettingsDialog@{ConnectionSettingsDialog}!indiClient@{indiClient}}
+\index{indiClient@{indiClient}!ConnectionSettingsDialog@{ConnectionSettingsDialog}}
+\doxysubsubsection{\texorpdfstring{indiClient}{indiClient}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classINDIClient}{INDIClient}} Connection\+Settings\+Dialog\+::indi\+Client\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 35 of file connectionsettingsdialog.\+h.
+
+
+
+Referenced by Connection\+Settings\+Dialog(), and connect\+To\+Server().
+
+\mbox{\Hypertarget{classConnectionSettingsDialog_a2398e101e38f7f4bbfeb155275e9d8f8}\label{classConnectionSettingsDialog_a2398e101e38f7f4bbfeb155275e9d8f8}} 
+\index{ConnectionSettingsDialog@{ConnectionSettingsDialog}!m\_remoteTelescope@{m\_remoteTelescope}}
+\index{m\_remoteTelescope@{m\_remoteTelescope}!ConnectionSettingsDialog@{ConnectionSettingsDialog}}
+\doxysubsubsection{\texorpdfstring{m\_remoteTelescope}{m\_remoteTelescope}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classRemoteTelescope}{Remote\+Telescope}} Connection\+Settings\+Dialog\+::m\+\_\+remote\+Telescope\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 36 of file connectionsettingsdialog.\+h.
+
+
+
+Referenced by ok(), remote\+Telescope(), and set\+Remote\+Telescope().
+
+\mbox{\Hypertarget{classConnectionSettingsDialog_aa893d552f5731e10dbcc0315a8746b1f}\label{classConnectionSettingsDialog_aa893d552f5731e10dbcc0315a8746b1f}} 
+\index{ConnectionSettingsDialog@{ConnectionSettingsDialog}!ui@{ui}}
+\index{ui@{ui}!ConnectionSettingsDialog@{ConnectionSettingsDialog}}
+\doxysubsubsection{\texorpdfstring{ui}{ui}}
+{\footnotesize\ttfamily Ui\+::\+Connection\+Settings\+Dialog$\ast$ Connection\+Settings\+Dialog\+::ui\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 34 of file connectionsettingsdialog.\+h.
+
+
+
+Referenced by Connection\+Settings\+Dialog(), connect\+To\+Server(), device\+Detected(), ok(), set\+Remote\+Telescope(), and $\sim$\+Connection\+Settings\+Dialog().
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+views/\mbox{\hyperlink{connectionsettingsdialog_8h}{connectionsettingsdialog.\+h}}\item 
+views/\mbox{\hyperlink{connectionsettingsdialog_8cpp}{connectionsettingsdialog.\+cpp}}\end{DoxyCompactItemize}

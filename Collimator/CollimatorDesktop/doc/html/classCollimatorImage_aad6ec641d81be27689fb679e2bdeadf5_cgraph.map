@@ -1,0 +1,4 @@
+<map id="CollimatorImage::setConnected" name="CollimatorImage::setConnected">
+<area shape="rect" id="node1" title="setConnected Changes connection property. If false will stop receiving images" alt="" coords="5,5,233,32"/>
+<area shape="rect" id="node2" href="$classINDIClient.html#aadee5909c799f967a137249bad2e084f" title=" " alt="" coords="281,5,448,32"/>
+</map>

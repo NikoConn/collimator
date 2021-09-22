@@ -1,0 +1,17 @@
+<map id="TelescopeView::changeProperties" name="TelescopeView::changeProperties">
+<area shape="rect" id="node1" title=" " alt="" coords="5,213,244,240"/>
+<area shape="rect" id="node2" href="$classTelescopeUI.html#a2297bfa57fbeb23b9a78752983f2c391" title=" " alt="" coords="292,5,519,32"/>
+<area shape="rect" id="node3" href="$classCollimatorImage.html#a1a35e5ea5bf02ef7af08a1cc73e2c799" title="setDebug If true shows window with debug image every refresh" alt="" coords="305,56,506,83"/>
+<area shape="rect" id="node4" href="$classPaintingProperties.html#a1234e163fe2a2cf5acb8b6807c9317c1" title=" " alt="" coords="330,107,481,149"/>
+<area shape="rect" id="node6" href="$classPaintingProperties.html#ad4b69ae803386f10d5041ff6b46a6bbd" title=" " alt="" coords="328,173,483,214"/>
+<area shape="rect" id="node8" href="$classPaintingProperties.html#a5b4b1b35c4edc5961d9ab4d44eac8f38" title=" " alt="" coords="334,238,477,279"/>
+<area shape="rect" id="node10" href="$classPaintingProperties.html#acb3f4c8c057afd59ecb89bad088e6da6" title=" " alt="" coords="321,303,489,345"/>
+<area shape="rect" id="node12" href="$classPaintingProperties.html#a9ee554301d4c01f10c891cf66c28490b" title=" " alt="" coords="308,369,503,410"/>
+<area shape="rect" id="node14" href="$classPaintingProperties.html#a9a6c360dafe5d36a3fe082ef74fd2e6a" title=" " alt="" coords="335,434,475,475"/>
+<area shape="rect" id="node5" href="$classPaintingProperties.html#a557daffbefde9617f42a118a3f3acf8a" title=" " alt="" coords="583,107,723,149"/>
+<area shape="rect" id="node7" href="$classPaintingProperties.html#a99615a8e73b1d26325017f9d90f0d507" title=" " alt="" coords="583,173,723,214"/>
+<area shape="rect" id="node9" href="$classPaintingProperties.html#a170a391450735511220f40a91290e70f" title=" " alt="" coords="583,238,723,279"/>
+<area shape="rect" id="node11" href="$classPaintingProperties.html#a92fee1df086c79bb12d5f58596e80af8" title=" " alt="" coords="580,303,727,345"/>
+<area shape="rect" id="node13" href="$classPaintingProperties.html#a66c099a1572eba592b7891575e5b15f2" title=" " alt="" coords="567,369,740,410"/>
+<area shape="rect" id="node15" href="$classPaintingProperties.html#ad6297b32ac45bdacce9fa7b703a1f121" title=" " alt="" coords="583,434,723,475"/>
+</map>

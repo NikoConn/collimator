@@ -1,0 +1,609 @@
+\hypertarget{classTelescopeView}{}\doxysection{Telescope\+View Class Reference}
+\label{classTelescopeView}\index{TelescopeView@{TelescopeView}}
+
+
+{\ttfamily \#include $<$telescopeview.\+h$>$}
+
+
+
+Inheritance diagram for Telescope\+View\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=276pt]{classTelescopeView__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Telescope\+View\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{classTelescopeView__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Signals}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classTelescopeView_a3a9b107ef55360e9b4039b0f66bec7e8}{properties\+Changed}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classTelescopeView_ac6aa65ca912c125e35ebccb39f59a9f5}{Telescope\+View}} (QWidget $\ast$parent=nullptr)
+\item 
+\mbox{\hyperlink{classTelescopeView_a42a526b1e464c2b5997575f79820edce}{$\sim$\+Telescope\+View}} ()
+\item 
+void \mbox{\hyperlink{classTelescopeView_ac4dc67e8b3988652e7e82b48ed21c7d5}{set\+Telescope}} (\mbox{\hyperlink{classTelescopeUI}{Telescope\+UI}})
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Slots}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classTelescopeView_ad1ca2b6e1c8d62d9004a82e2aff22d38}{change\+Properties}} ()
+\item 
+void \mbox{\hyperlink{classTelescopeView_ae96a22b4b3d65e61a6e4c2cdba455265}{open\+Image\+From\+File}} ()
+\item 
+void \mbox{\hyperlink{classTelescopeView_aad2fdf016de5f8326bea708a422aee69}{open\+Image\+Processing}} ()
+\item 
+void \mbox{\hyperlink{classTelescopeView_a7e5fa3bc58317041bc0b5d2f086bebfa}{screws\+Settings}} ()
+\item 
+void \mbox{\hyperlink{classTelescopeView_ab4ad453ed5dc101dbb9787a3164d2f7b}{save\+Telescope}} ()
+\item 
+void \mbox{\hyperlink{classTelescopeView_a9a05a8a268fa2f86d33b521a7811cf6a}{save\+Screenshot}} ()
+\item 
+void \mbox{\hyperlink{classTelescopeView_a809f647d952da4a291199ba8f9ed4560}{connection\+Settings}} ()
+\item 
+void \mbox{\hyperlink{classTelescopeView_a2e406aa1987071f56f8cf38f1871a131}{connect\+Telescope}} ()
+\item 
+void \mbox{\hyperlink{classTelescopeView_a78b9126c7c633ae90bcc176f0e4df4b5}{disconnect\+Telescope}} ()
+\item 
+void \mbox{\hyperlink{classTelescopeView_a854b6d56174b0899a62fa91bde5bec6d}{connected\+Changed}} (bool)
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classTelescopeView_a936a58c1a64054e1a8d61ea4a397c1d3}{set\+Automatic}} (bool)
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+Ui\+::\+Telescope\+View $\ast$ \mbox{\hyperlink{classTelescopeView_a0f46febcd8a59e8bd22ec0d6da1094a2}{ui}}
+\item 
+\mbox{\hyperlink{classCollimatorImage}{Collimator\+Image}} $\ast$ \mbox{\hyperlink{classTelescopeView_a3c6be48f6f69defda47bd17b39be1a52}{image}}
+\item 
+\mbox{\hyperlink{classTelescopeUI}{Telescope\+UI}} \mbox{\hyperlink{classTelescopeView_a629aae7f4fc77c7cd26ccfd200b992f8}{telescope}}
+\item 
+\mbox{\hyperlink{classRemoteTelescope}{Remote\+Telescope}} \mbox{\hyperlink{classTelescopeView_a489f298b0c0e8af98008ffd3c55298af}{remote\+Telescope}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+
+
+Definition at line 18 of file telescopeview.\+h.
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classTelescopeView_ac6aa65ca912c125e35ebccb39f59a9f5}\label{classTelescopeView_ac6aa65ca912c125e35ebccb39f59a9f5}} 
+\index{TelescopeView@{TelescopeView}!TelescopeView@{TelescopeView}}
+\index{TelescopeView@{TelescopeView}!TelescopeView@{TelescopeView}}
+\doxysubsubsection{\texorpdfstring{TelescopeView()}{TelescopeView()}}
+{\footnotesize\ttfamily Telescope\+View\+::\+Telescope\+View (\begin{DoxyParamCaption}\item[{QWidget $\ast$}]{parent = {\ttfamily nullptr} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [explicit]}}
+
+
+
+Definition at line 20 of file telescopeview.\+cpp.
+
+
+
+References change\+Properties(), Collimator\+Image\+::connected\+Changed(), connected\+Changed(), connection\+Settings(), connect\+Telescope(), image, open\+Image\+From\+File(), open\+Image\+Processing(), Collimator\+Image\+::properties\+Changed(), properties\+Changed(), save\+Screenshot(), screws\+Settings(), Collimator\+Image\+::set\+Scroll\+Area(), Collimator\+Image\+::set\+Telescope(), telescope, ui, and Collimator\+Image\+::zoom().
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classTelescopeView_ac6aa65ca912c125e35ebccb39f59a9f5_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classTelescopeView_a42a526b1e464c2b5997575f79820edce}\label{classTelescopeView_a42a526b1e464c2b5997575f79820edce}} 
+\index{TelescopeView@{TelescopeView}!````~TelescopeView@{$\sim$TelescopeView}}
+\index{````~TelescopeView@{$\sim$TelescopeView}!TelescopeView@{TelescopeView}}
+\doxysubsubsection{\texorpdfstring{$\sim$TelescopeView()}{~TelescopeView()}}
+{\footnotesize\ttfamily Telescope\+View\+::$\sim$\+Telescope\+View (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 65 of file telescopeview.\+cpp.
+
+
+
+References ui.
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classTelescopeView_ad1ca2b6e1c8d62d9004a82e2aff22d38}\label{classTelescopeView_ad1ca2b6e1c8d62d9004a82e2aff22d38}} 
+\index{TelescopeView@{TelescopeView}!changeProperties@{changeProperties}}
+\index{changeProperties@{changeProperties}!TelescopeView@{TelescopeView}}
+\doxysubsubsection{\texorpdfstring{changeProperties}{changeProperties}}
+{\footnotesize\ttfamily void Telescope\+View\+::change\+Properties (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+
+
+Definition at line 238 of file telescopeview.\+cpp.
+
+
+
+References Painting\+Properties\+::\+Mirroring\+::horizontally, image, Telescope\+UI\+::painting\+Properties(), properties\+Changed(), Collimator\+Image\+::set\+Debug(), Painting\+Properties\+::set\+Image\+Mirroring(), Painting\+Properties\+::set\+Screws\+Mirroring(), Painting\+Properties\+::set\+Tigth\+Mirroring(), Painting\+Properties\+::set\+View\+Bounding\+Box(), Painting\+Properties\+::set\+View\+Calculated\+Center(), Painting\+Properties\+::set\+View\+Screws(), telescope, ui, and Painting\+Properties\+::\+Mirroring\+::vertically.
+
+
+
+Referenced by Telescope\+View().
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classTelescopeView_ad1ca2b6e1c8d62d9004a82e2aff22d38_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classTelescopeView_ad1ca2b6e1c8d62d9004a82e2aff22d38_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classTelescopeView_a854b6d56174b0899a62fa91bde5bec6d}\label{classTelescopeView_a854b6d56174b0899a62fa91bde5bec6d}} 
+\index{TelescopeView@{TelescopeView}!connectedChanged@{connectedChanged}}
+\index{connectedChanged@{connectedChanged}!TelescopeView@{TelescopeView}}
+\doxysubsubsection{\texorpdfstring{connectedChanged}{connectedChanged}}
+{\footnotesize\ttfamily void Telescope\+View\+::connected\+Changed (\begin{DoxyParamCaption}\item[{bool}]{connected }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+
+
+Definition at line 219 of file telescopeview.\+cpp.
+
+
+
+References connect\+Telescope(), disconnect\+Telescope(), and ui.
+
+
+
+Referenced by Telescope\+View().
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classTelescopeView_a854b6d56174b0899a62fa91bde5bec6d_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classTelescopeView_a854b6d56174b0899a62fa91bde5bec6d_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classTelescopeView_a809f647d952da4a291199ba8f9ed4560}\label{classTelescopeView_a809f647d952da4a291199ba8f9ed4560}} 
+\index{TelescopeView@{TelescopeView}!connectionSettings@{connectionSettings}}
+\index{connectionSettings@{connectionSettings}!TelescopeView@{TelescopeView}}
+\doxysubsubsection{\texorpdfstring{connectionSettings}{connectionSettings}}
+{\footnotesize\ttfamily void Telescope\+View\+::connection\+Settings (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+
+
+Definition at line 184 of file telescopeview.\+cpp.
+
+
+
+References Remote\+Telescope\+::is\+Valid(), Telescope\+::remote\+Telescope(), Connection\+Settings\+Dialog\+::remote\+Telescope(), remote\+Telescope, Connection\+Settings\+Dialog\+::set\+Remote\+Telescope(), telescope, ui, and Remote\+Telescope\+DAO\+::update().
+
+
+
+Referenced by Telescope\+View().
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classTelescopeView_a809f647d952da4a291199ba8f9ed4560_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classTelescopeView_a809f647d952da4a291199ba8f9ed4560_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classTelescopeView_a2e406aa1987071f56f8cf38f1871a131}\label{classTelescopeView_a2e406aa1987071f56f8cf38f1871a131}} 
+\index{TelescopeView@{TelescopeView}!connectTelescope@{connectTelescope}}
+\index{connectTelescope@{connectTelescope}!TelescopeView@{TelescopeView}}
+\doxysubsubsection{\texorpdfstring{connectTelescope}{connectTelescope}}
+{\footnotesize\ttfamily void Telescope\+View\+::connect\+Telescope (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+
+
+Definition at line 209 of file telescopeview.\+cpp.
+
+
+
+References Collimator\+Image\+::connect\+Telescope(), image, and remote\+Telescope.
+
+
+
+Referenced by connected\+Changed(), and Telescope\+View().
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classTelescopeView_a2e406aa1987071f56f8cf38f1871a131_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classTelescopeView_a2e406aa1987071f56f8cf38f1871a131_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classTelescopeView_a78b9126c7c633ae90bcc176f0e4df4b5}\label{classTelescopeView_a78b9126c7c633ae90bcc176f0e4df4b5}} 
+\index{TelescopeView@{TelescopeView}!disconnectTelescope@{disconnectTelescope}}
+\index{disconnectTelescope@{disconnectTelescope}!TelescopeView@{TelescopeView}}
+\doxysubsubsection{\texorpdfstring{disconnectTelescope}{disconnectTelescope}}
+{\footnotesize\ttfamily void Telescope\+View\+::disconnect\+Telescope (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+
+
+Definition at line 214 of file telescopeview.\+cpp.
+
+
+
+References image, and Collimator\+Image\+::set\+Connected().
+
+
+
+Referenced by connected\+Changed().
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classTelescopeView_a78b9126c7c633ae90bcc176f0e4df4b5_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classTelescopeView_a78b9126c7c633ae90bcc176f0e4df4b5_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classTelescopeView_ae96a22b4b3d65e61a6e4c2cdba455265}\label{classTelescopeView_ae96a22b4b3d65e61a6e4c2cdba455265}} 
+\index{TelescopeView@{TelescopeView}!openImageFromFile@{openImageFromFile}}
+\index{openImageFromFile@{openImageFromFile}!TelescopeView@{TelescopeView}}
+\doxysubsubsection{\texorpdfstring{openImageFromFile}{openImageFromFile}}
+{\footnotesize\ttfamily void Telescope\+View\+::open\+Image\+From\+File (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+
+
+Definition at line 93 of file telescopeview.\+cpp.
+
+
+
+References image, and Collimator\+Image\+::load\+Image().
+
+
+
+Referenced by Telescope\+View().
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classTelescopeView_ae96a22b4b3d65e61a6e4c2cdba455265_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classTelescopeView_ae96a22b4b3d65e61a6e4c2cdba455265_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classTelescopeView_aad2fdf016de5f8326bea708a422aee69}\label{classTelescopeView_aad2fdf016de5f8326bea708a422aee69}} 
+\index{TelescopeView@{TelescopeView}!openImageProcessing@{openImageProcessing}}
+\index{openImageProcessing@{openImageProcessing}!TelescopeView@{TelescopeView}}
+\doxysubsubsection{\texorpdfstring{openImageProcessing}{openImageProcessing}}
+{\footnotesize\ttfamily void Telescope\+View\+::open\+Image\+Processing (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+
+
+Definition at line 101 of file telescopeview.\+cpp.
+
+
+
+References Telescope\+::processing\+Properties(), Processing\+Properties\+Settings\+::processing\+Properties(), properties\+Changed(), Telescope\+::set\+Processing\+Properties(), Processing\+Properties\+Settings\+::set\+Processing\+Properties(), telescope, and Processing\+Properties\+DAO\+::update().
+
+
+
+Referenced by Telescope\+View().
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classTelescopeView_aad2fdf016de5f8326bea708a422aee69_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classTelescopeView_aad2fdf016de5f8326bea708a422aee69_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classTelescopeView_a3a9b107ef55360e9b4039b0f66bec7e8}\label{classTelescopeView_a3a9b107ef55360e9b4039b0f66bec7e8}} 
+\index{TelescopeView@{TelescopeView}!propertiesChanged@{propertiesChanged}}
+\index{propertiesChanged@{propertiesChanged}!TelescopeView@{TelescopeView}}
+\doxysubsubsection{\texorpdfstring{propertiesChanged}{propertiesChanged}}
+{\footnotesize\ttfamily void Telescope\+View\+::properties\+Changed (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [signal]}}
+
+
+
+Referenced by change\+Properties(), open\+Image\+Processing(), screws\+Settings(), set\+Automatic(), set\+Telescope(), and Telescope\+View().
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classTelescopeView_a3a9b107ef55360e9b4039b0f66bec7e8_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classTelescopeView_a9a05a8a268fa2f86d33b521a7811cf6a}\label{classTelescopeView_a9a05a8a268fa2f86d33b521a7811cf6a}} 
+\index{TelescopeView@{TelescopeView}!saveScreenshot@{saveScreenshot}}
+\index{saveScreenshot@{saveScreenshot}!TelescopeView@{TelescopeView}}
+\doxysubsubsection{\texorpdfstring{saveScreenshot}{saveScreenshot}}
+{\footnotesize\ttfamily void Telescope\+View\+::save\+Screenshot (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+
+
+Definition at line 177 of file telescopeview.\+cpp.
+
+
+
+References image.
+
+
+
+Referenced by Telescope\+View().
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classTelescopeView_a9a05a8a268fa2f86d33b521a7811cf6a_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classTelescopeView_ab4ad453ed5dc101dbb9787a3164d2f7b}\label{classTelescopeView_ab4ad453ed5dc101dbb9787a3164d2f7b}} 
+\index{TelescopeView@{TelescopeView}!saveTelescope@{saveTelescope}}
+\index{saveTelescope@{saveTelescope}!TelescopeView@{TelescopeView}}
+\doxysubsubsection{\texorpdfstring{saveTelescope}{saveTelescope}}
+{\footnotesize\ttfamily void Telescope\+View\+::save\+Telescope (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+
+
+Definition at line 171 of file telescopeview.\+cpp.
+
+
+
+References telescope, and Telescope\+DAO\+::update().
+
+
+
+Referenced by set\+Telescope().
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classTelescopeView_ab4ad453ed5dc101dbb9787a3164d2f7b_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classTelescopeView_ab4ad453ed5dc101dbb9787a3164d2f7b_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classTelescopeView_a7e5fa3bc58317041bc0b5d2f086bebfa}\label{classTelescopeView_a7e5fa3bc58317041bc0b5d2f086bebfa}} 
+\index{TelescopeView@{TelescopeView}!screwsSettings@{screwsSettings}}
+\index{screwsSettings@{screwsSettings}!TelescopeView@{TelescopeView}}
+\doxysubsubsection{\texorpdfstring{screwsSettings}{screwsSettings}}
+{\footnotesize\ttfamily void Telescope\+View\+::screws\+Settings (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+
+
+Definition at line 129 of file telescopeview.\+cpp.
+
+
+
+References Telescope\+UI\+::painting\+Properties(), properties\+Changed(), Screws\+Dialog\+::radius(), Telescope\+::screws(), Screws\+Dialog\+::screws(), Painting\+Properties\+::screws\+Radius(), Screws\+Dialog\+::set\+Radius(), Telescope\+::set\+Screws(), Screws\+Dialog\+::set\+Screws(), Painting\+Properties\+::set\+Screws\+Radius(), telescope, and Telescope\+DAO\+::update().
+
+
+
+Referenced by Telescope\+View().
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classTelescopeView_a7e5fa3bc58317041bc0b5d2f086bebfa_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classTelescopeView_a7e5fa3bc58317041bc0b5d2f086bebfa_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classTelescopeView_a936a58c1a64054e1a8d61ea4a397c1d3}\label{classTelescopeView_a936a58c1a64054e1a8d61ea4a397c1d3}} 
+\index{TelescopeView@{TelescopeView}!setAutomatic@{setAutomatic}}
+\index{setAutomatic@{setAutomatic}!TelescopeView@{TelescopeView}}
+\doxysubsubsection{\texorpdfstring{setAutomatic()}{setAutomatic()}}
+{\footnotesize\ttfamily void Telescope\+View\+::set\+Automatic (\begin{DoxyParamCaption}\item[{bool}]{automatic }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 156 of file telescopeview.\+cpp.
+
+
+
+References Telescope\+UI\+::painting\+Properties(), properties\+Changed(), Painting\+Properties\+::set\+Automatic(), telescope, and ui.
+
+
+
+Referenced by set\+Telescope().
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classTelescopeView_a936a58c1a64054e1a8d61ea4a397c1d3_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classTelescopeView_a936a58c1a64054e1a8d61ea4a397c1d3_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classTelescopeView_ac4dc67e8b3988652e7e82b48ed21c7d5}\label{classTelescopeView_ac4dc67e8b3988652e7e82b48ed21c7d5}} 
+\index{TelescopeView@{TelescopeView}!setTelescope@{setTelescope}}
+\index{setTelescope@{setTelescope}!TelescopeView@{TelescopeView}}
+\doxysubsubsection{\texorpdfstring{setTelescope()}{setTelescope()}}
+{\footnotesize\ttfamily void Telescope\+View\+::set\+Telescope (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classTelescopeUI}{Telescope\+UI}}}]{telescope }\end{DoxyParamCaption})}
+
+
+
+Definition at line 71 of file telescopeview.\+cpp.
+
+
+
+References Painting\+Properties\+::automatic(), Painting\+Properties\+::\+Mirroring\+::horizontally, Painting\+Properties\+::image\+Mirroring(), Remote\+Telescope\+::is\+Valid(), Telescope\+::name(), Telescope\+UI\+::painting\+Properties(), properties\+Changed(), Telescope\+::remote\+Telescope(), remote\+Telescope, save\+Telescope(), Painting\+Properties\+::screws\+Mirroring(), set\+Automatic(), telescope, Painting\+Properties\+::tight\+Mirroring(), ui, Painting\+Properties\+::\+Mirroring\+::vertically, Painting\+Properties\+::view\+Bounding\+Box(), Painting\+Properties\+::view\+Calculated\+Center(), and Painting\+Properties\+::view\+Screws().
+
+
+
+Referenced by Telescope\+Selector\+::on\+Click\+Telescope().
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classTelescopeView_ac4dc67e8b3988652e7e82b48ed21c7d5_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classTelescopeView_ac4dc67e8b3988652e7e82b48ed21c7d5_icgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classTelescopeView_a3c6be48f6f69defda47bd17b39be1a52}\label{classTelescopeView_a3c6be48f6f69defda47bd17b39be1a52}} 
+\index{TelescopeView@{TelescopeView}!image@{image}}
+\index{image@{image}!TelescopeView@{TelescopeView}}
+\doxysubsubsection{\texorpdfstring{image}{image}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classCollimatorImage}{Collimator\+Image}}$\ast$ Telescope\+View\+::image\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 29 of file telescopeview.\+h.
+
+
+
+Referenced by change\+Properties(), connect\+Telescope(), disconnect\+Telescope(), open\+Image\+From\+File(), save\+Screenshot(), and Telescope\+View().
+
+\mbox{\Hypertarget{classTelescopeView_a489f298b0c0e8af98008ffd3c55298af}\label{classTelescopeView_a489f298b0c0e8af98008ffd3c55298af}} 
+\index{TelescopeView@{TelescopeView}!remoteTelescope@{remoteTelescope}}
+\index{remoteTelescope@{remoteTelescope}!TelescopeView@{TelescopeView}}
+\doxysubsubsection{\texorpdfstring{remoteTelescope}{remoteTelescope}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classRemoteTelescope}{Remote\+Telescope}} Telescope\+View\+::remote\+Telescope\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 31 of file telescopeview.\+h.
+
+
+
+Referenced by connection\+Settings(), connect\+Telescope(), and set\+Telescope().
+
+\mbox{\Hypertarget{classTelescopeView_a629aae7f4fc77c7cd26ccfd200b992f8}\label{classTelescopeView_a629aae7f4fc77c7cd26ccfd200b992f8}} 
+\index{TelescopeView@{TelescopeView}!telescope@{telescope}}
+\index{telescope@{telescope}!TelescopeView@{TelescopeView}}
+\doxysubsubsection{\texorpdfstring{telescope}{telescope}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classTelescopeUI}{Telescope\+UI}} Telescope\+View\+::telescope\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 30 of file telescopeview.\+h.
+
+
+
+Referenced by change\+Properties(), connection\+Settings(), open\+Image\+Processing(), save\+Telescope(), screws\+Settings(), set\+Automatic(), set\+Telescope(), and Telescope\+View().
+
+\mbox{\Hypertarget{classTelescopeView_a0f46febcd8a59e8bd22ec0d6da1094a2}\label{classTelescopeView_a0f46febcd8a59e8bd22ec0d6da1094a2}} 
+\index{TelescopeView@{TelescopeView}!ui@{ui}}
+\index{ui@{ui}!TelescopeView@{TelescopeView}}
+\doxysubsubsection{\texorpdfstring{ui}{ui}}
+{\footnotesize\ttfamily Ui\+::\+Telescope\+View$\ast$ Telescope\+View\+::ui\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 28 of file telescopeview.\+h.
+
+
+
+Referenced by change\+Properties(), connected\+Changed(), connection\+Settings(), set\+Automatic(), set\+Telescope(), Telescope\+View(), and $\sim$\+Telescope\+View().
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+views/\mbox{\hyperlink{telescopeview_8h}{telescopeview.\+h}}\item 
+views/\mbox{\hyperlink{telescopeview_8cpp}{telescopeview.\+cpp}}\end{DoxyCompactItemize}

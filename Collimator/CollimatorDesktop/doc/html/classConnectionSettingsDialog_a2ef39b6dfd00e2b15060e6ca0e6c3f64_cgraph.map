@@ -1,0 +1,17 @@
+<map id="ConnectionSettingsDialog::ConnectionSettingsDialog" name="ConnectionSettingsDialog::ConnectionSettingsDialog">
+<area shape="rect" id="node1" title=" " alt="" coords="5,137,204,178"/>
+<area shape="rect" id="node2" href="$classConnectionSettingsDialog.html#a2d233be36f1f20f34496fe0e71cdc009" title=" " alt="" coords="264,49,455,90"/>
+<area shape="rect" id="node5" href="$classConnectionSettingsDialog.html#a5944005aa81d60e1ac5f6261fd8fe4bd" title=" " alt="" coords="264,137,455,178"/>
+<area shape="rect" id="node8" href="$classConnectionSettingsDialog.html#aa75fcae2d1b7a3bf9a716372b5191d64" title=" " alt="" coords="252,275,467,301"/>
+<area shape="rect" id="node3" href="$classINDIClient.html#a612e8f1523d0bba441190170db5c0521" title=" " alt="" coords="526,5,729,32"/>
+<area shape="rect" id="node4" href="$classINDIClient.html#aadee5909c799f967a137249bad2e084f" title=" " alt="" coords="544,56,711,83"/>
+<area shape="rect" id="node6" href="$classRemoteTelescope.html#ad6a8fc9dd0f73fa697c5127817c04d6e" title=" " alt="" coords="799,165,982,192"/>
+<area shape="rect" id="node7" href="$classConnectionSettingsDialog.html#adf10babbb0e23da85125639acbaa18d6" title="remoteTelescope Returns the current Remote Telescope with values from UI input" alt="" coords="532,158,723,199"/>
+<area shape="rect" id="node9" href="$classRemoteTelescope.html#a4c24fa8c61d16ed953d5ec050dd92094" title=" " alt="" coords="515,275,740,301"/>
+<area shape="rect" id="node11" href="$classRemoteTelescope.html#a7758d819eb5832219276d3fe943f81bc" title=" " alt="" coords="530,325,725,352"/>
+<area shape="rect" id="node13" href="$classRemoteTelescope.html#a458c346dc779b68cadd76c7d56cd04e6" title=" " alt="" coords="525,224,729,251"/>
+<area shape="rect" id="node14" href="$classRemoteTelescope.html#a9befee859f2f790c6823dbb08a4f7fdc" title=" " alt="" coords="532,376,723,403"/>
+<area shape="rect" id="node10" href="$classRemoteTelescope.html#a0510a6e12c8caa5b2571d42813fba765" title=" " alt="" coords="788,275,993,301"/>
+<area shape="rect" id="node12" href="$classRemoteTelescope.html#a5f71ce0b3c12d755ab1f59427eff007d" title=" " alt="" coords="804,325,977,352"/>
+<area shape="rect" id="node15" href="$classRemoteTelescope.html#a24e00444cb2d6ed6d33e361e5eab185a" title=" " alt="" coords="805,376,976,403"/>
+</map>

@@ -1,0 +1,10 @@
+<map id="INDIClient::disconnect" name="INDIClient::disconnect">
+<area shape="rect" id="node1" title=" " alt="" coords="1037,77,1204,103"/>
+<area shape="rect" id="node2" href="$classConnectionSettingsDialog.html#a2d233be36f1f20f34496fe0e71cdc009" title=" " alt="" coords="780,8,971,49"/>
+<area shape="rect" id="node4" href="$classCollimatorImage.html#aad6ec641d81be27689fb679e2bdeadf5" title="setConnected Changes connection property. If false will stop receiving images" alt="" coords="761,77,989,103"/>
+<area shape="rect" id="node8" href="$classCollimatorImage.html#a762f1f52d41f3e95ac0fa7a8385e929d" title=" " alt="" coords="766,128,985,169"/>
+<area shape="rect" id="node3" href="$classConnectionSettingsDialog.html#a2ef39b6dfd00e2b15060e6ca0e6c3f64" title=" " alt="" coords="515,5,713,47"/>
+<area shape="rect" id="node5" href="$classTelescopeView.html#a78b9126c7c633ae90bcc176f0e4df4b5" title=" " alt="" coords="517,71,711,112"/>
+<area shape="rect" id="node6" href="$classTelescopeView.html#a854b6d56174b0899a62fa91bde5bec6d" title=" " alt="" coords="275,71,467,112"/>
+<area shape="rect" id="node7" href="$classTelescopeView.html#ac6aa65ca912c125e35ebccb39f59a9f5" title=" " alt="" coords="5,78,227,105"/>
+</map>

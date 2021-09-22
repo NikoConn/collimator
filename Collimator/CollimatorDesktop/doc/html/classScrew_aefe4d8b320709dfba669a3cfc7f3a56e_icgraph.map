@@ -1,0 +1,9 @@
+<map id="Screw::id" name="Screw::id">
+<area shape="rect" id="node1" title=" " alt="" coords="557,56,637,83"/>
+<area shape="rect" id="node2" href="$screw_8h.html#afb33ed87a61602bf94a3ed763ff01154" title=" " alt="" coords="410,5,509,32"/>
+<area shape="rect" id="node3" href="$screw_8h.html#afa50353f282d3b21c2f92441a5b562df" title=" " alt="" coords="428,56,491,83"/>
+<area shape="rect" id="node4" href="$classScrew.html#a4478e7b963f449d3f9e2ed4b4492f29d" title=" " alt="" coords="409,107,509,133"/>
+<area shape="rect" id="node5" href="$classTelescopeDAO.html#ab8007734ed3b38cf790e3b01543bba3d" title="get Method for obtaining a Telescope by id" alt="" coords="209,81,353,108"/>
+<area shape="rect" id="node6" href="$classTelescopeDAO.html#a613c46217415709be8897c850f592118" title="getAll Method for obtaining all Telescopes in the database" alt="" coords="200,132,361,159"/>
+<area shape="rect" id="node7" href="$classTelescopeSelector.html#afb9404b10a36fda2bc19dedb754c3da6" title=" " alt="" coords="5,125,152,166"/>
+</map>

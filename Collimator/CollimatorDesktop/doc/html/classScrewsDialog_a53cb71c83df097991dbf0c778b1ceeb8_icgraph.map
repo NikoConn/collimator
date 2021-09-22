@@ -1,0 +1,9 @@
+<map id="ScrewsDialog::loadItems" name="ScrewsDialog::loadItems">
+<area shape="rect" id="node1" title=" " alt="" coords="800,81,983,108"/>
+<area shape="rect" id="node2" href="$classScrewsDialog.html#a0536204bf71f261870c676ea7ef69d02" title=" " alt="" coords="558,5,739,32"/>
+<area shape="rect" id="node3" href="$classScrewsDialog.html#a338c15d336a332a0b92a128d765dc679" title=" " alt="" coords="283,56,489,83"/>
+<area shape="rect" id="node4" href="$classScrewsDialog.html#a02bdf57fb2d3a062563ee4f5cce7e1f8" title=" " alt="" coords="545,107,752,133"/>
+<area shape="rect" id="node5" href="$classScrewsDialog.html#a36939900fe7ad12c64e2ddc4402e4061" title="setScrews Sets the Screws list from where to show the data" alt="" coords="557,157,741,184"/>
+<area shape="rect" id="node6" href="$classTelescopeView.html#a7e5fa3bc58317041bc0b5d2f086bebfa" title=" " alt="" coords="275,157,497,184"/>
+<area shape="rect" id="node7" href="$classTelescopeView.html#ac6aa65ca912c125e35ebccb39f59a9f5" title=" " alt="" coords="5,157,227,184"/>
+</map>

@@ -1,0 +1,9 @@
+<map id="Screw::setDegrees" name="Screw::setDegrees">
+<area shape="rect" id="node1" title=" " alt="" coords="489,81,632,108"/>
+<area shape="rect" id="node2" href="$classScrewsDialog.html#a0536204bf71f261870c676ea7ef69d02" title=" " alt="" coords="260,5,441,32"/>
+<area shape="rect" id="node4" href="$classTelescopeDAO.html#ab8007734ed3b38cf790e3b01543bba3d" title="get Method for obtaining a Telescope by id" alt="" coords="279,56,423,83"/>
+<area shape="rect" id="node5" href="$classTelescopeDAO.html#a613c46217415709be8897c850f592118" title="getAll Method for obtaining all Telescopes in the database" alt="" coords="270,107,431,133"/>
+<area shape="rect" id="node7" href="$classScrew.html#a18d9307216bdaaa3993f196dcda0ccbb" title=" " alt="" coords="297,157,404,184"/>
+<area shape="rect" id="node3" href="$classScrewsDialog.html#a338c15d336a332a0b92a128d765dc679" title=" " alt="" coords="5,5,212,32"/>
+<area shape="rect" id="node6" href="$classTelescopeSelector.html#afb9404b10a36fda2bc19dedb754c3da6" title=" " alt="" coords="35,99,182,141"/>
+</map>

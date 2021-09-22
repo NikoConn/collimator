@@ -1,0 +1,4 @@
+<map id="TelescopeDAO::remove" name="TelescopeDAO::remove">
+<area shape="rect" id="node1" title="remove Method for removing a Telescope by id" alt="" coords="5,13,179,39"/>
+<area shape="rect" id="node2" href="$classDatabaseConnectionSingleton.html#aa96da3fe7bc59a42dd6186f1f16d779f" title="getDatabase" alt="" coords="227,5,445,47"/>
+</map>

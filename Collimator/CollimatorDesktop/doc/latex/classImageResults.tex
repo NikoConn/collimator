@@ -1,0 +1,242 @@
+\hypertarget{classImageResults}{}\doxysection{Image\+Results Class Reference}
+\label{classImageResults}\index{ImageResults@{ImageResults}}
+
+
+{\ttfamily \#include $<$imageresults.\+h$>$}
+
+
+
+Collaboration diagram for Image\+Results\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classImageResults__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+struct \mbox{\hyperlink{structImageResults_1_1Point}{Point}}
+\item 
+struct \mbox{\hyperlink{structImageResults_1_1Rect}{Rect}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classImageResults_ab25acdeb8500a7a828799aa794a8f133}{Image\+Results}} (\mbox{\hyperlink{structImageResults_1_1Point}{Point}} \mbox{\hyperlink{classImageResults_a0cc23d36b6f2654e8fbce7078a1d1ca6}{center}}, \mbox{\hyperlink{structImageResults_1_1Rect}{Rect}} \mbox{\hyperlink{classImageResults_a8fc3f4b3a9f98837d1ef66efff339bfc}{bounding\+Box}}, \mbox{\hyperlink{classProcessingProperties}{Processing\+Properties}} \mbox{\hyperlink{classImageResults_a2c43a1ab326c48a28e34c564c3dcd9c4}{processing\+Properties}})
+\item 
+\mbox{\hyperlink{structImageResults_1_1Point}{Point}} \mbox{\hyperlink{classImageResults_a0cc23d36b6f2654e8fbce7078a1d1ca6}{center}} ()
+\item 
+\mbox{\hyperlink{classProcessingProperties}{Processing\+Properties}} \mbox{\hyperlink{classImageResults_a2c43a1ab326c48a28e34c564c3dcd9c4}{processing\+Properties}} ()
+\item 
+\mbox{\hyperlink{structImageResults_1_1Rect}{Rect}} \mbox{\hyperlink{classImageResults_a8fc3f4b3a9f98837d1ef66efff339bfc}{bounding\+Box}} ()
+\item 
+\mbox{\hyperlink{classCollimationAction}{Collimation\+Action}} \mbox{\hyperlink{classImageResults_acd861e9ff30728c9c418d0cb444576e2}{get\+Action}} (\mbox{\hyperlink{classTelescope}{Telescope}} telescope)
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{structImageResults_1_1Point}{Point}} \mbox{\hyperlink{classImageResults_acc78151c3233eb21a8b2c2c7529f2243}{m\+\_\+center}}
+\item 
+\mbox{\hyperlink{classProcessingProperties}{Processing\+Properties}} \mbox{\hyperlink{classImageResults_aff886f94148573ecc2a6a200a173c432}{m\+\_\+properties}}
+\item 
+\mbox{\hyperlink{structImageResults_1_1Rect}{Rect}} \mbox{\hyperlink{classImageResults_ac7d16c5b6f1737e0842183b156bdefbd}{m\+\_\+bounding\+Box}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+
+
+Definition at line 9 of file imageresults.\+h.
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classImageResults_ab25acdeb8500a7a828799aa794a8f133}\label{classImageResults_ab25acdeb8500a7a828799aa794a8f133}} 
+\index{ImageResults@{ImageResults}!ImageResults@{ImageResults}}
+\index{ImageResults@{ImageResults}!ImageResults@{ImageResults}}
+\doxysubsubsection{\texorpdfstring{ImageResults()}{ImageResults()}}
+{\footnotesize\ttfamily Image\+Results\+::\+Image\+Results (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structImageResults_1_1Point}{Point}}}]{center,  }\item[{\mbox{\hyperlink{structImageResults_1_1Rect}{Rect}}}]{bounding\+Box,  }\item[{\mbox{\hyperlink{classProcessingProperties}{Processing\+Properties}}}]{processing\+Properties }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [explicit]}}
+
+
+
+Definition at line 8 of file imageresults.\+cpp.
+
+
+
+References bounding\+Box(), center(), m\+\_\+bounding\+Box, m\+\_\+center, m\+\_\+properties, and processing\+Properties().
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classImageResults_ab25acdeb8500a7a828799aa794a8f133_cgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classImageResults_a8fc3f4b3a9f98837d1ef66efff339bfc}\label{classImageResults_a8fc3f4b3a9f98837d1ef66efff339bfc}} 
+\index{ImageResults@{ImageResults}!boundingBox@{boundingBox}}
+\index{boundingBox@{boundingBox}!ImageResults@{ImageResults}}
+\doxysubsubsection{\texorpdfstring{boundingBox()}{boundingBox()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{structImageResults_1_1Rect}{Image\+Results\+::\+Rect}} Image\+Results\+::bounding\+Box (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 20 of file imageresults.\+cpp.
+
+
+
+References m\+\_\+bounding\+Box.
+
+
+
+Referenced by Image\+Results(), and Painting\+Properties\+::paint().
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classImageResults_a8fc3f4b3a9f98837d1ef66efff339bfc_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classImageResults_a0cc23d36b6f2654e8fbce7078a1d1ca6}\label{classImageResults_a0cc23d36b6f2654e8fbce7078a1d1ca6}} 
+\index{ImageResults@{ImageResults}!center@{center}}
+\index{center@{center}!ImageResults@{ImageResults}}
+\doxysubsubsection{\texorpdfstring{center()}{center()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{structImageResults_1_1Point}{Image\+Results\+::\+Point}} Image\+Results\+::center (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 25 of file imageresults.\+cpp.
+
+
+
+References m\+\_\+center.
+
+
+
+Referenced by Image\+Results(), and Painting\+Properties\+::paint().
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classImageResults_a0cc23d36b6f2654e8fbce7078a1d1ca6_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classImageResults_acd861e9ff30728c9c418d0cb444576e2}\label{classImageResults_acd861e9ff30728c9c418d0cb444576e2}} 
+\index{ImageResults@{ImageResults}!getAction@{getAction}}
+\index{getAction@{getAction}!ImageResults@{ImageResults}}
+\doxysubsubsection{\texorpdfstring{getAction()}{getAction()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classCollimationAction}{Collimation\+Action}} Image\+Results\+::get\+Action (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classTelescope}{Telescope}}}]{telescope }\end{DoxyParamCaption})}
+
+
+
+Definition at line 30 of file imageresults.\+cpp.
+
+
+
+References Image\+Results\+::\+Rect\+::heigth, Collimation\+Action\+::\+Loosen, m\+\_\+bounding\+Box, m\+\_\+center, Telescope\+::screws(), Collimation\+Action\+::\+Tighten, Image\+Results\+::\+Rect\+::width, Image\+Results\+::\+Point\+::x, Image\+Results\+::\+Rect\+::x, Image\+Results\+::\+Point\+::y, and Image\+Results\+::\+Rect\+::y.
+
+
+
+Referenced by Painting\+Properties\+::paint\+Screws\+Help().
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classImageResults_acd861e9ff30728c9c418d0cb444576e2_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classImageResults_acd861e9ff30728c9c418d0cb444576e2_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classImageResults_a2c43a1ab326c48a28e34c564c3dcd9c4}\label{classImageResults_a2c43a1ab326c48a28e34c564c3dcd9c4}} 
+\index{ImageResults@{ImageResults}!processingProperties@{processingProperties}}
+\index{processingProperties@{processingProperties}!ImageResults@{ImageResults}}
+\doxysubsubsection{\texorpdfstring{processingProperties()}{processingProperties()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classProcessingProperties}{Processing\+Properties}} Image\+Results\+::processing\+Properties (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 15 of file imageresults.\+cpp.
+
+
+
+References m\+\_\+properties.
+
+
+
+Referenced by Image\+Results().
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classImageResults_a2c43a1ab326c48a28e34c564c3dcd9c4_icgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classImageResults_ac7d16c5b6f1737e0842183b156bdefbd}\label{classImageResults_ac7d16c5b6f1737e0842183b156bdefbd}} 
+\index{ImageResults@{ImageResults}!m\_boundingBox@{m\_boundingBox}}
+\index{m\_boundingBox@{m\_boundingBox}!ImageResults@{ImageResults}}
+\doxysubsubsection{\texorpdfstring{m\_boundingBox}{m\_boundingBox}}
+{\footnotesize\ttfamily \mbox{\hyperlink{structImageResults_1_1Rect}{Rect}} Image\+Results\+::m\+\_\+bounding\+Box\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 29 of file imageresults.\+h.
+
+
+
+Referenced by bounding\+Box(), get\+Action(), and Image\+Results().
+
+\mbox{\Hypertarget{classImageResults_acc78151c3233eb21a8b2c2c7529f2243}\label{classImageResults_acc78151c3233eb21a8b2c2c7529f2243}} 
+\index{ImageResults@{ImageResults}!m\_center@{m\_center}}
+\index{m\_center@{m\_center}!ImageResults@{ImageResults}}
+\doxysubsubsection{\texorpdfstring{m\_center}{m\_center}}
+{\footnotesize\ttfamily \mbox{\hyperlink{structImageResults_1_1Point}{Point}} Image\+Results\+::m\+\_\+center\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 27 of file imageresults.\+h.
+
+
+
+Referenced by center(), get\+Action(), and Image\+Results().
+
+\mbox{\Hypertarget{classImageResults_aff886f94148573ecc2a6a200a173c432}\label{classImageResults_aff886f94148573ecc2a6a200a173c432}} 
+\index{ImageResults@{ImageResults}!m\_properties@{m\_properties}}
+\index{m\_properties@{m\_properties}!ImageResults@{ImageResults}}
+\doxysubsubsection{\texorpdfstring{m\_properties}{m\_properties}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classProcessingProperties}{Processing\+Properties}} Image\+Results\+::m\+\_\+properties\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 28 of file imageresults.\+h.
+
+
+
+Referenced by Image\+Results(), and processing\+Properties().
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Collimator\+Lib/\mbox{\hyperlink{imageresults_8h}{imageresults.\+h}}\item 
+Collimator\+Lib/\mbox{\hyperlink{imageresults_8cpp}{imageresults.\+cpp}}\end{DoxyCompactItemize}

@@ -1,0 +1,309 @@
+\hypertarget{classTelescopeSelector}{}\doxysection{Telescope\+Selector Class Reference}
+\label{classTelescopeSelector}\index{TelescopeSelector@{TelescopeSelector}}
+
+
+{\ttfamily \#include $<$telescopeselector.\+h$>$}
+
+
+
+Inheritance diagram for Telescope\+Selector\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=228pt]{classTelescopeSelector__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Telescope\+Selector\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=228pt]{classTelescopeSelector__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classTelescopeSelector_afb9404b10a36fda2bc19dedb754c3da6}{Telescope\+Selector}} (QWidget $\ast$parent=nullptr)
+\item 
+\mbox{\hyperlink{classTelescopeSelector_ab31b9fbdae16f76a2dc2d1dcbc5f3859}{$\sim$\+Telescope\+Selector}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+bool \mbox{\hyperlink{classTelescopeSelector_ad96a0534bad87940000d7b7607bdffce}{event\+Filter}} (QObject $\ast$object, QEvent $\ast$event)
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Slots}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classTelescopeSelector_aa8ce7df08690ce44e5d8cfe869c4d0b2}{on\+Click\+Telescope}} ()
+\item 
+void \mbox{\hyperlink{classTelescopeSelector_aa0a2326d04068f0dc2752d121a5a36df}{create\+Telescope}} ()
+\item 
+void \mbox{\hyperlink{classTelescopeSelector_a5c0c56b20ff3508e033a4c147761d40b}{remove\+Telescope}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classTelescopeSelector_a85ba33a2b615a55a16de45a86e26faf2}{paint\+Telescope\+List}} (QList$<$ \mbox{\hyperlink{classTelescopeUI}{Telescope\+UI}} $>$ telescopes)
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+Ui\+::\+Telescope\+Selector $\ast$ \mbox{\hyperlink{classTelescopeSelector_ae00a5dc5b6a540e0ac9549d2f86288d0}{ui}}
+\item 
+QList$<$ \mbox{\hyperlink{classTelescopeUI}{Telescope\+UI}} $>$ \mbox{\hyperlink{classTelescopeSelector_ad323c6c0788addd5c2aab056dbdc8b0a}{m\+\_\+telescopes}}
+\item 
+bool \mbox{\hyperlink{classTelescopeSelector_aa60b8a1151a2b3f26fabb439157114fa}{creating}} = false
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+
+
+Definition at line 14 of file telescopeselector.\+h.
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classTelescopeSelector_afb9404b10a36fda2bc19dedb754c3da6}\label{classTelescopeSelector_afb9404b10a36fda2bc19dedb754c3da6}} 
+\index{TelescopeSelector@{TelescopeSelector}!TelescopeSelector@{TelescopeSelector}}
+\index{TelescopeSelector@{TelescopeSelector}!TelescopeSelector@{TelescopeSelector}}
+\doxysubsubsection{\texorpdfstring{TelescopeSelector()}{TelescopeSelector()}}
+{\footnotesize\ttfamily Telescope\+Selector\+::\+Telescope\+Selector (\begin{DoxyParamCaption}\item[{QWidget $\ast$}]{parent = {\ttfamily nullptr} }\end{DoxyParamCaption})}
+
+
+
+Definition at line 13 of file telescopeselector.\+cpp.
+
+
+
+References create\+Telescope(), Telescope\+DAO\+::get\+All(), on\+Click\+Telescope(), paint\+Telescope\+List(), remove\+Telescope(), and ui.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{classTelescopeSelector_afb9404b10a36fda2bc19dedb754c3da6_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classTelescopeSelector_ab31b9fbdae16f76a2dc2d1dcbc5f3859}\label{classTelescopeSelector_ab31b9fbdae16f76a2dc2d1dcbc5f3859}} 
+\index{TelescopeSelector@{TelescopeSelector}!````~TelescopeSelector@{$\sim$TelescopeSelector}}
+\index{````~TelescopeSelector@{$\sim$TelescopeSelector}!TelescopeSelector@{TelescopeSelector}}
+\doxysubsubsection{\texorpdfstring{$\sim$TelescopeSelector()}{~TelescopeSelector()}}
+{\footnotesize\ttfamily Telescope\+Selector\+::$\sim$\+Telescope\+Selector (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 31 of file telescopeselector.\+cpp.
+
+
+
+References ui.
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classTelescopeSelector_aa0a2326d04068f0dc2752d121a5a36df}\label{classTelescopeSelector_aa0a2326d04068f0dc2752d121a5a36df}} 
+\index{TelescopeSelector@{TelescopeSelector}!createTelescope@{createTelescope}}
+\index{createTelescope@{createTelescope}!TelescopeSelector@{TelescopeSelector}}
+\doxysubsubsection{\texorpdfstring{createTelescope}{createTelescope}}
+{\footnotesize\ttfamily void Telescope\+Selector\+::create\+Telescope (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+
+
+Definition at line 61 of file telescopeselector.\+cpp.
+
+
+
+References creating, m\+\_\+telescopes, Telescope\+::name(), Telescope\+DAO\+::save(), Telescope\+::set\+Name(), and ui.
+
+
+
+Referenced by Telescope\+Selector().
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classTelescopeSelector_aa0a2326d04068f0dc2752d121a5a36df_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=336pt]{classTelescopeSelector_aa0a2326d04068f0dc2752d121a5a36df_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classTelescopeSelector_ad96a0534bad87940000d7b7607bdffce}\label{classTelescopeSelector_ad96a0534bad87940000d7b7607bdffce}} 
+\index{TelescopeSelector@{TelescopeSelector}!eventFilter@{eventFilter}}
+\index{eventFilter@{eventFilter}!TelescopeSelector@{TelescopeSelector}}
+\doxysubsubsection{\texorpdfstring{eventFilter()}{eventFilter()}}
+{\footnotesize\ttfamily bool Telescope\+Selector\+::event\+Filter (\begin{DoxyParamCaption}\item[{QObject $\ast$}]{object,  }\item[{QEvent $\ast$}]{event }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Definition at line 100 of file telescopeselector.\+cpp.
+
+
+
+References creating, on\+Click\+Telescope(), remove\+Telescope(), and ui.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classTelescopeSelector_ad96a0534bad87940000d7b7607bdffce_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classTelescopeSelector_aa8ce7df08690ce44e5d8cfe869c4d0b2}\label{classTelescopeSelector_aa8ce7df08690ce44e5d8cfe869c4d0b2}} 
+\index{TelescopeSelector@{TelescopeSelector}!onClickTelescope@{onClickTelescope}}
+\index{onClickTelescope@{onClickTelescope}!TelescopeSelector@{TelescopeSelector}}
+\doxysubsubsection{\texorpdfstring{onClickTelescope}{onClickTelescope}}
+{\footnotesize\ttfamily void Telescope\+Selector\+::on\+Click\+Telescope (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+
+
+Definition at line 49 of file telescopeselector.\+cpp.
+
+
+
+References m\+\_\+telescopes, Telescope\+View\+::set\+Telescope(), and ui.
+
+
+
+Referenced by event\+Filter(), and Telescope\+Selector().
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classTelescopeSelector_aa8ce7df08690ce44e5d8cfe869c4d0b2_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=336pt]{classTelescopeSelector_aa8ce7df08690ce44e5d8cfe869c4d0b2_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classTelescopeSelector_a85ba33a2b615a55a16de45a86e26faf2}\label{classTelescopeSelector_a85ba33a2b615a55a16de45a86e26faf2}} 
+\index{TelescopeSelector@{TelescopeSelector}!paintTelescopeList@{paintTelescopeList}}
+\index{paintTelescopeList@{paintTelescopeList}!TelescopeSelector@{TelescopeSelector}}
+\doxysubsubsection{\texorpdfstring{paintTelescopeList()}{paintTelescopeList()}}
+{\footnotesize\ttfamily void Telescope\+Selector\+::paint\+Telescope\+List (\begin{DoxyParamCaption}\item[{QList$<$ \mbox{\hyperlink{classTelescopeUI}{Telescope\+UI}} $>$}]{telescopes }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 37 of file telescopeselector.\+cpp.
+
+
+
+References m\+\_\+telescopes, and ui.
+
+
+
+Referenced by Telescope\+Selector().
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=336pt]{classTelescopeSelector_a85ba33a2b615a55a16de45a86e26faf2_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classTelescopeSelector_a5c0c56b20ff3508e033a4c147761d40b}\label{classTelescopeSelector_a5c0c56b20ff3508e033a4c147761d40b}} 
+\index{TelescopeSelector@{TelescopeSelector}!removeTelescope@{removeTelescope}}
+\index{removeTelescope@{removeTelescope}!TelescopeSelector@{TelescopeSelector}}
+\doxysubsubsection{\texorpdfstring{removeTelescope}{removeTelescope}}
+{\footnotesize\ttfamily void Telescope\+Selector\+::remove\+Telescope (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+
+
+Definition at line 86 of file telescopeselector.\+cpp.
+
+
+
+References Telescope\+::id(), m\+\_\+telescopes, Telescope\+DAO\+::remove(), and ui.
+
+
+
+Referenced by event\+Filter(), and Telescope\+Selector().
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classTelescopeSelector_a5c0c56b20ff3508e033a4c147761d40b_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=336pt]{classTelescopeSelector_a5c0c56b20ff3508e033a4c147761d40b_icgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classTelescopeSelector_aa60b8a1151a2b3f26fabb439157114fa}\label{classTelescopeSelector_aa60b8a1151a2b3f26fabb439157114fa}} 
+\index{TelescopeSelector@{TelescopeSelector}!creating@{creating}}
+\index{creating@{creating}!TelescopeSelector@{TelescopeSelector}}
+\doxysubsubsection{\texorpdfstring{creating}{creating}}
+{\footnotesize\ttfamily bool Telescope\+Selector\+::creating = false\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 25 of file telescopeselector.\+h.
+
+
+
+Referenced by create\+Telescope(), and event\+Filter().
+
+\mbox{\Hypertarget{classTelescopeSelector_ad323c6c0788addd5c2aab056dbdc8b0a}\label{classTelescopeSelector_ad323c6c0788addd5c2aab056dbdc8b0a}} 
+\index{TelescopeSelector@{TelescopeSelector}!m\_telescopes@{m\_telescopes}}
+\index{m\_telescopes@{m\_telescopes}!TelescopeSelector@{TelescopeSelector}}
+\doxysubsubsection{\texorpdfstring{m\_telescopes}{m\_telescopes}}
+{\footnotesize\ttfamily QList$<$\mbox{\hyperlink{classTelescopeUI}{Telescope\+UI}}$>$ Telescope\+Selector\+::m\+\_\+telescopes\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 24 of file telescopeselector.\+h.
+
+
+
+Referenced by create\+Telescope(), on\+Click\+Telescope(), paint\+Telescope\+List(), and remove\+Telescope().
+
+\mbox{\Hypertarget{classTelescopeSelector_ae00a5dc5b6a540e0ac9549d2f86288d0}\label{classTelescopeSelector_ae00a5dc5b6a540e0ac9549d2f86288d0}} 
+\index{TelescopeSelector@{TelescopeSelector}!ui@{ui}}
+\index{ui@{ui}!TelescopeSelector@{TelescopeSelector}}
+\doxysubsubsection{\texorpdfstring{ui}{ui}}
+{\footnotesize\ttfamily Ui\+::\+Telescope\+Selector$\ast$ Telescope\+Selector\+::ui\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 23 of file telescopeselector.\+h.
+
+
+
+Referenced by create\+Telescope(), event\+Filter(), on\+Click\+Telescope(), paint\+Telescope\+List(), remove\+Telescope(), Telescope\+Selector(), and $\sim$\+Telescope\+Selector().
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+views/\mbox{\hyperlink{telescopeselector_8h}{telescopeselector.\+h}}\item 
+views/\mbox{\hyperlink{telescopeselector_8cpp}{telescopeselector.\+cpp}}\end{DoxyCompactItemize}

@@ -1,0 +1,4 @@
+<map id="Telescope" name="Telescope">
+<area shape="rect" id="node1" title=" " alt="" coords="5,5,313,420"/>
+<area shape="rect" id="node2" href="$classTelescopeUI.html" title="The TelescopeUI class Child of Telescope for implementing PaintingProperties into telescope,..." alt="" coords="23,468,296,633"/>
+</map>

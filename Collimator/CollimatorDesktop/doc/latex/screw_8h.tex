@@ -1,0 +1,80 @@
+\hypertarget{screw_8h}{}\doxysection{Collimator\+Lib/model/screw.h File Reference}
+\label{screw_8h}\index{CollimatorLib/model/screw.h@{CollimatorLib/model/screw.h}}
+{\ttfamily \#include \char`\"{}Collimator\+Lib\+\_\+global.\+h\char`\"{}}\newline
+{\ttfamily \#include $<$QPoint$>$}\newline
+{\ttfamily \#include $<$QHash$>$}\newline
+Include dependency graph for screw.\+h\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=341pt]{screw_8h__incl}
+\end{center}
+\end{figure}
+This graph shows which files directly or indirectly include this file\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{screw_8h__dep__incl}
+\end{center}
+\end{figure}
+\doxysubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \mbox{\hyperlink{classScrew}{Screw}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+bool \mbox{\hyperlink{screw_8h_afb33ed87a61602bf94a3ed763ff01154}{operator==}} (const \mbox{\hyperlink{classScrew}{Screw}} \&sc1, const \mbox{\hyperlink{classScrew}{Screw}} \&sc2)
+\item 
+uint \mbox{\hyperlink{screw_8h_afa50353f282d3b21c2f92441a5b562df}{q\+Hash}} (const \mbox{\hyperlink{classScrew}{Screw}} \&key, uint seed)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{screw_8h_afb33ed87a61602bf94a3ed763ff01154}\label{screw_8h_afb33ed87a61602bf94a3ed763ff01154}} 
+\index{screw.h@{screw.h}!operator==@{operator==}}
+\index{operator==@{operator==}!screw.h@{screw.h}}
+\doxysubsubsection{\texorpdfstring{operator==()}{operator==()}}
+{\footnotesize\ttfamily bool operator== (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classScrew}{Screw}} \&}]{sc1,  }\item[{const \mbox{\hyperlink{classScrew}{Screw}} \&}]{sc2 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line 26 of file screw.\+h.
+
+
+
+References Screw\+::id().
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=250pt]{screw_8h_afb33ed87a61602bf94a3ed763ff01154_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{screw_8h_afa50353f282d3b21c2f92441a5b562df}\label{screw_8h_afa50353f282d3b21c2f92441a5b562df}} 
+\index{screw.h@{screw.h}!qHash@{qHash}}
+\index{qHash@{qHash}!screw.h@{screw.h}}
+\doxysubsubsection{\texorpdfstring{qHash()}{qHash()}}
+{\footnotesize\ttfamily uint q\+Hash (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classScrew}{Screw}} \&}]{key,  }\item[{uint}]{seed }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line 33 of file screw.\+h.
+
+
+
+References Screw\+::degrees(), and Screw\+::id().
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=253pt]{screw_8h_afa50353f282d3b21c2f92441a5b562df_cgraph}
+\end{center}
+\end{figure}

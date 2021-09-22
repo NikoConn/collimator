@@ -1,0 +1,365 @@
+\hypertarget{classProcessingPropertiesDAO}{}\doxysection{Processing\+Properties\+DAO Class Reference}
+\label{classProcessingPropertiesDAO}\index{ProcessingPropertiesDAO@{ProcessingPropertiesDAO}}
+
+
+{\ttfamily \#include $<$processingpropertiesdao.\+h$>$}
+
+
+
+Collaboration diagram for Processing\+Properties\+DAO\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=263pt]{classProcessingPropertiesDAO__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{classProcessingPropertiesDAO_a2da7b67fd2326adcde07bd67dfa195be}{save}} (\mbox{\hyperlink{classProcessingProperties}{Processing\+Properties}} $\ast$processing\+Properties)
+\begin{DoxyCompactList}\small\item\em save Method for saving an instance of processing\+Properties \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classProcessingPropertiesDAO_a9a4b825000629909ab32f19342dab8c4}{update}} (\mbox{\hyperlink{classProcessingProperties}{Processing\+Properties}} processing\+Properties)
+\begin{DoxyCompactList}\small\item\em update Method for updating Processing Properties \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classProcessingProperties}{Processing\+Properties}} \mbox{\hyperlink{classProcessingPropertiesDAO_ae13fa8cfc65cfcc93dc04239e28e28aa}{get}} (int id)
+\begin{DoxyCompactList}\small\item\em get Method for obtaining Processing properties by id \end{DoxyCompactList}\item 
+QList$<$ \mbox{\hyperlink{classProcessingProperties}{Processing\+Properties}} $>$ \mbox{\hyperlink{classProcessingPropertiesDAO_a18281e04acd8796a1c5ddada95d86e05}{get\+All}} ()
+\begin{DoxyCompactList}\small\item\em get\+All Method for obtaining all Processing Properties in the database \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classProcessingPropertiesDAO_a93f4a39b3793d0b1c7d08c660191c108}{remove}} (int id)
+\begin{DoxyCompactList}\small\item\em remove Method for removing Processing properties by id \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static \mbox{\hyperlink{classProcessingProperties}{Processing\+Properties}} \mbox{\hyperlink{classProcessingPropertiesDAO_ae742a323ccbd067ac4a78a947bd31007}{create\+Object}} (QSql\+Query query)
+\begin{DoxyCompactList}\small\item\em create\+Object Method for getting \mbox{\hyperlink{classProcessingProperties}{Processing\+Properties}} object using a row of a query \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Static Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static void \mbox{\hyperlink{classProcessingPropertiesDAO_a6195d10ea72cb52abc8497d88b8bd9a7}{bind\+Values}} (QSql\+Query $\ast$query, \mbox{\hyperlink{classProcessingProperties}{Processing\+Properties}} processing\+Properties)
+\begin{DoxyCompactList}\small\item\em bind\+Values Private method for binding values of the query with Processing properties to reduce code \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classDatabaseConnectionSingleton}{Database\+Connection\+Singleton}} \mbox{\hyperlink{classProcessingPropertiesDAO_a23bb0e64028eb0517dbe44508dc7dd6e}{db}} = \mbox{\hyperlink{classDatabaseConnectionSingleton_a59fe0d5d27fee668962065c071ef2746}{Database\+Connection\+Singleton\+::instance}}()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+
+
+Definition at line 6 of file processingpropertiesdao.\+h.
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classProcessingPropertiesDAO_a6195d10ea72cb52abc8497d88b8bd9a7}\label{classProcessingPropertiesDAO_a6195d10ea72cb52abc8497d88b8bd9a7}} 
+\index{ProcessingPropertiesDAO@{ProcessingPropertiesDAO}!bindValues@{bindValues}}
+\index{bindValues@{bindValues}!ProcessingPropertiesDAO@{ProcessingPropertiesDAO}}
+\doxysubsubsection{\texorpdfstring{bindValues()}{bindValues()}}
+{\footnotesize\ttfamily void Processing\+Properties\+DAO\+::bind\+Values (\begin{DoxyParamCaption}\item[{QSql\+Query $\ast$}]{query,  }\item[{\mbox{\hyperlink{classProcessingProperties}{Processing\+Properties}}}]{processing\+Properties }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+
+
+bind\+Values Private method for binding values of the query with Processing properties to reduce code 
+
+
+\begin{DoxyParams}{Parameters}
+{\em query} & Query where to replace data \\
+\hline
+{\em processing\+Properties} & Processing properties from where to get data \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 84 of file processingpropertiesdao.\+cpp.
+
+
+
+References Processing\+Properties\+::\+Threshold\+Values\+::constant, Processing\+Properties\+::\+Stretching\+Values\+::max, Processing\+Properties\+::\+Stretching\+Values\+::min, Processing\+Properties\+::refinate\+Radius(), Processing\+Properties\+::scale(), Processing\+Properties\+::stretching\+Values(), Processing\+Properties\+::\+Threshold\+Values\+::threshold\+Size, and Processing\+Properties\+::threshold\+Values().
+
+
+
+Referenced by save(), and update().
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classProcessingPropertiesDAO_a6195d10ea72cb52abc8497d88b8bd9a7_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classProcessingPropertiesDAO_a6195d10ea72cb52abc8497d88b8bd9a7_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classProcessingPropertiesDAO_ae742a323ccbd067ac4a78a947bd31007}\label{classProcessingPropertiesDAO_ae742a323ccbd067ac4a78a947bd31007}} 
+\index{ProcessingPropertiesDAO@{ProcessingPropertiesDAO}!createObject@{createObject}}
+\index{createObject@{createObject}!ProcessingPropertiesDAO@{ProcessingPropertiesDAO}}
+\doxysubsubsection{\texorpdfstring{createObject()}{createObject()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classProcessingProperties}{Processing\+Properties}} Processing\+Properties\+DAO\+::create\+Object (\begin{DoxyParamCaption}\item[{QSql\+Query}]{query }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+create\+Object Method for getting \mbox{\hyperlink{classProcessingProperties}{Processing\+Properties}} object using a row of a query 
+
+
+\begin{DoxyParams}{Parameters}
+{\em query} & Query with values \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\mbox{\hyperlink{classProcessingProperties}{Processing\+Properties}} given the data from the current row of the query 
+\end{DoxyReturn}
+
+
+Definition at line 95 of file processingpropertiesdao.\+cpp.
+
+
+
+References Processing\+Properties\+::\+Threshold\+Values\+::constant, Processing\+Properties\+::\+Stretching\+Values\+::max, Processing\+Properties\+::\+Stretching\+Values\+::min, Processing\+Properties\+::set\+Id(), Processing\+Properties\+::set\+Refinate\+Radius(), Processing\+Properties\+::set\+Scale(), Processing\+Properties\+::set\+Stretching\+Values(), Processing\+Properties\+::set\+Threshold\+Values(), and Processing\+Properties\+::\+Threshold\+Values\+::threshold\+Size.
+
+
+
+Referenced by get(), and get\+All().
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classProcessingPropertiesDAO_ae742a323ccbd067ac4a78a947bd31007_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classProcessingPropertiesDAO_ae742a323ccbd067ac4a78a947bd31007_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classProcessingPropertiesDAO_ae13fa8cfc65cfcc93dc04239e28e28aa}\label{classProcessingPropertiesDAO_ae13fa8cfc65cfcc93dc04239e28e28aa}} 
+\index{ProcessingPropertiesDAO@{ProcessingPropertiesDAO}!get@{get}}
+\index{get@{get}!ProcessingPropertiesDAO@{ProcessingPropertiesDAO}}
+\doxysubsubsection{\texorpdfstring{get()}{get()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classProcessingProperties}{Processing\+Properties}} Processing\+Properties\+DAO\+::get (\begin{DoxyParamCaption}\item[{int}]{id }\end{DoxyParamCaption})}
+
+
+
+get Method for obtaining Processing properties by id 
+
+
+\begin{DoxyParams}{Parameters}
+{\em id} & Id of the processing properties to be obtained \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\mbox{\hyperlink{classProcessingProperties}{Processing\+Properties}} Processing properties matching id 
+\end{DoxyReturn}
+
+
+Definition at line 44 of file processingpropertiesdao.\+cpp.
+
+
+
+References create\+Object(), db, and Database\+Connection\+Singleton\+::get\+Database().
+
+
+
+Referenced by Telescope\+DAO\+::get().
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classProcessingPropertiesDAO_ae13fa8cfc65cfcc93dc04239e28e28aa_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classProcessingPropertiesDAO_ae13fa8cfc65cfcc93dc04239e28e28aa_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classProcessingPropertiesDAO_a18281e04acd8796a1c5ddada95d86e05}\label{classProcessingPropertiesDAO_a18281e04acd8796a1c5ddada95d86e05}} 
+\index{ProcessingPropertiesDAO@{ProcessingPropertiesDAO}!getAll@{getAll}}
+\index{getAll@{getAll}!ProcessingPropertiesDAO@{ProcessingPropertiesDAO}}
+\doxysubsubsection{\texorpdfstring{getAll()}{getAll()}}
+{\footnotesize\ttfamily QList$<$ \mbox{\hyperlink{classProcessingProperties}{Processing\+Properties}} $>$ Processing\+Properties\+DAO\+::get\+All (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+get\+All Method for obtaining all Processing Properties in the database 
+
+\begin{DoxyReturn}{Returns}
+QList$<$\+Processing\+Properties$>$ List of all Processing Properties in the database 
+\end{DoxyReturn}
+
+
+Definition at line 56 of file processingpropertiesdao.\+cpp.
+
+
+
+References create\+Object(), db, and Database\+Connection\+Singleton\+::get\+Database().
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classProcessingPropertiesDAO_a18281e04acd8796a1c5ddada95d86e05_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classProcessingPropertiesDAO_a93f4a39b3793d0b1c7d08c660191c108}\label{classProcessingPropertiesDAO_a93f4a39b3793d0b1c7d08c660191c108}} 
+\index{ProcessingPropertiesDAO@{ProcessingPropertiesDAO}!remove@{remove}}
+\index{remove@{remove}!ProcessingPropertiesDAO@{ProcessingPropertiesDAO}}
+\doxysubsubsection{\texorpdfstring{remove()}{remove()}}
+{\footnotesize\ttfamily bool Processing\+Properties\+DAO\+::remove (\begin{DoxyParamCaption}\item[{int}]{id }\end{DoxyParamCaption})}
+
+
+
+remove Method for removing Processing properties by id 
+
+
+\begin{DoxyParams}{Parameters}
+{\em id} & Id of the processing properties to be removed \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool indicating if removing was successful 
+\end{DoxyReturn}
+
+
+Definition at line 71 of file processingpropertiesdao.\+cpp.
+
+
+
+References db, and Database\+Connection\+Singleton\+::get\+Database().
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classProcessingPropertiesDAO_a93f4a39b3793d0b1c7d08c660191c108_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classProcessingPropertiesDAO_a2da7b67fd2326adcde07bd67dfa195be}\label{classProcessingPropertiesDAO_a2da7b67fd2326adcde07bd67dfa195be}} 
+\index{ProcessingPropertiesDAO@{ProcessingPropertiesDAO}!save@{save}}
+\index{save@{save}!ProcessingPropertiesDAO@{ProcessingPropertiesDAO}}
+\doxysubsubsection{\texorpdfstring{save()}{save()}}
+{\footnotesize\ttfamily int Processing\+Properties\+DAO\+::save (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classProcessingProperties}{Processing\+Properties}} $\ast$}]{processing\+Properties }\end{DoxyParamCaption})}
+
+
+
+save Method for saving an instance of processing\+Properties 
+
+
+\begin{DoxyParams}{Parameters}
+{\em processing\+Properties} & Processing properties to be saved \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+int id of the saved Processing properties. -\/1 if error. 
+\end{DoxyReturn}
+
+
+Definition at line 3 of file processingpropertiesdao.\+cpp.
+
+
+
+References bind\+Values(), db, Database\+Connection\+Singleton\+::get\+Database(), and Processing\+Properties\+::id().
+
+
+
+Referenced by Telescope\+DAO\+::save().
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classProcessingPropertiesDAO_a2da7b67fd2326adcde07bd67dfa195be_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classProcessingPropertiesDAO_a2da7b67fd2326adcde07bd67dfa195be_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classProcessingPropertiesDAO_a9a4b825000629909ab32f19342dab8c4}\label{classProcessingPropertiesDAO_a9a4b825000629909ab32f19342dab8c4}} 
+\index{ProcessingPropertiesDAO@{ProcessingPropertiesDAO}!update@{update}}
+\index{update@{update}!ProcessingPropertiesDAO@{ProcessingPropertiesDAO}}
+\doxysubsubsection{\texorpdfstring{update()}{update()}}
+{\footnotesize\ttfamily int Processing\+Properties\+DAO\+::update (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classProcessingProperties}{Processing\+Properties}}}]{processing\+Properties }\end{DoxyParamCaption})}
+
+
+
+update Method for updating Processing Properties 
+
+
+\begin{DoxyParams}{Parameters}
+{\em processing\+Properties} & Processing properties to be updated \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+int id of the processing properites. -\/1 if error 
+\end{DoxyReturn}
+
+
+Definition at line 24 of file processingpropertiesdao.\+cpp.
+
+
+
+References bind\+Values(), db, Database\+Connection\+Singleton\+::get\+Database(), and Processing\+Properties\+::id().
+
+
+
+Referenced by Telescope\+View\+::open\+Image\+Processing(), and Telescope\+DAO\+::update().
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classProcessingPropertiesDAO_a9a4b825000629909ab32f19342dab8c4_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classProcessingPropertiesDAO_a9a4b825000629909ab32f19342dab8c4_icgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classProcessingPropertiesDAO_a23bb0e64028eb0517dbe44508dc7dd6e}\label{classProcessingPropertiesDAO_a23bb0e64028eb0517dbe44508dc7dd6e}} 
+\index{ProcessingPropertiesDAO@{ProcessingPropertiesDAO}!db@{db}}
+\index{db@{db}!ProcessingPropertiesDAO@{ProcessingPropertiesDAO}}
+\doxysubsubsection{\texorpdfstring{db}{db}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classDatabaseConnectionSingleton}{Database\+Connection\+Singleton}} Processing\+Properties\+DAO\+::db = \mbox{\hyperlink{classDatabaseConnectionSingleton_a59fe0d5d27fee668962065c071ef2746}{Database\+Connection\+Singleton\+::instance}}()\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 57 of file processingpropertiesdao.\+h.
+
+
+
+Referenced by get(), get\+All(), remove(), save(), and update().
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+persistence/\mbox{\hyperlink{processingpropertiesdao_8h}{processingpropertiesdao.\+h}}\item 
+persistence/\mbox{\hyperlink{processingpropertiesdao_8cpp}{processingpropertiesdao.\+cpp}}\end{DoxyCompactItemize}
