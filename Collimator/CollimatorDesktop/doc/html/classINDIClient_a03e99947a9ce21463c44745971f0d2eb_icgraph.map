@@ -1,9 +1,0 @@
-<map id="INDIClient::getImageFromTelescope" name="INDIClient::getImageFromTelescope">
-<area shape="rect" id="node1" title=" " alt="" coords="1580,35,1771,76"/>
-<area shape="rect" id="node2" href="$classCollimatorImage.html#a966c66cc4e8a452c08d6a681a406534b" title=" " alt="" coords="1292,17,1532,43"/>
-<area shape="rect" id="node3" href="$classCollimatorImage.html#abb96a83d7a99b3770a83fed69b4541c3" title=" " alt="" coords="1041,35,1244,76"/>
-<area shape="rect" id="node4" href="$classCollimatorImage.html#ac9ff295f084594daf7225cba62598061" title="connectTelescope Connects to the given RemoteTelescope and starts getting images" alt="" coords="803,35,993,76"/>
-<area shape="rect" id="node5" href="$classTelescopeView.html#a2e406aa1987071f56f8cf38f1871a131" title=" " alt="" coords="515,42,755,69"/>
-<area shape="rect" id="node6" href="$classTelescopeView.html#a854b6d56174b0899a62fa91bde5bec6d" title=" " alt="" coords="275,5,467,47"/>
-<area shape="rect" id="node7" href="$classTelescopeView.html#ac6aa65ca912c125e35ebccb39f59a9f5" title=" " alt="" coords="5,42,227,69"/>
-</map>

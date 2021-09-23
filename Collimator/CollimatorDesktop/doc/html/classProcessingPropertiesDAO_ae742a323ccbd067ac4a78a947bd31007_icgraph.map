@@ -1,6 +1,0 @@
-<map id="ProcessingPropertiesDAO::createObject" name="ProcessingPropertiesDAO::createObject">
-<area shape="rect" id="node1" title="createObject Method for getting ProcessingProperties object using a row of a query" alt="" coords="461,27,648,69"/>
-<area shape="rect" id="node2" href="$classProcessingPropertiesDAO.html#ae13fa8cfc65cfcc93dc04239e28e28aa" title="get Method for obtaining Processing properties by id" alt="" coords="197,5,413,32"/>
-<area shape="rect" id="node4" href="$classProcessingPropertiesDAO.html#a18281e04acd8796a1c5ddada95d86e05" title="getAll Method for obtaining all Processing Properties in the database" alt="" coords="212,57,399,98"/>
-<area shape="rect" id="node3" href="$classTelescopeDAO.html#ab8007734ed3b38cf790e3b01543bba3d" title="get Method for obtaining a Telescope by id" alt="" coords="5,5,149,32"/>
-</map>

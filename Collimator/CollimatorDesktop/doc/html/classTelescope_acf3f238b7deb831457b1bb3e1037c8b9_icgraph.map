@@ -1,8 +1,0 @@
-<map id="Telescope::setName" name="Telescope::setName">
-<area shape="rect" id="node1" title=" " alt="" coords="664,63,817,89"/>
-<area shape="rect" id="node2" href="$classTelescopeDAO.html#abecbb49d2146e1fa622b3fcc04cbebcf" title="createObject Private method for getting Telescope object using a row of a query" alt="" coords="409,8,616,35"/>
-<area shape="rect" id="node5" href="$classTelescopeSelector.html#aa0a2326d04068f0dc2752d121a5a36df" title=" " alt="" coords="207,57,354,98"/>
-<area shape="rect" id="node6" href="$classTelescopeDAO.html#ab8007734ed3b38cf790e3b01543bba3d" title="get Method for obtaining a Telescope by id" alt="" coords="441,113,585,140"/>
-<area shape="rect" id="node3" href="$classTelescopeDAO.html#a613c46217415709be8897c850f592118" title="getAll Method for obtaining all Telescopes in the database" alt="" coords="200,5,361,32"/>
-<area shape="rect" id="node4" href="$classTelescopeSelector.html#afb9404b10a36fda2bc19dedb754c3da6" title=" " alt="" coords="5,27,152,69"/>
-</map>

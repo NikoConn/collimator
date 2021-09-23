@@ -1,9 +1,0 @@
-<map id="TelescopeUI::setPaintingProperties" name="TelescopeUI::setPaintingProperties">
-<area shape="rect" id="node1" title="setPaintingProperties Sets the given PaintingProperties to the telescope" alt="" coords="664,49,844,90"/>
-<area shape="rect" id="node2" href="$classTelescopeDAO.html#abecbb49d2146e1fa622b3fcc04cbebcf" title="createObject Private method for getting Telescope object using a row of a query" alt="" coords="409,5,616,32"/>
-<area shape="rect" id="node5" href="$classTelescopeDAO.html#ab8007734ed3b38cf790e3b01543bba3d" title="get Method for obtaining a Telescope by id" alt="" coords="441,56,585,83"/>
-<area shape="rect" id="node6" href="$classTelescopeDAO.html#a59789fdf99d824b9d7d3b606183419a3" title="TelescopeDAO::save Method for saving an insance of a Telescope." alt="" coords="435,107,590,133"/>
-<area shape="rect" id="node3" href="$classTelescopeDAO.html#a613c46217415709be8897c850f592118" title="getAll Method for obtaining all Telescopes in the database" alt="" coords="200,16,361,43"/>
-<area shape="rect" id="node4" href="$classTelescopeSelector.html#afb9404b10a36fda2bc19dedb754c3da6" title=" " alt="" coords="5,49,152,90"/>
-<area shape="rect" id="node7" href="$classTelescopeSelector.html#aa0a2326d04068f0dc2752d121a5a36df" title=" " alt="" coords="207,78,354,119"/>
-</map>

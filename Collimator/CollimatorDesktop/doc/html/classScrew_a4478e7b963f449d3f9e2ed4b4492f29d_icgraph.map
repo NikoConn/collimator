@@ -1,6 +1,0 @@
-<map id="Screw::setId" name="Screw::setId">
-<area shape="rect" id="node1" title=" " alt="" coords="409,31,509,57"/>
-<area shape="rect" id="node2" href="$classTelescopeDAO.html#ab8007734ed3b38cf790e3b01543bba3d" title="get Method for obtaining a Telescope by id" alt="" coords="209,5,353,32"/>
-<area shape="rect" id="node3" href="$classTelescopeDAO.html#a613c46217415709be8897c850f592118" title="getAll Method for obtaining all Telescopes in the database" alt="" coords="200,56,361,83"/>
-<area shape="rect" id="node4" href="$classTelescopeSelector.html#afb9404b10a36fda2bc19dedb754c3da6" title=" " alt="" coords="5,49,152,90"/>
-</map>

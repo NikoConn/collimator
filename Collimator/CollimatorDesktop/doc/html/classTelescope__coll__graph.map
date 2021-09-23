@@ -1,7 +1,0 @@
-<map id="Telescope" name="Telescope">
-<area shape="rect" id="node1" title=" " alt="" coords="139,711,447,1067"/>
-<area shape="rect" id="node2" href="$classProcessingProperties.html" title=" " alt="" coords="68,219,283,604"/>
-<area shape="rect" id="node3" href="$structProcessingProperties_1_1StretchingValues.html" title=" " alt="" coords="5,5,164,112"/>
-<area shape="rect" id="node4" href="$structProcessingProperties_1_1ThresholdValues.html" title=" " alt="" coords="188,5,347,112"/>
-<area shape="rect" id="node5" href="$classRemoteTelescope.html" title=" " alt="" coords="307,175,513,648"/>
-</map>

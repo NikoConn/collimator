@@ -1,5 +1,0 @@
-<map id="TelescopeView::disconnectTelescope" name="TelescopeView::disconnectTelescope">
-<area shape="rect" id="node1" title=" " alt="" coords="5,5,200,47"/>
-<area shape="rect" id="node2" href="$classCollimatorImage.html#aad6ec641d81be27689fb679e2bdeadf5" title="setConnected Changes connection property. If false will stop receiving images" alt="" coords="248,13,476,39"/>
-<area shape="rect" id="node3" href="$classINDIClient.html#aadee5909c799f967a137249bad2e084f" title=" " alt="" coords="524,13,691,39"/>
-</map>

@@ -1,7 +1,0 @@
-<map id="ProcessingPropertiesSettings::processingProperties" name="ProcessingPropertiesSettings::processingProperties">
-<area shape="rect" id="node1" title="processingProperties Returns the current ProcessingProperties with values from UI" alt="" coords="1039,27,1249,68"/>
-<area shape="rect" id="node2" href="$classTelescopeView.html#aad2fdf016de5f8326bea708a422aee69" title=" " alt="" coords="275,5,473,47"/>
-<area shape="rect" id="node4" href="$classProcessingPropertiesSettings.html#a3db93186b99e67577b887bca43f8155b" title="setProcessingProperties Sets the processing properties from where to show the data" alt="" coords="521,35,732,76"/>
-<area shape="rect" id="node5" href="$classProcessingPropertiesSettings.html#a2f82da1f4379b3407196cca8ae4888c0" title=" " alt="" coords="780,85,991,127"/>
-<area shape="rect" id="node3" href="$classTelescopeView.html#ac6aa65ca912c125e35ebccb39f59a9f5" title=" " alt="" coords="5,13,227,39"/>
-</map>

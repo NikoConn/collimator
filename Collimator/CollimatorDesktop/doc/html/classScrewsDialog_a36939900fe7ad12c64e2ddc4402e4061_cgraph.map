@@ -1,5 +1,0 @@
-<map id="ScrewsDialog::setScrews" name="ScrewsDialog::setScrews">
-<area shape="rect" id="node1" title="setScrews Sets the Screws list from where to show the data" alt="" coords="5,31,189,57"/>
-<area shape="rect" id="node2" href="$classScrewsDialog.html#a53cb71c83df097991dbf0c778b1ceeb8" title=" " alt="" coords="237,5,420,32"/>
-<area shape="rect" id="node3" href="$classScrewsDialog.html#af39aa19884159bac85bfd3f93ca08902" title="screws Returns the current list of screws from UI input" alt="" coords="247,56,410,83"/>
-</map>

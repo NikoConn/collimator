@@ -1,5 +1,0 @@
-<map id="DatabaseConnectionSingleton::createTables" name="DatabaseConnectionSingleton::createTables">
-<area shape="rect" id="node1" title="createTables Method that creates all tables needed" alt="" coords="547,5,765,47"/>
-<area shape="rect" id="node2" href="$classDatabaseConnectionSingleton.html#afb65061a2f1be72bedf215318a2f6a9f" title=" " alt="" coords="272,5,499,47"/>
-<area shape="rect" id="node3" href="$classDatabaseConnectionSingleton.html#a59fe0d5d27fee668962065c071ef2746" title="instance Method that creates an instance if it is not created or returns the created instance" alt="" coords="5,5,224,47"/>
-</map>

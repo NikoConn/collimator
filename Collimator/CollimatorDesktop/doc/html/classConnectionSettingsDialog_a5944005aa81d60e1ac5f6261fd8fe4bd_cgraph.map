@@ -1,5 +1,0 @@
-<map id="ConnectionSettingsDialog::deviceDetected" name="ConnectionSettingsDialog::deviceDetected">
-<area shape="rect" id="node1" title=" " alt="" coords="5,27,196,69"/>
-<area shape="rect" id="node2" href="$classRemoteTelescope.html#ad6a8fc9dd0f73fa697c5127817c04d6e" title=" " alt="" coords="248,5,431,32"/>
-<area shape="rect" id="node3" href="$classConnectionSettingsDialog.html#adf10babbb0e23da85125639acbaa18d6" title="remoteTelescope Returns the current Remote Telescope with values from UI input" alt="" coords="244,57,435,98"/>
-</map>

@@ -1,7 +1,0 @@
-<map id="ProcessingPropertiesSettings::processingProperties" name="ProcessingPropertiesSettings::processingProperties">
-<area shape="rect" id="node1" title="processingProperties Returns the current ProcessingProperties with values from UI" alt="" coords="5,71,216,112"/>
-<area shape="rect" id="node2" href="$classProcessingProperties.html#ae7d42198f9dd8e15923c1c857a4b32df" title=" " alt="" coords="264,5,423,47"/>
-<area shape="rect" id="node4" href="$classProcessingProperties.html#a3504c640397be9d4bd4d07d0614a5371" title=" " alt="" coords="264,71,423,112"/>
-<area shape="rect" id="node5" href="$classProcessingProperties.html#aa5ee647da3f759ffceb53caf04e6291c" title="ProcessingProperties::setThresholdValues." alt="" coords="264,136,423,177"/>
-<area shape="rect" id="node3" href="$classProcessingProperties.html#a6b86f560e56b60546a13954451bee1d5" title=" " alt="" coords="471,5,629,47"/>
-</map>

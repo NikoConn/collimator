@@ -1,6 +1,0 @@
-<map id="ScrewsDialog::radius" name="ScrewsDialog::radius">
-<area shape="rect" id="node1" title="radius Returns the current radius with values from UI input" alt="" coords="776,5,935,32"/>
-<area shape="rect" id="node2" href="$classTelescopeView.html#a7e5fa3bc58317041bc0b5d2f086bebfa" title=" " alt="" coords="275,5,497,32"/>
-<area shape="rect" id="node4" href="$classScrewsDialog.html#ac84e23d4ca93cfae87512b88a975a7a8" title="setRadius Sets the radius of the screws" alt="" coords="545,31,728,57"/>
-<area shape="rect" id="node3" href="$classTelescopeView.html#ac6aa65ca912c125e35ebccb39f59a9f5" title=" " alt="" coords="5,5,227,32"/>
-</map>
