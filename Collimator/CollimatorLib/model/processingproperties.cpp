@@ -19,7 +19,7 @@ ProcessingProperties::ProcessingProperties()
     m_thresholdValues.thresholdSize = 25;
 
     m_scale = 1;
-    m_refinateRadius = 30;
+    m_refinateRadius = 100;
 }
 
 void ProcessingProperties::setId(int id)

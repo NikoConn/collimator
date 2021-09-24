@@ -68,6 +68,11 @@ void CollimatorImage::connectTelescope(RemoteTelescope telescope)
 
 void CollimatorImage::zoom(float diff)
 {
+    if(telescope->paintingProperties()->zoom() + diff <= 0)
+        return;
+    if(this->image.data == nullptr)
+        return;
+
     QScrollBar* horizontal = scrollArea->horizontalScrollBar();
     QScrollBar* vertical = scrollArea->verticalScrollBar();
     float zoom = telescope->paintingProperties()->zoom() + diff;
