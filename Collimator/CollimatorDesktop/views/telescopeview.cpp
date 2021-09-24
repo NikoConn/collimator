@@ -27,7 +27,6 @@ TelescopeView::TelescopeView(QWidget *parent) :
     zoomOutBtn->setIcon(QIcon(":/icons/zoom-out.png"));
 
     image = new CollimatorImage(this);
-    image->setTelescope(&this->telescope);
     image->setScrollArea(ui->imageScrollArea);
     ui->imageScrollArea->setWidget(image);
     ui->imageScrollArea->setAlignment(Qt::AlignCenter);
@@ -66,18 +65,20 @@ TelescopeView::~TelescopeView()
 }
 
 
-void TelescopeView::setTelescope(TelescopeUI telescope)
+void TelescopeView::setTelescope(TelescopeUI* telescope)
 {
     this->telescope = telescope;
-    this->remoteTelescope = telescope.remoteTelescope();
-    this->setWindowTitle(telescope.name());
+    this->setWindowTitle(telescope->name());
 
-    PaintingProperties* paintingProperties = telescope.paintingProperties();
+    PaintingProperties* paintingProperties = telescope->paintingProperties();
+
+    image->setTelescope(this->telescope);
+
     setAutomatic(paintingProperties->automatic());
     ui->actionViewBounding_Box->setChecked(paintingProperties->viewBoundingBox());
     ui->actionCalculated_Center->setChecked(paintingProperties->viewCalculatedCenter());
     ui->actionViewScrews->setChecked(paintingProperties->viewScrews());
-    ui->connectButton->setEnabled(remoteTelescope.isValid());
+    ui->connectButton->setEnabled(telescope->remoteTelescope().isValid());
     ui->actionMirrorImageHorizontally->setChecked(paintingProperties->imageMirroring().horizontally);
     ui->actionMirrorImageVertically->setChecked(paintingProperties->imageMirroring().vertically);
     ui->actionMirrorScrewsHorizontally->setChecked(paintingProperties->screwsMirroring().horizontally);
@@ -98,7 +99,7 @@ void TelescopeView::openImageFromFile()
 
 void TelescopeView::openImageProcessing()
 {
-    ProcessingProperties processingProperties = telescope.processingProperties();
+    ProcessingProperties processingProperties = telescope->processingProperties();
     ProcessingPropertiesSettings settingsDialog(this);
     settingsDialog.setProcessingProperties(processingProperties);
     int dialogCode = settingsDialog.exec();
@@ -107,7 +108,7 @@ void TelescopeView::openImageProcessing()
         try
         {
             ProcessingProperties pp = settingsDialog.processingProperties();
-            this->telescope.setProcessingProperties(pp);
+            this->telescope->setProcessingProperties(pp);
             ProcessingPropertiesDAO dao;
             dao.update(pp);
             emit propertiesChanged();
@@ -127,8 +128,8 @@ void TelescopeView::openImageProcessing()
 void TelescopeView::screwsSettings()
 {
     ScrewsDialog screwsDialog(this);
-    screwsDialog.setScrews(telescope.screws());
-    screwsDialog.setRadius(telescope.paintingProperties()->screwsRadius());
+    screwsDialog.setScrews(telescope->screws());
+    screwsDialog.setRadius(telescope->paintingProperties()->screwsRadius());
     int dialogCode = screwsDialog.exec();
 
     if(dialogCode == QDialog::Accepted)
@@ -136,9 +137,8 @@ void TelescopeView::screwsSettings()
         try
         {
             TelescopeDAO tDAO;
-            telescope.setScrews(screwsDialog.screws());
-            telescope.paintingProperties()->setScrewsRadius(screwsDialog.radius());
-            tDAO.update(telescope);
+            telescope->setScrews(screwsDialog.screws());
+            telescope->paintingProperties()->setScrewsRadius(screwsDialog.radius());
             emit propertiesChanged();
         }
         catch (std::invalid_argument exception)
@@ -153,7 +153,7 @@ void TelescopeView::screwsSettings()
 
 void TelescopeView::setAutomatic(bool automatic)
 {
-    telescope.paintingProperties()->setAutomatic(automatic);
+    telescope->paintingProperties()->setAutomatic(automatic);
     ui->actionAutomatic->setChecked(automatic);
     ui->actionManual->setChecked(!automatic);
 
@@ -184,16 +184,16 @@ void TelescopeView::connectionSettings()
     try
     {
         ConnectionSettingsDialog dialog(this);
-        dialog.setRemoteTelescope(telescope.remoteTelescope());
+        dialog.setRemoteTelescope(telescope->remoteTelescope());
         int dialogCode = dialog.exec();
 
         if(dialogCode == QDialog::Accepted)
         {
-            remoteTelescope = dialog.remoteTelescope();
-            ui->connectButton->setEnabled(remoteTelescope.isValid());
+            telescope->setRemoteTelescope(dialog.remoteTelescope());
+            ui->connectButton->setEnabled(telescope->remoteTelescope().isValid());
 
             RemoteTelescopeDAO remoteTelescopeDAO;
-            remoteTelescopeDAO.update(remoteTelescope);
+            remoteTelescopeDAO.update(telescope->remoteTelescope());
         }
     }
     catch (Exception exception)
@@ -206,7 +206,7 @@ void TelescopeView::connectionSettings()
 
 void TelescopeView::connectTelescope()
 {
-    image->connectTelescope(remoteTelescope);
+    image->connectTelescope(telescope->remoteTelescope());
 }
 
 void TelescopeView::disconnectTelescope()
@@ -235,9 +235,9 @@ void TelescopeView::connectedChanged(bool connected)
 
 void TelescopeView::changeProperties()
 {
-    telescope.paintingProperties()->setViewScrews(ui->actionViewScrews->isChecked());
-    telescope.paintingProperties()->setViewCalculatedCenter(ui->actionCalculated_Center->isChecked());
-    telescope.paintingProperties()->setViewBoundingBox(ui->actionViewBounding_Box->isChecked());
+    telescope->paintingProperties()->setViewScrews(ui->actionViewScrews->isChecked());
+    telescope->paintingProperties()->setViewCalculatedCenter(ui->actionCalculated_Center->isChecked());
+    telescope->paintingProperties()->setViewBoundingBox(ui->actionViewBounding_Box->isChecked());
     image->setDebug(ui->actionDebug_Image->isChecked());
 
     PaintingProperties::Mirroring imageMirroring;
@@ -247,9 +247,9 @@ void TelescopeView::changeProperties()
     screwsMirroring.horizontally = ui->actionMirrorScrewsHorizontally->isChecked();
     screwsMirroring.vertically = ui->actionMirrorScrewsVertically->isChecked();
 
-    telescope.paintingProperties()->setImageMirroring(imageMirroring);
-    telescope.paintingProperties()->setScrewsMirroring(screwsMirroring);
-    telescope.paintingProperties()->setTigthMirroring(ui->actionMirrorTightLose->isChecked());
+    telescope->paintingProperties()->setImageMirroring(imageMirroring);
+    telescope->paintingProperties()->setScrewsMirroring(screwsMirroring);
+    telescope->paintingProperties()->setTigthMirroring(ui->actionMirrorTightLose->isChecked());
 
     emit propertiesChanged();
 }

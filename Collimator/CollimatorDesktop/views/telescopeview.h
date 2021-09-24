@@ -23,14 +23,13 @@ public:
     explicit TelescopeView(QWidget *parent = nullptr);
     ~TelescopeView();
 
-    void setTelescope(TelescopeUI);
+    void setTelescope(TelescopeUI* telescope);
 private:
     Ui::TelescopeView *ui;
     CollimatorImage* image;
-    TelescopeUI telescope;
-    RemoteTelescope remoteTelescope;
+    TelescopeUI* telescope;
 
-    void setAutomatic(bool);
+    void setAutomatic(bool automatic);
 
 private slots:
     void changeProperties();
@@ -43,7 +42,7 @@ private slots:
     void connectionSettings();
     void connectTelescope();
     void disconnectTelescope();
-    void connectedChanged(bool);
+    void connectedChanged(bool connected);
 
 signals:
     void propertiesChanged();

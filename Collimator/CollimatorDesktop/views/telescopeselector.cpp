@@ -49,9 +49,8 @@ void TelescopeSelector::paintTelescopeList(QList<TelescopeUI> telescopes)
 void TelescopeSelector::onClickTelescope()
 {
     int index = ui->telescopesList->selectionModel()->selectedIndexes().at(0).row();
-    TelescopeUI telescope = m_telescopes[index];
     TelescopeView *telescopeView = new TelescopeView(this);
-    telescopeView->setTelescope(telescope);
+    telescopeView->setTelescope(&m_telescopes[index]);
     telescopeView->move(frameGeometry().topLeft());
     telescopeView->raise();
     telescopeView->show();
